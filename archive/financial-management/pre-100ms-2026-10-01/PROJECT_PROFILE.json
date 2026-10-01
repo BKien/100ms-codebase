@@ -1,0 +1,24 @@
+{
+  "project_id": "financial-management",
+  "project_name": "Financial Management",
+  "clean_source_baseline_sha256": "sha256:e40b213d289e80a89f8fecc516c426a007df1dc9e8491583b29ef89605206eb3",
+  "authoritative_sources": {
+    "use_case_specification": {
+      "type": "Google Sheets",
+      "url": "https://docs.google.com/spreadsheets/d/1b6nG8slHLf2CtXZwVHHsNrogvhHNg3lceK6f3B7mKIM/edit?gid=0#gid=0",
+      "tab": "Use cases"
+    },
+    "api_specification": {
+      "type": "Google Sheets",
+      "url": "https://docs.google.com/spreadsheets/d/1b6nG8slHLf2CtXZwVHHsNrogvhHNg3lceK6f3B7mKIM/edit?gid=0#gid=0",
+      "tab": "<API-TAB-NAME>"
+    },
+    "figma": {
+      "type": "Figma",
+      "root_node_urls": [
+        "https://www.figma.com/design/BTSOvEnU2X3CNrNvSxX9Ry/Finebank---Financial-Management-Dashboard-UI-Kits--Community---VibeTesting-",
+        "https://www.figma.com/design/zu3rZ336n1et2pWUGGIxlO/Finebank---Financial-Management-Dashboard-UI-Kits--Community---VibeTesting---Copy-"
+      ]
+    }
+  }
+}

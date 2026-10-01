@@ -1,0 +1,54 @@
+---
+alwaysApply: false
+---
+## 🧱 1. Backend Rules (NestJS)
+
+### 📁 Folder Structure
+
+```
+src/ 
+├── main.ts 
+├── app.module.ts 
+├── config/           # DB, CORS, env config 
+├── common/           # Decorators, guards, interceptors, utils 
+├── modules/          # Each feature is a separate module 
+│ ├── user/ 
+│ │ ├── user.module.ts 
+│ │ ├── user.controller.ts 
+│ │ ├── user.service.ts 
+│ │ ├── user.entity.ts 
+│ │ ├── dto/ 
+│ │ └── interfaces/ 
+├── filters/          # Exception filters 
+├── interceptors/     # Logging, response transform 
+├── database/         # ormconfig.ts 
+└── main.ts
+```
+
+### 🧩 Detailed rules
+
+* Each module includes: 
+
+* `controller.ts`: handle HTTP request, call service. 
+* `service.ts`: contains business logic. 
+* `entity.ts`: database table mapping. 
+* `dto/`: defines request/response (using `class-validator`).
+
+* Business logic **is only in the service**.
+
+* Controller only **receives requests → calls the service → returns a response**.
+
+* Uses the `Repository` pattern of TypeORM.
+
+* Modules only import necessary modules (avoiding import loops).
+
+* Configure `.env` via `@nestjs/config`.
+
+* Consistent response format:
+
+```ts
+
+return { success: true, message: 'User created', data: user };
+
+```
+* Write basic unit tests for the service and controller.

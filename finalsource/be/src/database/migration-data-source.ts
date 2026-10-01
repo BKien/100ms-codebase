@@ -1,25 +1,16 @@
 import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 
-// Researcher setup only. The application never imports this CLI DataSource.
-function required(name: string): string {
-  const value = process.env[name];
-  if (!value) throw new Error(`Missing migration connection setting: ${name}`);
-  return value;
-}
-
+// Setup-only CLI. Database preparation is deferred; no migration is supplied.
 export default new DataSource({
   type: 'mysql',
-  host: required('DB_HOST'),
-  port: Number(required('DB_PORT')),
-  username: required('DB_USERNAME'),
-  password: required('DB_PASSWORD'),
-  database: required('DB_DATABASE'),
-  entities: [__dirname + '/../**/*.entity.js'],
-  migrations: [__dirname + '/migrations/*.js'],
-  migrationsTableName: 'typeorm_migrations',
+  host: process.env.DB_HOST ?? 'database',
+  port: Number(process.env.DB_PORT ?? 3306),
+  username: process.env.DB_USERNAME,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
   synchronize: false,
   migrationsRun: false,
-  migrationsTransactionMode: 'none',
-  logging: false,
+  migrationsTableName: 'typeorm_migrations',
+  migrations: [__dirname + '/migrations/*.js'],
 });

@@ -1,0 +1,28 @@
+// schema.dbml
+// Researcher-maintained application schema corresponding to the migration head.
+// TypeORM's typeorm_migrations table is infrastructure, not an application entity.
+
+
+Table users {
+  id integer [pk, increment, not null]
+  username varchar(255)
+  role varchar(50)
+  created_at timestamp [default: `CURRENT_TIMESTAMP`]
+}
+
+Table posts {
+  id integer [pk, increment, not null]
+  title varchar(255)
+  body text [note: 'Content of the post']
+  user_id integer
+  status post_status
+  created_at timestamp [default: `CURRENT_TIMESTAMP`]
+}
+
+Enum post_status {
+  draft
+  published
+  private [note: 'visible via URL only']
+}
+
+Ref: posts.user_id > users.id [delete: cascade]

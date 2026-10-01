@@ -1,0 +1,25 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-01-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:57969",
+  "frame_name": "Recording",
+  "node_type": "FRAME",
+  "natural_width": 1512,
+  "natural_height": 982,
+  "page_id": "6007:55138",
+  "captured_at": "2026-10-01T09:45:50.213368+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-instructions",
+  "context_characters": 23267,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": true
+  },
+  "truncation_handled": false,
+  "status": "partial-content",
+  "raw_image_count": 3,
+  "svg_asset_count": 20
+}

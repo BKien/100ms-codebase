@@ -55,7 +55,7 @@ The whole-stack command above is researcher setup outside active runs and execut
 
 ## Connected sources
 
-The UC source identified in `PROJECT_PROFILE.json` is required when explicitly refreshing UC/business-rule inputs. Ordinary Phase 1 uses the frozen repository projection and recorded provenance.
+The UC source identified in `PROJECT_PROFILE.json` is required when explicitly refreshing UC/business-rule inputs. Sources may be researcher-provided local Markdown with a byte-exact snapshot and retrieval receipt, or a configured connected spreadsheet. Do not fabricate spreadsheet metadata for local sources. Ordinary Phase 1 uses the frozen repository projection and recorded provenance.
 
 Figma is required only to create/refresh an offline design dataset. Resolve targets through `docs/00-context/FIGMA-LINK-REVIEW.md`.
 

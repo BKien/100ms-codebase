@@ -1,0 +1,11 @@
+{
+  "artifact_type": "docker-incident-index",
+  "incidents": [
+    {
+      "incident_id": "DEP-20261001-001",
+      "fingerprint": "backend-publish-port-3000-in-use",
+      "path": "incidents/backend-publish-port-3000-in-use.json",
+      "outcome": "resolved"
+    }
+  ]
+}

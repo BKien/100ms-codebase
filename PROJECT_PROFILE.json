@@ -1,24 +1,54 @@
 {
-  "project_id": "financial-management",
-  "project_name": "Financial Management",
-  "clean_source_baseline_sha256": "sha256:e40b213d289e80a89f8fecc516c426a007df1dc9e8491583b29ef89605206eb3",
+  "project_id": "100ms-video-conferencing",
+  "project_name": "100ms Video Conferencing and Live Streaming",
+  "setup_status": "figma-blocked; database-deferred",
+  "clean_source_baseline_sha256": "sha256:e7a5d8b5c5624ba29af74209ae0cfce51a93e2a8d0fe817ded1de864f9973f20",
   "authoritative_sources": {
     "use_case_specification": {
-      "type": "Google Sheets",
-      "url": "https://docs.google.com/spreadsheets/d/1b6nG8slHLf2CtXZwVHHsNrogvhHNg3lceK6f3B7mKIM/edit?gid=0#gid=0",
-      "tab": "Use cases"
+      "type": "Local Markdown",
+      "path": "D:/figma_spec/100ms Video Conferencing and Live Streaming/01-inception/uc",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc",
+      "retrieval_receipt": "docs/00-context/sources/100ms-local-uml-retrieval.json"
     },
     "api_specification": {
-      "type": "Google Sheets",
-      "url": "https://docs.google.com/spreadsheets/d/1b6nG8slHLf2CtXZwVHHsNrogvhHNg3lceK6f3B7mKIM/edit?gid=0#gid=0",
-      "tab": "<API-TAB-NAME>"
+      "type": "Local Markdown",
+      "path": "D:/figma_spec/100ms Video Conferencing and Live Streaming/01-inception/api",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api",
+      "retrieval_receipt": "docs/00-context/sources/100ms-source-retrieval.json"
     },
     "figma": {
       "type": "Figma",
       "root_node_urls": [
-        "https://www.figma.com/design/BTSOvEnU2X3CNrNvSxX9Ry/Finebank---Financial-Management-Dashboard-UI-Kits--Community---VibeTesting-",
-        "https://www.figma.com/design/zu3rZ336n1et2pWUGGIxlO/Finebank---Financial-Management-Dashboard-UI-Kits--Community---VibeTesting---Copy-"
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-51246",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6066-89824",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-87452",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-87446",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-87420",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-87266",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-87235",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58204",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58181",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58047",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58057",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-51133",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6026-1184330",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-96237",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-57911",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-57969",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58165",
+        "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58149"
       ]
     }
+  },
+  "database_preparation": {
+    "status": "deferred-by-researcher",
+    "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/schema.dbml",
+    "note": "No active DBML, schema, migration head or runtime fingerprint. Researcher requested deferral."
+  },
+  "design_dataset_preparation": {
+    "dataset_version": "100ms-2026-10-01-001",
+    "status": "pending-rate-limit",
+    "manifest_path": "resource/figma-design-dataset/100ms-2026-10-01-001/manifest.json",
+    "manifest_sha256": "sha256:08b289f78a9e80f83c098c9f54cc77d57c0738883c8d4b538682b793563d7d03"
   }
 }

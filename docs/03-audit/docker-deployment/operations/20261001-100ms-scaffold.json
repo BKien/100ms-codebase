@@ -1,0 +1,28 @@
+{
+  "artifact_type": "docker-operation",
+  "mode": "initialize-and-run-application-scaffold",
+  "observed_at": "2026-10-01T10:00:44Z",
+  "authorization": "researcher requested execution of the repository migration plan; then deferred database preparation",
+  "checks": {
+    "compose_config": "pass",
+    "backend_lint_build": "pass",
+    "frontend_lint_typecheck_build": "pass",
+    "backend_health": "pass",
+    "frontend_http": "200",
+    "database": "not-run",
+    "tests": "not-created-or-run"
+  },
+  "commands": [
+    "docker compose config --quiet",
+    "docker compose build backend frontend",
+    "docker compose up -d --no-deps backend frontend"
+  ],
+  "failures_resolved": [
+    "backend lint: unnecessary type assertion removed",
+    "backend loopback port 3000 conflict; switched to 13000"
+  ],
+  "source_baseline_sha256": "sha256:e7a5d8b5c5624ba29af74209ae0cfce51a93e2a8d0fe817ded1de864f9973f20",
+  "incident_ids": [
+    "DEP-20261001-001"
+  ]
+}

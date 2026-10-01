@@ -1,0 +1,40 @@
+{
+  "artifact_type": "docker-environment-current",
+  "observed_at": "2026-10-01T10:00:44Z",
+  "repository_revision": "ad24d09 plus uncommitted authorized 100ms preparation",
+  "docker": {
+    "cli": "29.2.1",
+    "compose": "5.0.2",
+    "daemon": "29.2.1; reachable"
+  },
+  "configuration": {
+    "env_present": true,
+    "env_ignored": true,
+    "env_tracked": false,
+    "env_valid": false,
+    "compose_valid": true,
+    "credential_status": "placeholders; researcher database preparation deferred"
+  },
+  "services": {
+    "backend": {
+      "state": "running",
+      "health": "healthy",
+      "url": "http://localhost:13000/api/health"
+    },
+    "frontend": {
+      "state": "running",
+      "health": "healthy",
+      "url": "http://localhost:18080"
+    },
+    "database": {
+      "state": "not-started",
+      "reason": "deferred-by-researcher"
+    },
+    "migration": {
+      "state": "not-run",
+      "reason": "deferred-by-researcher"
+    }
+  },
+  "status": "RUNTIME_PASS; DATABASE_DEFERRED",
+  "next_action": "Resume Figma capture after MCP quota is available; prepare database only on researcher instruction."
+}

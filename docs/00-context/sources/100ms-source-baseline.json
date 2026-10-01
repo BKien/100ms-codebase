@@ -1,0 +1,60 @@
+{
+  "artifact_type": "clean-source-baseline",
+  "project_id": "100ms-video-conferencing",
+  "created_at": "2026-10-01T09:51:53.507730Z",
+  "zip_path": ".codex/skills/restore-source-baseline/assets/source-baseline.zip",
+  "zip_sha256": "sha256:e7a5d8b5c5624ba29af74209ae0cfce51a93e2a8d0fe817ded1de864f9973f20",
+  "database_status": "deferred-by-researcher",
+  "files": [
+    {
+      "path": "finalsource/be/src/app.controller.ts",
+      "archive_entry": "baseline/be/src/app.controller.ts",
+      "sha256": "sha256:dddfaf85bbfca4730310372e0bfb197c5a7c2e1ba0c9a3336be6436948962e44"
+    },
+    {
+      "path": "finalsource/be/src/app.module.ts",
+      "archive_entry": "baseline/be/src/app.module.ts",
+      "sha256": "sha256:7e5d925e56388e1cce1ed8c2b949b569d894968a3b3e1f5ea0d5cc3e9ee85c66"
+    },
+    {
+      "path": "finalsource/be/src/database/migration-data-source.ts",
+      "archive_entry": "baseline/be/src/database/migration-data-source.ts",
+      "sha256": "sha256:8180f89a3ac2855ab096bdec0e52698627d0f0a316270537401bb4d9e7cc1cba"
+    },
+    {
+      "path": "finalsource/be/src/database/README.md",
+      "archive_entry": "baseline/be/src/database/README.md",
+      "sha256": "sha256:ac3ff4fe2a915b27fc0829a1e985f91f6b79c851f7cc9055f08bf35607c38e97"
+    },
+    {
+      "path": "finalsource/be/src/main.ts",
+      "archive_entry": "baseline/be/src/main.ts",
+      "sha256": "sha256:a0fa2da256946db4058336b02c2f0d6b142e7720f9ea027e67fd46a6f63fd67e"
+    },
+    {
+      "path": "finalsource/be/src/public-exception.filter.ts",
+      "archive_entry": "baseline/be/src/public-exception.filter.ts",
+      "sha256": "sha256:4b0480d90acc5736a2879d991e7289bdcbe376099d05a294f8607242f85c01b7"
+    },
+    {
+      "path": "finalsource/fe/src/App.tsx",
+      "archive_entry": "baseline/fe/src/App.tsx",
+      "sha256": "sha256:70ee94ba488d2410c47db32ba1ba6ef7448b5e319ef16b0b6b4862b75b5d1a6c"
+    },
+    {
+      "path": "finalsource/fe/src/index.css",
+      "archive_entry": "baseline/fe/src/index.css",
+      "sha256": "sha256:3dd37a6cb406409fdf65e925b7fe529572690e814ffcc13476970994f3389e24"
+    },
+    {
+      "path": "finalsource/fe/src/main.tsx",
+      "archive_entry": "baseline/fe/src/main.tsx",
+      "sha256": "sha256:73c4e0aa94725379c5766cd8be6af297ddf3d8fd4423fa3821302bb1b2813f90"
+    },
+    {
+      "path": "finalsource/fe/src/vite-env.d.ts",
+      "archive_entry": "baseline/fe/src/vite-env.d.ts",
+      "sha256": "sha256:65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    }
+  ]
+}

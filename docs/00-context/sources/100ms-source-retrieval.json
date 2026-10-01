@@ -1,0 +1,708 @@
+{
+  "artifact_type": "100ms-source-retrieval",
+  "project_id": "100ms-video-conferencing",
+  "retrieved_at": "2026-10-01T09:29:46.379459Z",
+  "source_type": "local-markdown",
+  "source_root": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming",
+  "source_snapshot_root": "resource/specification-sources/100ms-2026-10-01-001",
+  "sources": [
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-background-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-background-list.md",
+      "sha256": "sha256:5dfe34b32b2d2b67c8780280521878086b82f1a10adf10722cc73c778a546460"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-chat-message-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-create.md",
+      "sha256": "sha256:833ca24c12a02a53e009cccf0800528d042c20654739f620d4a876536f95df88"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-chat-message-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-list.md",
+      "sha256": "sha256:7c0a9b2f5b707ff0a4a392cc68a43ac19acefaa6f146048f2ddb0d5bd72422ad"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-content-share-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-content-share-control.md",
+      "sha256": "sha256:8d1b97d2e6991a08701c9ea748a511c158de255499b866be8f3965c47f1f87d8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-live-stream-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-control.md",
+      "sha256": "sha256:64dfa4b726883243c66ceb380ee769f37d7a2c4ccfc5d788a9003061cf18d9e3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-live-stream-view.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-view.md",
+      "sha256": "sha256:7c96606daebf644dd7fbc82030d6fb0bbd0b7cfd3aa5045d47c40e107675f1b7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-participant-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-participant-list.md",
+      "sha256": "sha256:bb6d52203fa458d0b4e33af5736fd2a04e7fcf0a1398747d43a46a0b91995fc8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-preferences-update.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-preferences-update.md",
+      "sha256": "sha256:8a6261c3ef1a6d7b5e35259b5314d500897bb283c47df3a29d777cceb0006d73"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-reaction-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-reaction-create.md",
+      "sha256": "sha256:cd7bbc2feb93dd709e0324999d1f58ed4f8b24f4c645805968ef820c30f7b0f6"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-recording-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-recording-control.md",
+      "sha256": "sha256:8ebd72b6b65d98b55aa38b6673e9cea647f235e1e03cd8655c056e4fa7d3ecac"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-departure.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-departure.md",
+      "sha256": "sha256:f943b37d542577760bb3368dc58842a63525f08b962a278e08e440e7920059a6"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-join.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-join.md",
+      "sha256": "sha256:b20ee3abd23b7a9ce9a5a9ceed60075473ee3ea7937156b5c7b1774183ecd38b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-state.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-state.md",
+      "sha256": "sha256:a904d785bdff34cd3615abe6b2d58c3887e9d784a967f944d9b7db138e7c73c4"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-spotlight-update.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-spotlight-update.md",
+      "sha256": "sha256:857e2aa9d2e00f29d81206040509f9bcc48c429b421e003cd8d6b3e3d883f16d"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-stage-request-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-stage-request-create.md",
+      "sha256": "sha256:33d846e371c3604f8c90a54b67f1a91ba3dbd4194d1bc513d9de663f90e0219b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\common-contract.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/common-contract.md",
+      "sha256": "sha256:4603633632e9aa8224db88063fe5ed379d364a8a42d8efce4d68307a2ba7c944"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/README.md",
+      "sha256": "sha256:8f514ff2a6c62c905f48ddac7cf2df2576b76749191aaaa0267f70c77b11e124"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/README.md",
+      "sha256": "sha256:ffa1d1a33fb0edf2cb768bd29ed511d2040260edd2b300f07fb308691274614c"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\shared-domain-model.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/shared-domain-model.md",
+      "sha256": "sha256:915934989e7082f2086ba08f88ea804993cb85b822ed669c4a5bc29d6330ceb3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-01-review-join-preview-and-permissions.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-01-review-join-preview-and-permissions.md",
+      "sha256": "sha256:c10e126e551627f6b640771e26ca55bca04292c105fc11cb902051a74905b71c"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-02-join-a-session.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-02-join-a-session.md",
+      "sha256": "sha256:dff5f05749a28da4c06afb89527a40513d7b482901bb50db05892b2291341286"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-03-start-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-03-start-a-live-stream.md",
+      "sha256": "sha256:f51628d3c5c1ffb618eaadd689785984a59031a10e8c18bf0bfa5c411c81c56e"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-04-stop-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-04-stop-a-live-stream.md",
+      "sha256": "sha256:0a7bb9f148af3e6e22cceb338e908b6eab282219a5ac1e5a65041c8f3e984ae7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-05-watch-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-05-watch-a-live-stream.md",
+      "sha256": "sha256:fdf2cc6ce6e9affab20e61c434d316c7b7177b50adb43603edae06ce9c666730"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-06-request-stage-access.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-06-request-stage-access.md",
+      "sha256": "sha256:7d4a6dd8938a0e1633ab7bff27da5999cb9d13762dbac001e98d0d9f13df9934"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-07-respond-to-a-stage-request.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-07-respond-to-a-stage-request.md",
+      "sha256": "sha256:662ab50b65776c89369058cc6968c310be58b759caa88c40d73ae448422ac2b3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-08-view-session-participants.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-08-view-session-participants.md",
+      "sha256": "sha256:7b1863372b737395f08dc3affabd94e2cc28da07679959557ad0fda018022c54"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-09-send-a-chat-message.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-09-send-a-chat-message.md",
+      "sha256": "sha256:d9ca8d13a96fbe12c1fcf0f96e7e668d3a46d41136e0e8878f3f78b5f5bb868b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-10-send-an-emoji-reaction.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-10-send-an-emoji-reaction.md",
+      "sha256": "sha256:196e541fd4a78959fd2c784ded2def2eed2a2bdb84b1cdfa2d8f32ede678cbd8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-11-share-presentation-content.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-11-share-presentation-content.md",
+      "sha256": "sha256:07449a4a8b71ca8ea8ae3262148245fb5d78114978f80dd50b52e00147978b71"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-12-configure-audio-and-video-devices.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-12-configure-audio-and-video-devices.md",
+      "sha256": "sha256:c4d57472414e077ca1d44c44fee751eed13ba2b5ee1e127c2d4a314ec4740bf7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-13-select-a-virtual-background.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-13-select-a-virtual-background.md",
+      "sha256": "sha256:369a69b8ed11b07e804acc652d0f608a69b8cddb9c6da102a63caf1b54ce1669"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-14-change-session-layout.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-14-change-session-layout.md",
+      "sha256": "sha256:403457daaf0adf6366ea8f38e9d9e3315dd958801096fc1d52405caa7aaa6f47"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-15-pin-or-spotlight-a-participant.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-15-pin-or-spotlight-a-participant.md",
+      "sha256": "sha256:159f7498b67501f6749f7b668e68dcd3b68d1fb0ecf12ebe4b29c432d1c284f9"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-16-control-session-recording.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-16-control-session-recording.md",
+      "sha256": "sha256:18d576faaa53ae7f472a5021baaa94371f5620200fbdc2b1a4c67fcda49ff54f"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-17-leave-a-session.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-17-leave-a-session.md",
+      "sha256": "sha256:cad50b6340bd0cf07c04d2dee7671cdd1a6d4391ca0b94282b9e52cf184482e7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-18-end-a-session-for-everyone.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-18-end-a-session-for-everyone.md",
+      "sha256": "sha256:a323d71932eed52ebff4c3b87c20b9cbc36cc6bae27fe49f1aec88dbb8ead414"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\ASSUMPTIONS.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/ASSUMPTIONS.md",
+      "sha256": "sha256:5a9641c76d2ddb67d79ff213d383acd2e79f850dba049ae77a43128a01bac269"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\CONTEXT.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/CONTEXT.md",
+      "sha256": "sha256:7dc885a008c36e6bd765f1ee26748abf8957e4431e0f5bbea70ba82fbf5167dc"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\coverage-report.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/coverage-report.md",
+      "sha256": "sha256:661e385d3887d48e0ee950eaaec102f229a7d92886fe71d87f0346abf9671aa7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\FIGMA.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/FIGMA.md",
+      "sha256": "sha256:a9c4b928fcb74ca33b4f401136851152217bc1ac78fdd031459f6b167f90ffb1"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\OCL-UTILITY-DEFINITIONS.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/OCL-UTILITY-DEFINITIONS.md",
+      "sha256": "sha256:31e70cefced5e785c2400715249b11beeb60b08c5362842cab139f89b66b9d8e"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\persistence.sql",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/persistence.sql",
+      "sha256": "sha256:3f0a2c12b1ab1c82dba1e50c964d34a56ad97a8cc66ea858b5da46c7e741e0ae"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/README.md",
+      "sha256": "sha256:8d209e323555ff1f5ca10ca3ec3d092cb515d16134861aa56fb6f674abcd8824"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\RESOLUTION-2026-09-22.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/RESOLUTION-2026-09-22.md",
+      "sha256": "sha256:6108f56929e321c226625ad571d0a52871b1b03f5d5d0d88e46e6dabafbcd5aa"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\REVIEW-2026-09-22.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/REVIEW-2026-09-22.md",
+      "sha256": "sha256:d073abce04ae057877ff104df77db2213864454d4e078790326f85f5fe1d019f"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\schema.dbml",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/schema.dbml",
+      "sha256": "sha256:fc842e0e1d7f190746a14ae274b44137cc43c9a1dca780aa79fa1dbcd5130b77"
+    }
+  ],
+  "projections": [
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-01-review-join-preview-and-permissions.md",
+      "source_sha256": "sha256:c10e126e551627f6b640771e26ca55bca04292c105fc11cb902051a74905b71c",
+      "projection_path": "docs/01-inception/use-cases/uc-01-review-join-preview-and-permissions.md",
+      "projection_sha256": "sha256:fd11bdc2b9bb60ff8d1b036ca88b8f0a98fa79d3e213cb898b1d566c281bc1cd",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-02-join-a-session.md",
+      "source_sha256": "sha256:dff5f05749a28da4c06afb89527a40513d7b482901bb50db05892b2291341286",
+      "projection_path": "docs/01-inception/use-cases/uc-02-join-a-session.md",
+      "projection_sha256": "sha256:33a5ff6342a7b414a748ec4e3eb562eb20360089318a1eb084dbb41d68099d21",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-03-start-a-live-stream.md",
+      "source_sha256": "sha256:f51628d3c5c1ffb618eaadd689785984a59031a10e8c18bf0bfa5c411c81c56e",
+      "projection_path": "docs/01-inception/use-cases/uc-03-start-a-live-stream.md",
+      "projection_sha256": "sha256:3005eec5b4b59baa44256481d8066900a2cd0966d55d652e0acd931f6a9e478c",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-04-stop-a-live-stream.md",
+      "source_sha256": "sha256:0a7bb9f148af3e6e22cceb338e908b6eab282219a5ac1e5a65041c8f3e984ae7",
+      "projection_path": "docs/01-inception/use-cases/uc-04-stop-a-live-stream.md",
+      "projection_sha256": "sha256:bfbc87c3de700ef83a0ce2f75a2ccc0d0c26a1852e9bc8e3ed3635966a5d6814",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-05-watch-a-live-stream.md",
+      "source_sha256": "sha256:fdf2cc6ce6e9affab20e61c434d316c7b7177b50adb43603edae06ce9c666730",
+      "projection_path": "docs/01-inception/use-cases/uc-05-watch-a-live-stream.md",
+      "projection_sha256": "sha256:284caf915bb8a920a44543b6642c7d94f35e0d5da58e531401194e5c35ebfdae",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-06-request-stage-access.md",
+      "source_sha256": "sha256:7d4a6dd8938a0e1633ab7bff27da5999cb9d13762dbac001e98d0d9f13df9934",
+      "projection_path": "docs/01-inception/use-cases/uc-06-request-stage-access.md",
+      "projection_sha256": "sha256:0443f41db3ef5ca1d259f8eb818deb35f77c0d8f8f23f7928fbccf58f92c41c7",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-07-respond-to-a-stage-request.md",
+      "source_sha256": "sha256:662ab50b65776c89369058cc6968c310be58b759caa88c40d73ae448422ac2b3",
+      "projection_path": "docs/01-inception/use-cases/uc-07-respond-to-a-stage-request.md",
+      "projection_sha256": "sha256:44149aa871541742240341bacb919623eacec9f1669c6453ecee86a265ee089b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-08-view-session-participants.md",
+      "source_sha256": "sha256:7b1863372b737395f08dc3affabd94e2cc28da07679959557ad0fda018022c54",
+      "projection_path": "docs/01-inception/use-cases/uc-08-view-session-participants.md",
+      "projection_sha256": "sha256:13742db39dce82fadb3e4ecf3bc5a8513183f8f9aa81e322b1e4d88d82730609",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-09-send-a-chat-message.md",
+      "source_sha256": "sha256:d9ca8d13a96fbe12c1fcf0f96e7e668d3a46d41136e0e8878f3f78b5f5bb868b",
+      "projection_path": "docs/01-inception/use-cases/uc-09-send-a-chat-message.md",
+      "projection_sha256": "sha256:286dc576ee2e6ae1a7d706ebb5ee6e1e3caf0b3fc34f930850f7b171af26b0e5",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-10-send-an-emoji-reaction.md",
+      "source_sha256": "sha256:196e541fd4a78959fd2c784ded2def2eed2a2bdb84b1cdfa2d8f32ede678cbd8",
+      "projection_path": "docs/01-inception/use-cases/uc-10-send-an-emoji-reaction.md",
+      "projection_sha256": "sha256:c4dcf25828570412300f7dafe2b159958ed09326812d8cc4c8fd8e88cfc1c1e2",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-11-share-presentation-content.md",
+      "source_sha256": "sha256:07449a4a8b71ca8ea8ae3262148245fb5d78114978f80dd50b52e00147978b71",
+      "projection_path": "docs/01-inception/use-cases/uc-11-share-presentation-content.md",
+      "projection_sha256": "sha256:0733a5f4fbd862be63b4a93efac4e26acba8e1381f05b169f6fb50584dce0de0",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-12-configure-audio-and-video-devices.md",
+      "source_sha256": "sha256:c4d57472414e077ca1d44c44fee751eed13ba2b5ee1e127c2d4a314ec4740bf7",
+      "projection_path": "docs/01-inception/use-cases/uc-12-configure-audio-and-video-devices.md",
+      "projection_sha256": "sha256:424420b7b0fd0e01dcbcdc9ceb3acfeea86c6de358d07d24e92182dfed787e2b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-13-select-a-virtual-background.md",
+      "source_sha256": "sha256:369a69b8ed11b07e804acc652d0f608a69b8cddb9c6da102a63caf1b54ce1669",
+      "projection_path": "docs/01-inception/use-cases/uc-13-select-a-virtual-background.md",
+      "projection_sha256": "sha256:bfd19ac1b5385bb108b9cf62107dc7e5efecbb3c2022ed661fef53aa7437386e",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-14-change-session-layout.md",
+      "source_sha256": "sha256:403457daaf0adf6366ea8f38e9d9e3315dd958801096fc1d52405caa7aaa6f47",
+      "projection_path": "docs/01-inception/use-cases/uc-14-change-session-layout.md",
+      "projection_sha256": "sha256:ceed82a010c49b43cf94944f63326009282bbb7fa226d1a4364b6a31c0ac4a7e",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-15-pin-or-spotlight-a-participant.md",
+      "source_sha256": "sha256:159f7498b67501f6749f7b668e68dcd3b68d1fb0ecf12ebe4b29c432d1c284f9",
+      "projection_path": "docs/01-inception/use-cases/uc-15-pin-or-spotlight-a-participant.md",
+      "projection_sha256": "sha256:f2b8f3386e452172a7a405fec3befaaf6dacd9fbda99aad94c6d0287ac0f13be",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-16-control-session-recording.md",
+      "source_sha256": "sha256:18d576faaa53ae7f472a5021baaa94371f5620200fbdc2b1a4c67fcda49ff54f",
+      "projection_path": "docs/01-inception/use-cases/uc-16-control-session-recording.md",
+      "projection_sha256": "sha256:4da49358dc00a3ff004ab639fa58a3328da7c1edb66e0c763a266d8769184ce4",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-17-leave-a-session.md",
+      "source_sha256": "sha256:cad50b6340bd0cf07c04d2dee7671cdd1a6d4391ca0b94282b9e52cf184482e7",
+      "projection_path": "docs/01-inception/use-cases/uc-17-leave-a-session.md",
+      "projection_sha256": "sha256:35d6ec1f44bf556b9994402fa9284e494da05b5ca7e18e6efa5adc7d2248bc92",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-18-end-a-session-for-everyone.md",
+      "source_sha256": "sha256:a323d71932eed52ebff4c3b87c20b9cbc36cc6bae27fe49f1aec88dbb8ead414",
+      "projection_path": "docs/01-inception/use-cases/uc-18-end-a-session-for-everyone.md",
+      "projection_sha256": "sha256:a2cd1ff7d5fc29a823997a3f5d32f2376944e42a03efa54fd16a207432ea50c7",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "inline supplied shared UML vocabulary"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/shared-domain-model.md",
+      "source_sha256": "sha256:915934989e7082f2086ba08f88ea804993cb85b822ed669c4a5bc29d6330ceb3",
+      "projection_path": "docs/01-inception/use-cases/shared-domain-model.md",
+      "projection_sha256": "sha256:158ad8ddb61be7ce4dbe446e46b04d3c4d341f2edc3222e0c7cf44d4bd95b352",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/OCL-UTILITY-DEFINITIONS.md",
+      "source_sha256": "sha256:31e70cefced5e785c2400715249b11beeb60b08c5362842cab139f89b66b9d8e",
+      "projection_path": "docs/01-inception/use-cases/OCL-UTILITY-DEFINITIONS.md",
+      "projection_sha256": "sha256:9e35978069f92f78346e61f4e48c9223b858911e48d693eff7caf10cbf63c5b6",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-background-list.md",
+      "source_sha256": "sha256:5dfe34b32b2d2b67c8780280521878086b82f1a10adf10722cc73c778a546460",
+      "projection_path": "docs/01-inception/api-contracts/api-background-list.md",
+      "projection_sha256": "sha256:ec449d76091d78362ae9b905f19b94888d901db1e16b69fd634678ca603bc11b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-create.md",
+      "source_sha256": "sha256:833ca24c12a02a53e009cccf0800528d042c20654739f620d4a876536f95df88",
+      "projection_path": "docs/01-inception/api-contracts/api-chat-message-create.md",
+      "projection_sha256": "sha256:db3b31c94e56d3344e41105a1eb89d66cbb79c8260cf8265ca08fdade53b2069",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-list.md",
+      "source_sha256": "sha256:7c0a9b2f5b707ff0a4a392cc68a43ac19acefaa6f146048f2ddb0d5bd72422ad",
+      "projection_path": "docs/01-inception/api-contracts/api-chat-message-list.md",
+      "projection_sha256": "sha256:fcc80945506fe87af8b719c3820390190dd169e500c84838b2906e951cce105a",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-content-share-control.md",
+      "source_sha256": "sha256:8d1b97d2e6991a08701c9ea748a511c158de255499b866be8f3965c47f1f87d8",
+      "projection_path": "docs/01-inception/api-contracts/api-content-share-control.md",
+      "projection_sha256": "sha256:6bc68dc8986009db1c726476363a9b973337f6f4d28834bd37bbca9f82bde138",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-control.md",
+      "source_sha256": "sha256:64dfa4b726883243c66ceb380ee769f37d7a2c4ccfc5d788a9003061cf18d9e3",
+      "projection_path": "docs/01-inception/api-contracts/api-live-stream-control.md",
+      "projection_sha256": "sha256:a79d0714b9497f6e075137f6e7e3ea376296b7f99aa178ce6ebcb5a4304ef21b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-view.md",
+      "source_sha256": "sha256:7c96606daebf644dd7fbc82030d6fb0bbd0b7cfd3aa5045d47c40e107675f1b7",
+      "projection_path": "docs/01-inception/api-contracts/api-live-stream-view.md",
+      "projection_sha256": "sha256:9d69babd772ff879cc0d8a25b423dbf4e59a3ba57d49aa98e7fd0c857089dbb4",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-participant-list.md",
+      "source_sha256": "sha256:bb6d52203fa458d0b4e33af5736fd2a04e7fcf0a1398747d43a46a0b91995fc8",
+      "projection_path": "docs/01-inception/api-contracts/api-participant-list.md",
+      "projection_sha256": "sha256:ae1b190dba966e8ea5ca36d9233063408604df099043940a13c1cd4b4a84df77",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-preferences-update.md",
+      "source_sha256": "sha256:8a6261c3ef1a6d7b5e35259b5314d500897bb283c47df3a29d777cceb0006d73",
+      "projection_path": "docs/01-inception/api-contracts/api-preferences-update.md",
+      "projection_sha256": "sha256:ceea091ed7a77b5e2e0f9686c94da66c51dfbfad87c068c08976e09af748f4be",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-reaction-create.md",
+      "source_sha256": "sha256:cd7bbc2feb93dd709e0324999d1f58ed4f8b24f4c645805968ef820c30f7b0f6",
+      "projection_path": "docs/01-inception/api-contracts/api-reaction-create.md",
+      "projection_sha256": "sha256:1ec6e24e697e673724dfc682aed1a665936409dcfd132d8e4f9f1df3b70281c1",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-recording-control.md",
+      "source_sha256": "sha256:8ebd72b6b65d98b55aa38b6673e9cea647f235e1e03cd8655c056e4fa7d3ecac",
+      "projection_path": "docs/01-inception/api-contracts/api-recording-control.md",
+      "projection_sha256": "sha256:d23b99e7d14c837404f198fa4f73bfb06571a9526d64d43f16309cb29c804bcd",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-departure.md",
+      "source_sha256": "sha256:f943b37d542577760bb3368dc58842a63525f08b962a278e08e440e7920059a6",
+      "projection_path": "docs/01-inception/api-contracts/api-session-departure.md",
+      "projection_sha256": "sha256:7d7f1ebfeac5cb63f5b047c98e51cad2687e25a711b9ef96336b92d873de0115",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-join.md",
+      "source_sha256": "sha256:b20ee3abd23b7a9ce9a5a9ceed60075473ee3ea7937156b5c7b1774183ecd38b",
+      "projection_path": "docs/01-inception/api-contracts/api-session-join.md",
+      "projection_sha256": "sha256:4b912941d208e583a004166675799c91094738f8ca79c05eb4f0abfa54f00ff7",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-state.md",
+      "source_sha256": "sha256:a904d785bdff34cd3615abe6b2d58c3887e9d784a967f944d9b7db138e7c73c4",
+      "projection_path": "docs/01-inception/api-contracts/api-session-state.md",
+      "projection_sha256": "sha256:d9463d4d0b2933f32db5f56a7d96f3d532ac8f6d2dddc10b4c5faf0d588a8e54",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-spotlight-update.md",
+      "source_sha256": "sha256:857e2aa9d2e00f29d81206040509f9bcc48c429b421e003cd8d6b3e3d883f16d",
+      "projection_path": "docs/01-inception/api-contracts/api-spotlight-update.md",
+      "projection_sha256": "sha256:a76d1d5cbd2cb428568efde5a363c68860e80d14b6ffa21291b6c1d9ec3bcb98",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-stage-request-create.md",
+      "source_sha256": "sha256:33d846e371c3604f8c90a54b67f1a91ba3dbd4194d1bc513d9de663f90e0219b",
+      "projection_path": "docs/01-inception/api-contracts/api-stage-request-create.md",
+      "projection_sha256": "sha256:f107e10246e8057022a79d77eb21a55e3e77ad945c4059e932d5bdef60be55ec",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/common-contract.md",
+      "source_sha256": "sha256:4603633632e9aa8224db88063fe5ed379d364a8a42d8efce4d68307a2ba7c944",
+      "projection_path": "docs/01-inception/api-contracts/common-contract.md",
+      "projection_sha256": "sha256:4b804d36fb62db1e87747b6531b719445e7fad84c4b860bf5ce16430506c9a5e",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/ASSUMPTIONS.md",
+      "source_sha256": "sha256:5a9641c76d2ddb67d79ff213d383acd2e79f850dba049ae77a43128a01bac269",
+      "projection_path": "docs/01-inception/ASSUMPTIONS.md",
+      "projection_sha256": "sha256:60c903a9c0ae409a238171a6b297b7122d8bf9b47c538ce4be63060cf9c043a8",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/CONTEXT.md",
+      "source_sha256": "sha256:7dc885a008c36e6bd765f1ee26748abf8957e4431e0f5bbea70ba82fbf5167dc",
+      "projection_path": "docs/01-inception/CONTEXT.md",
+      "projection_sha256": "sha256:a1a5392eeac0dbfc7c9d799ef8133d1d4fff68aaf56210670a25eb835b2532a3",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/FIGMA.md",
+      "source_sha256": "sha256:a9c4b928fcb74ca33b4f401136851152217bc1ac78fdd031459f6b167f90ffb1",
+      "projection_path": "docs/01-inception/FIGMA.md",
+      "projection_sha256": "sha256:d330124237c35349bca2de8e52ac086993599dd6a657a16d06f432a24d9ff087",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "Researcher-authorized replacement of Figma copy file key and name with standard-file provenance"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/coverage-report.md",
+      "source_sha256": "sha256:661e385d3887d48e0ee950eaaec102f229a7d92886fe71d87f0346abf9671aa7",
+      "projection_path": "docs/01-inception/coverage-report.md",
+      "projection_sha256": "sha256:2860cede22e9b0dab3ee62c3330c2164ff89cd9a80d094b99dc6312a2ae1fd09",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    }
+  ],
+  "database_status": "deferred-by-researcher",
+  "database_note": "DBML/SQL retained only in source snapshot; no active schema, migrations or runtime pins prepared."
+}

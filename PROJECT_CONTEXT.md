@@ -28,7 +28,7 @@ The [workflow contract](docs/00-context/workflow/WORKFLOW-CONTRACT.md) defines f
 
 ### Functional and business specification
 
-The active project's source identity is defined once in `PROJECT_PROFILE.json`. Its `authoritative_sources.use_case_specification` object supplies the Google Sheets URL and tab. Exact ranges and retrieval provenance remain inside the frozen project inputs because they differ by UC.
+The active project's source identity is defined once in `PROJECT_PROFILE.json`. The 100ms project uses researcher-provided local Markdown, retained byte-exact in a repository source snapshot. Each frozen projection records its original path, snapshot path, raw-byte SHA-256 and retrieval time. Google Sheets URL/tab/range fields apply only to projects whose configured source is a spreadsheet.
 
 Files matching `docs/01-inception/use-cases/uc-*.md` are the complete frozen UC inventory for the active project. Each projection supplies functional fields, UML PlantUML, Business Rules, related UI/API IDs, notes and exact source provenance. `docs/01-inception/use-cases/OCL-UTILITY-DEFINITIONS.md` is the frozen project-level OCL utility projection when applicable; it is not a UC.
 
@@ -47,7 +47,7 @@ Follow the researcher command sequence in [FILE-DRIVEN-WORKFLOW.md](docs/00-cont
 The evaluation baseline identifies all BRs supplied for the active UC. There is no rule-selection mode. Before invoking prompt generation, preparation by the researcher's chosen tool records:
 
 - frozen UC path and SHA-256;
-- spreadsheet source range;
+- configured source document/section (or spreadsheet range when applicable);
 - exact ordered BR IDs;
 - baseline status and freeze time.
 
@@ -84,7 +84,7 @@ Implementation controls such as authentication, hashing, ownership, validation, 
 
 ```text
 .codex/skills/                         two-phase workflow and implementation skills
-docs/01-inception/use-cases/           frozen Sheet-derived UC/UML/BR specifications
+docs/01-inception/use-cases/           frozen source-derived UC/UML/BR specifications
 docs/02-construction/coding-prompts/   approved coding-prompt artifacts
 docs/02-construction/implementation/   BR baseline, schema, run and repair records
 docs/04-experiments/                   canonical run JSON and rendered views
@@ -113,5 +113,11 @@ No test or test-case generation is part of this method.
 Telemetry uses prompt/source/repair buckets within the two phases and follows [the command sequence](docs/00-context/workflow/FILE-DRIVEN-WORKFLOW.md). Close/report/export turns are excluded. Captures follow `generation_execution_with_repair_audit_v2`: Repair includes integrated BR/flow/runtime verification and final evidence persistence, and a turn's token label must match any captured core execution. Standalone audit remains workflow-only tokens and excluded from counted execution time. Audit and repair verification preserve frozen BR/flow evidence. The existing gate field records completed commands without asking the researcher for further approval.
 
 Missing/null UI scores never block audit, measurements, reports, export or completion. After finalization, `$export-experiment-excel <UC-ID> <LINK_OR_FILEPATH> <TAB_NAME>` is a separate reporting operation that copies stored canonical values into a new workbook while preserving formulas/protected/manual content.
+
+## 100ms setup state
+
+The researcher deferred database preparation on 2026-10-01. No active DBML, schema, migrations or database pins are prepared. The clean baseline contains only framework infrastructure and a neutral frontend shell, without UC implementations. The default Compose stack starts frontend/backend only; database/migration are in the `database-setup` profile and must wait for reviewed setup. Mandatory database preflight remains unchanged and blocks experiment generation until the fifth input is prepared.
+
+The specification package contains 18 UC files and 15 endpoint contracts (its original README count of 14 is stale). Each UC contains one local UML projection derived from its own unchanged BRs, with only accessed members, required operation signatures, helper definitions and their types. Enum value domains remain complete to preserve OCL semantics. No active UC imports a shared model. `ASSUMPTIONS.md`, OCL utilities and the common API contract remain frozen specification dependencies. The researcher-authorized UML refresh is recorded in `docs/00-context/sources/100ms-local-uml-retrieval.json`; the earlier receipt, source snapshot and previous UML projections remain historical evidence. API paths retain `/api/v1`; downstream errors preserve `code`/`requestId` where supplied while using the repository envelope.
 
 Prompt telemetry close (Turn 2) automatically creates a missing `run-activation.json` from the pinned configuration and approved prompt, or validates an existing receipt without replacing it. The receipt records the actual prompt-close turn/time, before source generation. No standalone activation turn is required.

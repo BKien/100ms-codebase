@@ -1,0 +1,5559 @@
+{
+  "artifact_type": "100ms-source-retrieval-local-uml-refresh",
+  "project_id": "100ms-video-conferencing",
+  "retrieved_at": "2026-10-01T09:29:46.379459Z",
+  "source_type": "local-markdown",
+  "source_root": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming",
+  "source_snapshot_root": "resource/specification-sources/100ms-2026-10-01-001",
+  "sources": [
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-background-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-background-list.md",
+      "sha256": "sha256:5dfe34b32b2d2b67c8780280521878086b82f1a10adf10722cc73c778a546460"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-chat-message-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-create.md",
+      "sha256": "sha256:833ca24c12a02a53e009cccf0800528d042c20654739f620d4a876536f95df88"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-chat-message-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-list.md",
+      "sha256": "sha256:7c0a9b2f5b707ff0a4a392cc68a43ac19acefaa6f146048f2ddb0d5bd72422ad"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-content-share-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-content-share-control.md",
+      "sha256": "sha256:8d1b97d2e6991a08701c9ea748a511c158de255499b866be8f3965c47f1f87d8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-live-stream-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-control.md",
+      "sha256": "sha256:64dfa4b726883243c66ceb380ee769f37d7a2c4ccfc5d788a9003061cf18d9e3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-live-stream-view.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-view.md",
+      "sha256": "sha256:7c96606daebf644dd7fbc82030d6fb0bbd0b7cfd3aa5045d47c40e107675f1b7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-participant-list.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-participant-list.md",
+      "sha256": "sha256:bb6d52203fa458d0b4e33af5736fd2a04e7fcf0a1398747d43a46a0b91995fc8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-preferences-update.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-preferences-update.md",
+      "sha256": "sha256:8a6261c3ef1a6d7b5e35259b5314d500897bb283c47df3a29d777cceb0006d73"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-reaction-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-reaction-create.md",
+      "sha256": "sha256:cd7bbc2feb93dd709e0324999d1f58ed4f8b24f4c645805968ef820c30f7b0f6"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-recording-control.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-recording-control.md",
+      "sha256": "sha256:8ebd72b6b65d98b55aa38b6673e9cea647f235e1e03cd8655c056e4fa7d3ecac"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-departure.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-departure.md",
+      "sha256": "sha256:f943b37d542577760bb3368dc58842a63525f08b962a278e08e440e7920059a6"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-join.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-join.md",
+      "sha256": "sha256:b20ee3abd23b7a9ce9a5a9ceed60075473ee3ea7937156b5c7b1774183ecd38b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-session-state.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-state.md",
+      "sha256": "sha256:a904d785bdff34cd3615abe6b2d58c3887e9d784a967f944d9b7db138e7c73c4"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-spotlight-update.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-spotlight-update.md",
+      "sha256": "sha256:857e2aa9d2e00f29d81206040509f9bcc48c429b421e003cd8d6b3e3d883f16d"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\api-stage-request-create.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-stage-request-create.md",
+      "sha256": "sha256:33d846e371c3604f8c90a54b67f1a91ba3dbd4194d1bc513d9de663f90e0219b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\common-contract.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/common-contract.md",
+      "sha256": "sha256:4603633632e9aa8224db88063fe5ed379d364a8a42d8efce4d68307a2ba7c944"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\api\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/README.md",
+      "sha256": "sha256:8f514ff2a6c62c905f48ddac7cf2df2576b76749191aaaa0267f70c77b11e124"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/README.md",
+      "sha256": "sha256:ffa1d1a33fb0edf2cb768bd29ed511d2040260edd2b300f07fb308691274614c"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\shared-domain-model.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/shared-domain-model.md",
+      "sha256": "sha256:915934989e7082f2086ba08f88ea804993cb85b822ed669c4a5bc29d6330ceb3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-01-review-join-preview-and-permissions.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-01-review-join-preview-and-permissions.md",
+      "sha256": "sha256:c10e126e551627f6b640771e26ca55bca04292c105fc11cb902051a74905b71c"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-02-join-a-session.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-02-join-a-session.md",
+      "sha256": "sha256:dff5f05749a28da4c06afb89527a40513d7b482901bb50db05892b2291341286"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-03-start-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-03-start-a-live-stream.md",
+      "sha256": "sha256:f51628d3c5c1ffb618eaadd689785984a59031a10e8c18bf0bfa5c411c81c56e"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-04-stop-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-04-stop-a-live-stream.md",
+      "sha256": "sha256:0a7bb9f148af3e6e22cceb338e908b6eab282219a5ac1e5a65041c8f3e984ae7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-05-watch-a-live-stream.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-05-watch-a-live-stream.md",
+      "sha256": "sha256:fdf2cc6ce6e9affab20e61c434d316c7b7177b50adb43603edae06ce9c666730"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-06-request-stage-access.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-06-request-stage-access.md",
+      "sha256": "sha256:7d4a6dd8938a0e1633ab7bff27da5999cb9d13762dbac001e98d0d9f13df9934"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-07-respond-to-a-stage-request.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-07-respond-to-a-stage-request.md",
+      "sha256": "sha256:662ab50b65776c89369058cc6968c310be58b759caa88c40d73ae448422ac2b3"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-08-view-session-participants.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-08-view-session-participants.md",
+      "sha256": "sha256:7b1863372b737395f08dc3affabd94e2cc28da07679959557ad0fda018022c54"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-09-send-a-chat-message.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-09-send-a-chat-message.md",
+      "sha256": "sha256:d9ca8d13a96fbe12c1fcf0f96e7e668d3a46d41136e0e8878f3f78b5f5bb868b"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-10-send-an-emoji-reaction.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-10-send-an-emoji-reaction.md",
+      "sha256": "sha256:196e541fd4a78959fd2c784ded2def2eed2a2bdb84b1cdfa2d8f32ede678cbd8"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-11-share-presentation-content.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-11-share-presentation-content.md",
+      "sha256": "sha256:07449a4a8b71ca8ea8ae3262148245fb5d78114978f80dd50b52e00147978b71"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-12-configure-audio-and-video-devices.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-12-configure-audio-and-video-devices.md",
+      "sha256": "sha256:c4d57472414e077ca1d44c44fee751eed13ba2b5ee1e127c2d4a314ec4740bf7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-13-select-a-virtual-background.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-13-select-a-virtual-background.md",
+      "sha256": "sha256:369a69b8ed11b07e804acc652d0f608a69b8cddb9c6da102a63caf1b54ce1669"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-14-change-session-layout.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-14-change-session-layout.md",
+      "sha256": "sha256:403457daaf0adf6366ea8f38e9d9e3315dd958801096fc1d52405caa7aaa6f47"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-15-pin-or-spotlight-a-participant.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-15-pin-or-spotlight-a-participant.md",
+      "sha256": "sha256:159f7498b67501f6749f7b668e68dcd3b68d1fb0ecf12ebe4b29c432d1c284f9"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-16-control-session-recording.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-16-control-session-recording.md",
+      "sha256": "sha256:18d576faaa53ae7f472a5021baaa94371f5620200fbdc2b1a4c67fcda49ff54f"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-17-leave-a-session.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-17-leave-a-session.md",
+      "sha256": "sha256:cad50b6340bd0cf07c04d2dee7671cdd1a6d4391ca0b94282b9e52cf184482e7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\01-inception\\uc\\uc-18-end-a-session-for-everyone.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-18-end-a-session-for-everyone.md",
+      "sha256": "sha256:a323d71932eed52ebff4c3b87c20b9cbc36cc6bae27fe49f1aec88dbb8ead414"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\ASSUMPTIONS.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/ASSUMPTIONS.md",
+      "sha256": "sha256:5a9641c76d2ddb67d79ff213d383acd2e79f850dba049ae77a43128a01bac269"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\CONTEXT.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/CONTEXT.md",
+      "sha256": "sha256:7dc885a008c36e6bd765f1ee26748abf8957e4431e0f5bbea70ba82fbf5167dc"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\coverage-report.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/coverage-report.md",
+      "sha256": "sha256:661e385d3887d48e0ee950eaaec102f229a7d92886fe71d87f0346abf9671aa7"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\FIGMA.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/FIGMA.md",
+      "sha256": "sha256:a9c4b928fcb74ca33b4f401136851152217bc1ac78fdd031459f6b167f90ffb1"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\OCL-UTILITY-DEFINITIONS.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/OCL-UTILITY-DEFINITIONS.md",
+      "sha256": "sha256:31e70cefced5e785c2400715249b11beeb60b08c5362842cab139f89b66b9d8e"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\persistence.sql",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/persistence.sql",
+      "sha256": "sha256:3f0a2c12b1ab1c82dba1e50c964d34a56ad97a8cc66ea858b5da46c7e741e0ae"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\README.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/README.md",
+      "sha256": "sha256:8d209e323555ff1f5ca10ca3ec3d092cb515d16134861aa56fb6f674abcd8824"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\RESOLUTION-2026-09-22.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/RESOLUTION-2026-09-22.md",
+      "sha256": "sha256:6108f56929e321c226625ad571d0a52871b1b03f5d5d0d88e46e6dabafbcd5aa"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\REVIEW-2026-09-22.md",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/REVIEW-2026-09-22.md",
+      "sha256": "sha256:d073abce04ae057877ff104df77db2213864454d4e078790326f85f5fe1d019f"
+    },
+    {
+      "original_path": "D:\\figma_spec\\100ms Video Conferencing and Live Streaming\\schema.dbml",
+      "snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/schema.dbml",
+      "sha256": "sha256:fc842e0e1d7f190746a14ae274b44137cc43c9a1dca780aa79fa1dbcd5130b77"
+    }
+  ],
+  "projections": [
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-01-review-join-preview-and-permissions.md",
+      "source_sha256": "sha256:c10e126e551627f6b640771e26ca55bca04292c105fc11cb902051a74905b71c",
+      "projection_path": "docs/01-inception/use-cases/uc-01-review-join-preview-and-permissions.md",
+      "projection_sha256": "sha256:ce64fcaa4b52edc17610030069528f62117dd81d63920691a9a83d8cb0f76004",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-02-join-a-session.md",
+      "source_sha256": "sha256:dff5f05749a28da4c06afb89527a40513d7b482901bb50db05892b2291341286",
+      "projection_path": "docs/01-inception/use-cases/uc-02-join-a-session.md",
+      "projection_sha256": "sha256:6997ccc88da2d6c892c75db195f9151214b8acd81bc4d8aa9282f37753b64cad",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-03-start-a-live-stream.md",
+      "source_sha256": "sha256:f51628d3c5c1ffb618eaadd689785984a59031a10e8c18bf0bfa5c411c81c56e",
+      "projection_path": "docs/01-inception/use-cases/uc-03-start-a-live-stream.md",
+      "projection_sha256": "sha256:1c463f53daaefdc2e3862ef15119d081130abe1558eb59f8caecdc70f39ca736",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-04-stop-a-live-stream.md",
+      "source_sha256": "sha256:0a7bb9f148af3e6e22cceb338e908b6eab282219a5ac1e5a65041c8f3e984ae7",
+      "projection_path": "docs/01-inception/use-cases/uc-04-stop-a-live-stream.md",
+      "projection_sha256": "sha256:c63926b621236357a6787f61f72959a0f6c2b32cf338175e228d9e7233bdaa33",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-05-watch-a-live-stream.md",
+      "source_sha256": "sha256:fdf2cc6ce6e9affab20e61c434d316c7b7177b50adb43603edae06ce9c666730",
+      "projection_path": "docs/01-inception/use-cases/uc-05-watch-a-live-stream.md",
+      "projection_sha256": "sha256:f7db2d083f783640c1011231ab10d58408624f6f8eb7ed18beb05fd8d485a605",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-06-request-stage-access.md",
+      "source_sha256": "sha256:7d4a6dd8938a0e1633ab7bff27da5999cb9d13762dbac001e98d0d9f13df9934",
+      "projection_path": "docs/01-inception/use-cases/uc-06-request-stage-access.md",
+      "projection_sha256": "sha256:112576264bbf9974870b923b6d697e44f3170a5582abe9dac43573bf6de952ae",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-07-respond-to-a-stage-request.md",
+      "source_sha256": "sha256:662ab50b65776c89369058cc6968c310be58b759caa88c40d73ae448422ac2b3",
+      "projection_path": "docs/01-inception/use-cases/uc-07-respond-to-a-stage-request.md",
+      "projection_sha256": "sha256:4802285d85848e2a7c3c0ccfd57c5ef355bee340536870dcbe8f7abc71f69c68",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-08-view-session-participants.md",
+      "source_sha256": "sha256:7b1863372b737395f08dc3affabd94e2cc28da07679959557ad0fda018022c54",
+      "projection_path": "docs/01-inception/use-cases/uc-08-view-session-participants.md",
+      "projection_sha256": "sha256:2b2acf269a815903e83ebba5fff7c033c282e97c57173abaf0a35f6ff1954a1a",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-09-send-a-chat-message.md",
+      "source_sha256": "sha256:d9ca8d13a96fbe12c1fcf0f96e7e668d3a46d41136e0e8878f3f78b5f5bb868b",
+      "projection_path": "docs/01-inception/use-cases/uc-09-send-a-chat-message.md",
+      "projection_sha256": "sha256:68a376cf91584556c676b8527f963ae1dedb06a29f1330c6406572b59c582cd3",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-10-send-an-emoji-reaction.md",
+      "source_sha256": "sha256:196e541fd4a78959fd2c784ded2def2eed2a2bdb84b1cdfa2d8f32ede678cbd8",
+      "projection_path": "docs/01-inception/use-cases/uc-10-send-an-emoji-reaction.md",
+      "projection_sha256": "sha256:0d5c9c02f603db3971444cde26667573aef1a3199a7731a378d8dddb234b3c1f",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-11-share-presentation-content.md",
+      "source_sha256": "sha256:07449a4a8b71ca8ea8ae3262148245fb5d78114978f80dd50b52e00147978b71",
+      "projection_path": "docs/01-inception/use-cases/uc-11-share-presentation-content.md",
+      "projection_sha256": "sha256:72c4e55ef45f5e88f5ec9a16851776f5762603019b32757d08e04de4ad43cce5",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-12-configure-audio-and-video-devices.md",
+      "source_sha256": "sha256:c4d57472414e077ca1d44c44fee751eed13ba2b5ee1e127c2d4a314ec4740bf7",
+      "projection_path": "docs/01-inception/use-cases/uc-12-configure-audio-and-video-devices.md",
+      "projection_sha256": "sha256:91dbc3ef818ebf1537161d6bbd32b3755e24fc8518cc3334b5984c6ec7daabbe",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-13-select-a-virtual-background.md",
+      "source_sha256": "sha256:369a69b8ed11b07e804acc652d0f608a69b8cddb9c6da102a63caf1b54ce1669",
+      "projection_path": "docs/01-inception/use-cases/uc-13-select-a-virtual-background.md",
+      "projection_sha256": "sha256:33a50243a2d082e5f9a2e1ae00ed8552670fb1fcd4055aa8c9babbae35a427ce",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-14-change-session-layout.md",
+      "source_sha256": "sha256:403457daaf0adf6366ea8f38e9d9e3315dd958801096fc1d52405caa7aaa6f47",
+      "projection_path": "docs/01-inception/use-cases/uc-14-change-session-layout.md",
+      "projection_sha256": "sha256:9fa9200ec77f1b8d671c9ed10f244fc4dcc26d5106c641b2fb68597229bc5561",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-15-pin-or-spotlight-a-participant.md",
+      "source_sha256": "sha256:159f7498b67501f6749f7b668e68dcd3b68d1fb0ecf12ebe4b29c432d1c284f9",
+      "projection_path": "docs/01-inception/use-cases/uc-15-pin-or-spotlight-a-participant.md",
+      "projection_sha256": "sha256:42a7649d3dc7eca17942ab25621f93ebd3a87fa5fdb539784dd6e68f8a3cabae",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-16-control-session-recording.md",
+      "source_sha256": "sha256:18d576faaa53ae7f472a5021baaa94371f5620200fbdc2b1a4c67fcda49ff54f",
+      "projection_path": "docs/01-inception/use-cases/uc-16-control-session-recording.md",
+      "projection_sha256": "sha256:8b24eeb6ee48f4e0c1bfd64acff3aeab26e59641d9f0034176b08edffcfd48c6",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-17-leave-a-session.md",
+      "source_sha256": "sha256:cad50b6340bd0cf07c04d2dee7671cdd1a6d4391ca0b94282b9e52cf184482e7",
+      "projection_path": "docs/01-inception/use-cases/uc-17-leave-a-session.md",
+      "projection_sha256": "sha256:0a44aec9f45c4680c1c4dfaa2f22d04b30815d863977f9b2b9f36bf658fe1e82",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/uc/uc-18-end-a-session-for-everyone.md",
+      "source_sha256": "sha256:a323d71932eed52ebff4c3b87c20b9cbc36cc6bae27fe49f1aec88dbb8ead414",
+      "projection_path": "docs/01-inception/use-cases/uc-18-end-a-session-for-everyone.md",
+      "projection_sha256": "sha256:99aaf4db99916e3bdc30ef3facfc0c2191c6993132dad085fbd51402ddf9cd65",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "researcher-authorized BR-local UML projection; unchanged BRs and functional specification"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/OCL-UTILITY-DEFINITIONS.md",
+      "source_sha256": "sha256:31e70cefced5e785c2400715249b11beeb60b08c5362842cab139f89b66b9d8e",
+      "projection_path": "docs/01-inception/use-cases/OCL-UTILITY-DEFINITIONS.md",
+      "projection_sha256": "sha256:9e35978069f92f78346e61f4e48c9223b858911e48d693eff7caf10cbf63c5b6",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-background-list.md",
+      "source_sha256": "sha256:5dfe34b32b2d2b67c8780280521878086b82f1a10adf10722cc73c778a546460",
+      "projection_path": "docs/01-inception/api-contracts/api-background-list.md",
+      "projection_sha256": "sha256:ec449d76091d78362ae9b905f19b94888d901db1e16b69fd634678ca603bc11b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-create.md",
+      "source_sha256": "sha256:833ca24c12a02a53e009cccf0800528d042c20654739f620d4a876536f95df88",
+      "projection_path": "docs/01-inception/api-contracts/api-chat-message-create.md",
+      "projection_sha256": "sha256:db3b31c94e56d3344e41105a1eb89d66cbb79c8260cf8265ca08fdade53b2069",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-chat-message-list.md",
+      "source_sha256": "sha256:7c0a9b2f5b707ff0a4a392cc68a43ac19acefaa6f146048f2ddb0d5bd72422ad",
+      "projection_path": "docs/01-inception/api-contracts/api-chat-message-list.md",
+      "projection_sha256": "sha256:fcc80945506fe87af8b719c3820390190dd169e500c84838b2906e951cce105a",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-content-share-control.md",
+      "source_sha256": "sha256:8d1b97d2e6991a08701c9ea748a511c158de255499b866be8f3965c47f1f87d8",
+      "projection_path": "docs/01-inception/api-contracts/api-content-share-control.md",
+      "projection_sha256": "sha256:6bc68dc8986009db1c726476363a9b973337f6f4d28834bd37bbca9f82bde138",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-control.md",
+      "source_sha256": "sha256:64dfa4b726883243c66ceb380ee769f37d7a2c4ccfc5d788a9003061cf18d9e3",
+      "projection_path": "docs/01-inception/api-contracts/api-live-stream-control.md",
+      "projection_sha256": "sha256:a79d0714b9497f6e075137f6e7e3ea376296b7f99aa178ce6ebcb5a4304ef21b",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-live-stream-view.md",
+      "source_sha256": "sha256:7c96606daebf644dd7fbc82030d6fb0bbd0b7cfd3aa5045d47c40e107675f1b7",
+      "projection_path": "docs/01-inception/api-contracts/api-live-stream-view.md",
+      "projection_sha256": "sha256:9d69babd772ff879cc0d8a25b423dbf4e59a3ba57d49aa98e7fd0c857089dbb4",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-participant-list.md",
+      "source_sha256": "sha256:bb6d52203fa458d0b4e33af5736fd2a04e7fcf0a1398747d43a46a0b91995fc8",
+      "projection_path": "docs/01-inception/api-contracts/api-participant-list.md",
+      "projection_sha256": "sha256:ae1b190dba966e8ea5ca36d9233063408604df099043940a13c1cd4b4a84df77",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-preferences-update.md",
+      "source_sha256": "sha256:8a6261c3ef1a6d7b5e35259b5314d500897bb283c47df3a29d777cceb0006d73",
+      "projection_path": "docs/01-inception/api-contracts/api-preferences-update.md",
+      "projection_sha256": "sha256:ceea091ed7a77b5e2e0f9686c94da66c51dfbfad87c068c08976e09af748f4be",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-reaction-create.md",
+      "source_sha256": "sha256:cd7bbc2feb93dd709e0324999d1f58ed4f8b24f4c645805968ef820c30f7b0f6",
+      "projection_path": "docs/01-inception/api-contracts/api-reaction-create.md",
+      "projection_sha256": "sha256:1ec6e24e697e673724dfc682aed1a665936409dcfd132d8e4f9f1df3b70281c1",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-recording-control.md",
+      "source_sha256": "sha256:8ebd72b6b65d98b55aa38b6673e9cea647f235e1e03cd8655c056e4fa7d3ecac",
+      "projection_path": "docs/01-inception/api-contracts/api-recording-control.md",
+      "projection_sha256": "sha256:d23b99e7d14c837404f198fa4f73bfb06571a9526d64d43f16309cb29c804bcd",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-departure.md",
+      "source_sha256": "sha256:f943b37d542577760bb3368dc58842a63525f08b962a278e08e440e7920059a6",
+      "projection_path": "docs/01-inception/api-contracts/api-session-departure.md",
+      "projection_sha256": "sha256:7d7f1ebfeac5cb63f5b047c98e51cad2687e25a711b9ef96336b92d873de0115",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-join.md",
+      "source_sha256": "sha256:b20ee3abd23b7a9ce9a5a9ceed60075473ee3ea7937156b5c7b1774183ecd38b",
+      "projection_path": "docs/01-inception/api-contracts/api-session-join.md",
+      "projection_sha256": "sha256:4b912941d208e583a004166675799c91094738f8ca79c05eb4f0abfa54f00ff7",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-session-state.md",
+      "source_sha256": "sha256:a904d785bdff34cd3615abe6b2d58c3887e9d784a967f944d9b7db138e7c73c4",
+      "projection_path": "docs/01-inception/api-contracts/api-session-state.md",
+      "projection_sha256": "sha256:d9463d4d0b2933f32db5f56a7d96f3d532ac8f6d2dddc10b4c5faf0d588a8e54",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-spotlight-update.md",
+      "source_sha256": "sha256:857e2aa9d2e00f29d81206040509f9bcc48c429b421e003cd8d6b3e3d883f16d",
+      "projection_path": "docs/01-inception/api-contracts/api-spotlight-update.md",
+      "projection_sha256": "sha256:a76d1d5cbd2cb428568efde5a363c68860e80d14b6ffa21291b6c1d9ec3bcb98",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/api-stage-request-create.md",
+      "source_sha256": "sha256:33d846e371c3604f8c90a54b67f1a91ba3dbd4194d1bc513d9de663f90e0219b",
+      "projection_path": "docs/01-inception/api-contracts/api-stage-request-create.md",
+      "projection_sha256": "sha256:f107e10246e8057022a79d77eb21a55e3e77ad945c4059e932d5bdef60be55ec",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/01-inception/api/common-contract.md",
+      "source_sha256": "sha256:4603633632e9aa8224db88063fe5ed379d364a8a42d8efce4d68307a2ba7c944",
+      "projection_path": "docs/01-inception/api-contracts/common-contract.md",
+      "projection_sha256": "sha256:4b804d36fb62db1e87747b6531b719445e7fad84c4b860bf5ce16430506c9a5e",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/ASSUMPTIONS.md",
+      "source_sha256": "sha256:5a9641c76d2ddb67d79ff213d383acd2e79f850dba049ae77a43128a01bac269",
+      "projection_path": "docs/01-inception/ASSUMPTIONS.md",
+      "projection_sha256": "sha256:60c903a9c0ae409a238171a6b297b7122d8bf9b47c538ce4be63060cf9c043a8",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/CONTEXT.md",
+      "source_sha256": "sha256:7dc885a008c36e6bd765f1ee26748abf8957e4431e0f5bbea70ba82fbf5167dc",
+      "projection_path": "docs/01-inception/CONTEXT.md",
+      "projection_sha256": "sha256:a1a5392eeac0dbfc7c9d799ef8133d1d4fff68aaf56210670a25eb835b2532a3",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/FIGMA.md",
+      "source_sha256": "sha256:a9c4b928fcb74ca33b4f401136851152217bc1ac78fdd031459f6b167f90ffb1",
+      "projection_path": "docs/01-inception/FIGMA.md",
+      "projection_sha256": "sha256:d330124237c35349bca2de8e52ac086993599dd6a657a16d06f432a24d9ff087",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation",
+        "Researcher-authorized replacement of Figma copy file key and name with standard-file provenance"
+      ]
+    },
+    {
+      "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/coverage-report.md",
+      "source_sha256": "sha256:661e385d3887d48e0ee950eaaec102f229a7d92886fe71d87f0346abf9671aa7",
+      "projection_path": "docs/01-inception/coverage-report.md",
+      "projection_sha256": "sha256:2860cede22e9b0dab3ee62c3330c2164ff89cd9a80d094b99dc6312a2ae1fd09",
+      "transformations": [
+        "local-source provenance",
+        "Frozen status",
+        "relative-link relocation"
+      ]
+    }
+  ],
+  "database_status": "deferred-by-researcher",
+  "database_note": "DBML/SQL retained only in source snapshot; no active schema, migrations or runtime pins prepared.",
+  "refresh_at": "2026-10-01T10:38:23.129985Z",
+  "refresh_source": "checksum-verified existing source snapshot; no new external retrieval",
+  "previous_receipt_path": "docs/00-context/sources/100ms-source-retrieval.json",
+  "previous_receipt_sha256": "sha256:a78fde91c896deee0282560b10ff452056ba5d73f6def5a75a5793b00018be8d",
+  "researcher_instruction": "Each UC UML contains only vocabulary needed by its own BRs; no shared model.",
+  "uml_projection_contract": "br-local-uml-v1",
+  "helper_member_dependencies": {
+    "Paging.latestRecording": [
+      [
+        "Recording",
+        "id"
+      ],
+      [
+        "Recording",
+        "createdAt"
+      ],
+      [
+        "Recording",
+        "sessionId"
+      ]
+    ],
+    "Paging.participants": [
+      [
+        "Participant",
+        "id"
+      ],
+      [
+        "Participant",
+        "joinedAt"
+      ],
+      [
+        "Participant",
+        "sessionId"
+      ],
+      [
+        "ParticipantPage",
+        "nextCursor"
+      ]
+    ],
+    "Paging.messages": [
+      [
+        "ChatMessage",
+        "sequence"
+      ],
+      [
+        "ChatMessage",
+        "sessionId"
+      ],
+      [
+        "MessagePage",
+        "nextCursor"
+      ]
+    ],
+    "Paging.reactions": [
+      [
+        "ReactionEvent",
+        "sequence"
+      ],
+      [
+        "ReactionEvent",
+        "sessionId"
+      ]
+    ]
+  },
+  "uml_changes": [
+    {
+      "path": "docs/01-inception/use-cases/uc-01-review-join-preview-and-permissions.md",
+      "previous_projection_sha256": "sha256:fd11bdc2b9bb60ff8d1b036ca88b8f0a98fa79d3e213cb898b1d566c281bc1cd",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-01-review-join-preview-and-permissions.md",
+      "rule_count": 7,
+      "classifiers": [
+        "PreviewService",
+        "PreviewState",
+        "PreviewCommand",
+        "PermissionStatus",
+        "ParticipantRole",
+        "String",
+        "Participant",
+        "MediaPreference",
+        "ViewPreference"
+      ],
+      "member_rule_references": {
+        "MediaPreference": [
+          "BR-UC-01-07"
+        ],
+        "Participant": [
+          "BR-UC-01-07"
+        ],
+        "ParticipantRole": [
+          "BR-UC-01-02"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-01-02"
+        ],
+        "PermissionStatus": [
+          "BR-UC-01-01",
+          "BR-UC-01-05",
+          "BR-UC-01-06"
+        ],
+        "PermissionStatus.GRANTED": [
+          "BR-UC-01-01",
+          "BR-UC-01-05",
+          "BR-UC-01-06"
+        ],
+        "PreviewCommand": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-03",
+          "BR-UC-01-04",
+          "BR-UC-01-05",
+          "BR-UC-01-06",
+          "BR-UC-01-07"
+        ],
+        "PreviewCommand.displayName": [
+          "BR-UC-01-03"
+        ],
+        "PreviewCommand.participantKey": [
+          "BR-UC-01-04"
+        ],
+        "PreviewCommand.requestCamera": [
+          "BR-UC-01-01"
+        ],
+        "PreviewCommand.requestMicrophone": [
+          "BR-UC-01-01"
+        ],
+        "PreviewCommand.role": [
+          "BR-UC-01-02"
+        ],
+        "PreviewService": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-03",
+          "BR-UC-01-04",
+          "BR-UC-01-05",
+          "BR-UC-01-06",
+          "BR-UC-01-07"
+        ],
+        "PreviewService.prepare": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-03",
+          "BR-UC-01-04",
+          "BR-UC-01-05",
+          "BR-UC-01-06",
+          "BR-UC-01-07"
+        ],
+        "PreviewState": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-03",
+          "BR-UC-01-04",
+          "BR-UC-01-05",
+          "BR-UC-01-06",
+          "BR-UC-01-07"
+        ],
+        "PreviewState.cameraAvailable": [
+          "BR-UC-01-01"
+        ],
+        "PreviewState.cameraEnabled": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-05"
+        ],
+        "PreviewState.cameraPermission": [
+          "BR-UC-01-01",
+          "BR-UC-01-05"
+        ],
+        "PreviewState.isReadyToJoin": [
+          "BR-UC-01-03"
+        ],
+        "PreviewState.microphoneAvailable": [
+          "BR-UC-01-01"
+        ],
+        "PreviewState.microphoneEnabled": [
+          "BR-UC-01-01",
+          "BR-UC-01-02",
+          "BR-UC-01-06"
+        ],
+        "PreviewState.microphonePermission": [
+          "BR-UC-01-01",
+          "BR-UC-01-06"
+        ],
+        "PreviewState.participantKey": [
+          "BR-UC-01-04"
+        ],
+        "String": [
+          "BR-UC-01-03",
+          "BR-UC-01-04"
+        ],
+        "String.trim": [
+          "BR-UC-01-03"
+        ],
+        "ViewPreference": [
+          "BR-UC-01-07"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-02-join-a-session.md",
+      "previous_projection_sha256": "sha256:33a5ff6342a7b414a748ec4e3eb562eb20360089318a1eb084dbb41d68099d21",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-02-join-a-session.md",
+      "rule_count": 19,
+      "classifiers": [
+        "SessionJoinService",
+        "Participant",
+        "JoinCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Principal",
+        "SessionStatus",
+        "ParticipantStatus",
+        "SessionKind",
+        "DateTime",
+        "ParticipantRole",
+        "VirtualBackground",
+        "MediaPreference",
+        "ViewPreference",
+        "LayoutMode",
+        "MutationGateway",
+        "MutationReceipt",
+        "MutationEnvelope",
+        "TransactionContext",
+        "IsolationLevel",
+        "IdempotencyRecord",
+        "MutationOutcome",
+        "DomainState"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-02-08",
+          "BR-UC-02-13",
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "DateTime.addHours": [
+          "BR-UC-02-16"
+        ],
+        "DateTime.isAfter": [
+          "BR-UC-02-15"
+        ],
+        "DateTime.now": [
+          "BR-UC-02-15"
+        ],
+        "DomainState": [
+          "BR-UC-02-17"
+        ],
+        "DomainState.snapshot": [
+          "BR-UC-02-17"
+        ],
+        "IdempotencyRecord": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.completedAt": [
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.expiresAt": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.idempotencyKey": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.operation": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.payloadHash": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.principalId": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.responseReference": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IdempotencyRecord.sessionId": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "IsolationLevel": [
+          "BR-UC-02-14"
+        ],
+        "IsolationLevel.SERIALIZABLE": [
+          "BR-UC-02-14"
+        ],
+        "JoinCommand": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13"
+        ],
+        "JoinCommand.cameraDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "JoinCommand.cameraEnabled": [
+          "BR-UC-02-10"
+        ],
+        "JoinCommand.displayName": [
+          "BR-UC-02-04",
+          "BR-UC-02-08"
+        ],
+        "JoinCommand.idempotencyKey": [
+          "BR-UC-02-03"
+        ],
+        "JoinCommand.microphoneDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "JoinCommand.microphoneEnabled": [
+          "BR-UC-02-10"
+        ],
+        "JoinCommand.principalId": [
+          "BR-UC-02-01",
+          "BR-UC-02-05",
+          "BR-UC-02-07",
+          "BR-UC-02-09"
+        ],
+        "JoinCommand.sessionId": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-07"
+        ],
+        "JoinCommand.speakerDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "JoinCommand.userId": [
+          "BR-UC-02-01",
+          "BR-UC-02-07"
+        ],
+        "JoinCommand.virtualBackgroundId": [
+          "BR-UC-02-12",
+          "BR-UC-02-13"
+        ],
+        "LayoutMode": [
+          "BR-UC-02-13"
+        ],
+        "LayoutMode.EQUAL_PROMINENCE": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.cameraDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.microphoneDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.participantId": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.speakerDeviceId": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.updatedAt": [
+          "BR-UC-02-13"
+        ],
+        "MediaPreference.virtualBackgroundId": [
+          "BR-UC-02-13"
+        ],
+        "MutationEnvelope": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationEnvelope.idempotencyKey": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationEnvelope.operation": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationEnvelope.payloadHash": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationEnvelope.principalId": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationEnvelope.sessionId": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationGateway": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationGateway.execute": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationOutcome": [
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationOutcome.COMPLETED": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "MutationOutcome.REJECTED": [
+          "BR-UC-02-15",
+          "BR-UC-02-17"
+        ],
+        "MutationReceipt": [
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationReceipt.completedAt": [
+          "BR-UC-02-16"
+        ],
+        "MutationReceipt.dispatchCount": [
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationReceipt.outcome": [
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17"
+        ],
+        "MutationReceipt.responseReference": [
+          "BR-UC-02-15",
+          "BR-UC-02-16"
+        ],
+        "Participant": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Participant.cameraEnabled": [
+          "BR-UC-02-10"
+        ],
+        "Participant.displayName": [
+          "BR-UC-02-08"
+        ],
+        "Participant.id": [
+          "BR-UC-02-07",
+          "BR-UC-02-11",
+          "BR-UC-02-13"
+        ],
+        "Participant.joinedAt": [
+          "BR-UC-02-08"
+        ],
+        "Participant.leftAt": [
+          "BR-UC-02-08"
+        ],
+        "Participant.microphoneEnabled": [
+          "BR-UC-02-10"
+        ],
+        "Participant.principalId": [
+          "BR-UC-02-05",
+          "BR-UC-02-07",
+          "BR-UC-02-18"
+        ],
+        "Participant.role": [
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-02-07",
+          "BR-UC-02-18"
+        ],
+        "Participant.status": [
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-08",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Participant.userId": [
+          "BR-UC-02-07"
+        ],
+        "Participant.version": [
+          "BR-UC-02-08"
+        ],
+        "ParticipantRole": [
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "ParticipantRole.BROADCASTER": [
+          "BR-UC-02-09"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-02-09",
+          "BR-UC-02-11",
+          "BR-UC-02-18"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-19"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-08",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-08",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Principal": [
+          "BR-UC-02-01"
+        ],
+        "Principal.id": [
+          "BR-UC-02-01"
+        ],
+        "Principal.userId": [
+          "BR-UC-02-01"
+        ],
+        "RequestContext": [
+          "BR-UC-02-01",
+          "BR-UC-02-14"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-02-01",
+          "BR-UC-02-14"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-02-01",
+          "BR-UC-02-14"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-02-01",
+          "BR-UC-02-14"
+        ],
+        "Session": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13",
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Session.designatedHostPrincipalId": [
+          "BR-UC-02-09"
+        ],
+        "Session.hostParticipantId": [
+          "BR-UC-02-11"
+        ],
+        "Session.id": [
+          "BR-UC-02-02",
+          "BR-UC-02-14",
+          "BR-UC-02-17",
+          "BR-UC-02-18"
+        ],
+        "Session.kind": [
+          "BR-UC-02-06",
+          "BR-UC-02-09",
+          "BR-UC-02-19"
+        ],
+        "Session.participants": [
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-08",
+          "BR-UC-02-18",
+          "BR-UC-02-19"
+        ],
+        "Session.status": [
+          "BR-UC-02-02",
+          "BR-UC-02-11"
+        ],
+        "Session.version": [
+          "BR-UC-02-15"
+        ],
+        "SessionJoinService": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13"
+        ],
+        "SessionJoinService.join": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-06",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-10",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13"
+        ],
+        "SessionKind": [
+          "BR-UC-02-06",
+          "BR-UC-02-09",
+          "BR-UC-02-19"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-02-06",
+          "BR-UC-02-09",
+          "BR-UC-02-19"
+        ],
+        "SessionKind.VIDEO_CONFERENCE": [
+          "BR-UC-02-06",
+          "BR-UC-02-19"
+        ],
+        "SessionStatus": [
+          "BR-UC-02-02",
+          "BR-UC-02-11"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-02-02"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-02-11"
+        ],
+        "String": [
+          "BR-UC-02-01",
+          "BR-UC-02-02",
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-05",
+          "BR-UC-02-07",
+          "BR-UC-02-08",
+          "BR-UC-02-09",
+          "BR-UC-02-11",
+          "BR-UC-02-12",
+          "BR-UC-02-13",
+          "BR-UC-02-14",
+          "BR-UC-02-15",
+          "BR-UC-02-16",
+          "BR-UC-02-17",
+          "BR-UC-02-18"
+        ],
+        "String.trim": [
+          "BR-UC-02-03",
+          "BR-UC-02-04",
+          "BR-UC-02-08",
+          "BR-UC-02-14"
+        ],
+        "TransactionContext": [
+          "BR-UC-02-14"
+        ],
+        "TransactionContext.atomicCommit": [
+          "BR-UC-02-14"
+        ],
+        "TransactionContext.isolation": [
+          "BR-UC-02-14"
+        ],
+        "TransactionContext.lockedSessionId": [
+          "BR-UC-02-14"
+        ],
+        "ViewPreference": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.focusedParticipantId": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.layout": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.participantId": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.pictureInPicture": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.sidePanel": [
+          "BR-UC-02-13"
+        ],
+        "ViewPreference.updatedAt": [
+          "BR-UC-02-13"
+        ],
+        "VirtualBackground": [
+          "BR-UC-02-12"
+        ],
+        "VirtualBackground.active": [
+          "BR-UC-02-12"
+        ],
+        "VirtualBackground.id": [
+          "BR-UC-02-12"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-03-start-a-live-stream.md",
+      "previous_projection_sha256": "sha256:3005eec5b4b59baa44256481d8066900a2cd0966d55d652e0acd931f6a9e478c",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-03-start-a-live-stream.md",
+      "rule_count": 9,
+      "classifiers": [
+        "LiveStreamService",
+        "LiveStream",
+        "StreamControlCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "ParticipantRole",
+        "SessionStatus",
+        "StreamAction",
+        "SessionKind",
+        "StreamStatus",
+        "DateTime",
+        "ProviderCompletion",
+        "TransactionContext"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-03-07",
+          "BR-UC-03-09"
+        ],
+        "LiveStream": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-06",
+          "BR-UC-03-07",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "LiveStream.endedAt": [
+          "BR-UC-03-07"
+        ],
+        "LiveStream.id": [
+          "BR-UC-03-08"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "LiveStream.startedAt": [
+          "BR-UC-03-09"
+        ],
+        "LiveStream.status": [
+          "BR-UC-03-06",
+          "BR-UC-03-07",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "LiveStream.version": [
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "LiveStreamService": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-06",
+          "BR-UC-03-07",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "LiveStreamService.complete": [
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "LiveStreamService.start": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-06",
+          "BR-UC-03-07"
+        ],
+        "Participant": [
+          "BR-UC-03-01"
+        ],
+        "Participant.id": [
+          "BR-UC-03-01"
+        ],
+        "Participant.principalId": [
+          "BR-UC-03-01"
+        ],
+        "Participant.role": [
+          "BR-UC-03-01"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-03-01"
+        ],
+        "Participant.status": [
+          "BR-UC-03-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-03-01"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-03-01"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-03-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-03-01"
+        ],
+        "ProviderCompletion": [
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "ProviderCompletion.expectedVersion": [
+          "BR-UC-03-08"
+        ],
+        "ProviderCompletion.resourceId": [
+          "BR-UC-03-08"
+        ],
+        "ProviderCompletion.sessionId": [
+          "BR-UC-03-08"
+        ],
+        "ProviderCompletion.succeeded": [
+          "BR-UC-03-09"
+        ],
+        "RequestContext": [
+          "BR-UC-03-01",
+          "BR-UC-03-08"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-03-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-03-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-03-01"
+        ],
+        "RequestContext.providerAuthenticated": [
+          "BR-UC-03-08"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-03-01"
+        ],
+        "Session": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-06",
+          "BR-UC-03-07",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "Session.id": [
+          "BR-UC-03-02",
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "Session.kind": [
+          "BR-UC-03-04"
+        ],
+        "Session.status": [
+          "BR-UC-03-02",
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "Session.version": [
+          "BR-UC-03-09"
+        ],
+        "SessionKind": [
+          "BR-UC-03-04"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-03-04"
+        ],
+        "SessionStatus": [
+          "BR-UC-03-02",
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-03-02"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "StreamAction": [
+          "BR-UC-03-04"
+        ],
+        "StreamAction.START": [
+          "BR-UC-03-04"
+        ],
+        "StreamControlCommand": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-05",
+          "BR-UC-03-06",
+          "BR-UC-03-07"
+        ],
+        "StreamControlCommand.action": [
+          "BR-UC-03-04"
+        ],
+        "StreamControlCommand.actorParticipantId": [
+          "BR-UC-03-01"
+        ],
+        "StreamControlCommand.expectedVersion": [
+          "BR-UC-03-04"
+        ],
+        "StreamControlCommand.idempotencyKey": [
+          "BR-UC-03-03"
+        ],
+        "StreamControlCommand.sessionId": [
+          "BR-UC-03-01",
+          "BR-UC-03-02"
+        ],
+        "StreamStatus": [
+          "BR-UC-03-06",
+          "BR-UC-03-07",
+          "BR-UC-03-08",
+          "BR-UC-03-09"
+        ],
+        "StreamStatus.LIVE": [
+          "BR-UC-03-09"
+        ],
+        "StreamStatus.READY": [
+          "BR-UC-03-06",
+          "BR-UC-03-09"
+        ],
+        "StreamStatus.STARTING": [
+          "BR-UC-03-07",
+          "BR-UC-03-08"
+        ],
+        "String": [
+          "BR-UC-03-01",
+          "BR-UC-03-02",
+          "BR-UC-03-03",
+          "BR-UC-03-04",
+          "BR-UC-03-08"
+        ],
+        "String.trim": [
+          "BR-UC-03-03"
+        ],
+        "TransactionContext": [
+          "BR-UC-03-08"
+        ],
+        "TransactionContext.atomicCommit": [
+          "BR-UC-03-08"
+        ],
+        "TransactionContext.lockedSessionId": [
+          "BR-UC-03-08"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-04-stop-a-live-stream.md",
+      "previous_projection_sha256": "sha256:bfbc87c3de700ef83a0ce2f75a2ccc0d0c26a1852e9bc8e3ed3635966a5d6814",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-04-stop-a-live-stream.md",
+      "rule_count": 11,
+      "classifiers": [
+        "LiveStreamService",
+        "LiveStream",
+        "StreamControlCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "ParticipantRole",
+        "SessionStatus",
+        "StreamAction",
+        "SessionKind",
+        "StreamStatus",
+        "DateTime",
+        "ContentShare",
+        "ShareStatus",
+        "StageRequest",
+        "StageRequestStatus",
+        "Recording",
+        "RecordingStatus"
+      ],
+      "member_rule_references": {
+        "ContentShare": [
+          "BR-UC-04-09"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-04-09"
+        ],
+        "ContentShare.status": [
+          "BR-UC-04-09"
+        ],
+        "ContentShare.stoppedAt": [
+          "BR-UC-04-09"
+        ],
+        "ContentShare.version": [
+          "BR-UC-04-09"
+        ],
+        "DateTime": [
+          "BR-UC-04-07",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "LiveStream": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-05",
+          "BR-UC-04-06",
+          "BR-UC-04-07",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "LiveStream.endedAt": [
+          "BR-UC-04-07"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-04-04"
+        ],
+        "LiveStream.status": [
+          "BR-UC-04-06",
+          "BR-UC-04-07"
+        ],
+        "LiveStream.version": [
+          "BR-UC-04-04",
+          "BR-UC-04-05"
+        ],
+        "LiveStreamService": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-05",
+          "BR-UC-04-06",
+          "BR-UC-04-07",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "LiveStreamService.stop": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-05",
+          "BR-UC-04-06",
+          "BR-UC-04-07",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "Participant": [
+          "BR-UC-04-01",
+          "BR-UC-04-08"
+        ],
+        "Participant.cameraEnabled": [
+          "BR-UC-04-08"
+        ],
+        "Participant.id": [
+          "BR-UC-04-01"
+        ],
+        "Participant.microphoneEnabled": [
+          "BR-UC-04-08"
+        ],
+        "Participant.principalId": [
+          "BR-UC-04-01"
+        ],
+        "Participant.role": [
+          "BR-UC-04-01",
+          "BR-UC-04-08"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-04-01",
+          "BR-UC-04-08"
+        ],
+        "Participant.status": [
+          "BR-UC-04-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-04-01",
+          "BR-UC-04-08"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-04-01"
+        ],
+        "ParticipantRole.STAGE_PARTICIPANT": [
+          "BR-UC-04-08"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-04-08"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-04-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-04-01"
+        ],
+        "Recording": [
+          "BR-UC-04-11"
+        ],
+        "Recording.sessionId": [
+          "BR-UC-04-11"
+        ],
+        "Recording.status": [
+          "BR-UC-04-11"
+        ],
+        "Recording.stoppedAt": [
+          "BR-UC-04-11"
+        ],
+        "Recording.version": [
+          "BR-UC-04-11"
+        ],
+        "RecordingStatus": [
+          "BR-UC-04-11"
+        ],
+        "RecordingStatus.RECORDING": [
+          "BR-UC-04-11"
+        ],
+        "RecordingStatus.STARTING": [
+          "BR-UC-04-11"
+        ],
+        "RecordingStatus.STOPPED": [
+          "BR-UC-04-11"
+        ],
+        "RequestContext": [
+          "BR-UC-04-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-04-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-04-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-04-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-04-01"
+        ],
+        "Session": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-05",
+          "BR-UC-04-06",
+          "BR-UC-04-07",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "Session.id": [
+          "BR-UC-04-02",
+          "BR-UC-04-04"
+        ],
+        "Session.kind": [
+          "BR-UC-04-04"
+        ],
+        "Session.status": [
+          "BR-UC-04-02",
+          "BR-UC-04-04",
+          "BR-UC-04-07"
+        ],
+        "SessionKind": [
+          "BR-UC-04-04"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-04-04"
+        ],
+        "SessionStatus": [
+          "BR-UC-04-02",
+          "BR-UC-04-04",
+          "BR-UC-04-07"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-04-02"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-04-04"
+        ],
+        "ShareStatus": [
+          "BR-UC-04-09"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-04-09"
+        ],
+        "ShareStatus.STOPPED": [
+          "BR-UC-04-09"
+        ],
+        "StageRequest": [
+          "BR-UC-04-10"
+        ],
+        "StageRequest.decidedAt": [
+          "BR-UC-04-10"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-04-10"
+        ],
+        "StageRequest.status": [
+          "BR-UC-04-10"
+        ],
+        "StageRequest.version": [
+          "BR-UC-04-10"
+        ],
+        "StageRequestStatus": [
+          "BR-UC-04-10"
+        ],
+        "StageRequestStatus.CANCELLED": [
+          "BR-UC-04-10"
+        ],
+        "StageRequestStatus.PENDING": [
+          "BR-UC-04-10"
+        ],
+        "StreamAction": [
+          "BR-UC-04-04"
+        ],
+        "StreamAction.STOP": [
+          "BR-UC-04-04"
+        ],
+        "StreamControlCommand": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-05",
+          "BR-UC-04-06",
+          "BR-UC-04-07",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "StreamControlCommand.action": [
+          "BR-UC-04-04"
+        ],
+        "StreamControlCommand.actorParticipantId": [
+          "BR-UC-04-01"
+        ],
+        "StreamControlCommand.expectedVersion": [
+          "BR-UC-04-04"
+        ],
+        "StreamControlCommand.idempotencyKey": [
+          "BR-UC-04-03"
+        ],
+        "StreamControlCommand.sessionId": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "StreamStatus": [
+          "BR-UC-04-06",
+          "BR-UC-04-07"
+        ],
+        "StreamStatus.ENDED": [
+          "BR-UC-04-07"
+        ],
+        "StreamStatus.LIVE": [
+          "BR-UC-04-06"
+        ],
+        "StreamStatus.STARTING": [
+          "BR-UC-04-06"
+        ],
+        "String": [
+          "BR-UC-04-01",
+          "BR-UC-04-02",
+          "BR-UC-04-03",
+          "BR-UC-04-04",
+          "BR-UC-04-08",
+          "BR-UC-04-09",
+          "BR-UC-04-10",
+          "BR-UC-04-11"
+        ],
+        "String.trim": [
+          "BR-UC-04-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-05-watch-a-live-stream.md",
+      "previous_projection_sha256": "sha256:284caf915bb8a920a44543b6642c7d94f35e0d5da58e531401194e5c35ebfdae",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-05-watch-a-live-stream.md",
+      "rule_count": 7,
+      "classifiers": [
+        "LiveStreamService",
+        "ViewerSession",
+        "String",
+        "Session",
+        "LiveStream",
+        "RequestContext",
+        "Participant",
+        "ParticipantStatus",
+        "SessionKind",
+        "SessionStatus",
+        "ParticipantRole",
+        "StreamStatus"
+      ],
+      "member_rule_references": {
+        "LiveStream": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-05-02"
+        ],
+        "LiveStream.status": [
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06"
+        ],
+        "LiveStream.version": [
+          "BR-UC-05-04"
+        ],
+        "LiveStreamService": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "LiveStreamService.view": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "Participant": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03"
+        ],
+        "Participant.id": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03"
+        ],
+        "Participant.principalId": [
+          "BR-UC-05-01"
+        ],
+        "Participant.role": [
+          "BR-UC-05-02",
+          "BR-UC-05-03"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-05-01"
+        ],
+        "Participant.status": [
+          "BR-UC-05-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-06"
+        ],
+        "ParticipantRole.STAGE_PARTICIPANT": [
+          "BR-UC-05-02",
+          "BR-UC-05-06"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-05-02"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-05-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-05-01"
+        ],
+        "RequestContext": [
+          "BR-UC-05-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-05-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-05-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-05-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-05-01"
+        ],
+        "Session": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "Session.id": [
+          "BR-UC-05-02",
+          "BR-UC-05-03"
+        ],
+        "Session.kind": [
+          "BR-UC-05-02"
+        ],
+        "Session.status": [
+          "BR-UC-05-02"
+        ],
+        "Session.version": [
+          "BR-UC-05-04"
+        ],
+        "SessionKind": [
+          "BR-UC-05-02"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-05-02"
+        ],
+        "SessionStatus": [
+          "BR-UC-05-02"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-05-02"
+        ],
+        "StreamStatus": [
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06"
+        ],
+        "StreamStatus.LIVE": [
+          "BR-UC-05-05",
+          "BR-UC-05-06"
+        ],
+        "String": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "ViewerSession": [
+          "BR-UC-05-01",
+          "BR-UC-05-02",
+          "BR-UC-05-03",
+          "BR-UC-05-04",
+          "BR-UC-05-05",
+          "BR-UC-05-06",
+          "BR-UC-05-07"
+        ],
+        "ViewerSession.canPlayMedia": [
+          "BR-UC-05-05"
+        ],
+        "ViewerSession.canPublishMedia": [
+          "BR-UC-05-06"
+        ],
+        "ViewerSession.initialAudioMuted": [
+          "BR-UC-05-07"
+        ],
+        "ViewerSession.participantId": [
+          "BR-UC-05-03"
+        ],
+        "ViewerSession.role": [
+          "BR-UC-05-03",
+          "BR-UC-05-06"
+        ],
+        "ViewerSession.sessionId": [
+          "BR-UC-05-03"
+        ],
+        "ViewerSession.sessionVersion": [
+          "BR-UC-05-04"
+        ],
+        "ViewerSession.streamStatus": [
+          "BR-UC-05-04"
+        ],
+        "ViewerSession.streamVersion": [
+          "BR-UC-05-04"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-06-request-stage-access.md",
+      "previous_projection_sha256": "sha256:0443f41db3ef5ca1d259f8eb818deb35f77c0d8f8f23f7928fbccf58f92c41c7",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-06-request-stage-access.md",
+      "rule_count": 9,
+      "classifiers": [
+        "StageService",
+        "StageRequest",
+        "StageCommand",
+        "Session",
+        "LiveStream",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "SessionKind",
+        "StreamStatus",
+        "StageRequestAction",
+        "ParticipantRole",
+        "StageRequestStatus",
+        "DateTime"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-06-08"
+        ],
+        "LiveStream": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-06-04"
+        ],
+        "LiveStream.status": [
+          "BR-UC-06-04"
+        ],
+        "Participant": [
+          "BR-UC-06-01",
+          "BR-UC-06-06"
+        ],
+        "Participant.id": [
+          "BR-UC-06-01",
+          "BR-UC-06-06"
+        ],
+        "Participant.principalId": [
+          "BR-UC-06-01"
+        ],
+        "Participant.role": [
+          "BR-UC-06-06"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-06-01"
+        ],
+        "Participant.status": [
+          "BR-UC-06-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-06-06"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-06-06"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-06-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-06-01"
+        ],
+        "RequestContext": [
+          "BR-UC-06-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-06-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-06-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-06-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-06-01"
+        ],
+        "Session": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "Session.id": [
+          "BR-UC-06-02",
+          "BR-UC-06-04",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "Session.kind": [
+          "BR-UC-06-04"
+        ],
+        "Session.status": [
+          "BR-UC-06-02"
+        ],
+        "SessionKind": [
+          "BR-UC-06-04"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-06-04"
+        ],
+        "SessionStatus": [
+          "BR-UC-06-02"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-06-02"
+        ],
+        "StageCommand": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageCommand.action": [
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageCommand.actorParticipantId": [
+          "BR-UC-06-01",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageCommand.expectedVersion": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageCommand.idempotencyKey": [
+          "BR-UC-06-03"
+        ],
+        "StageCommand.requestId": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageCommand.sessionId": [
+          "BR-UC-06-01",
+          "BR-UC-06-02"
+        ],
+        "StageRequest": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageRequest.createdAt": [
+          "BR-UC-06-08"
+        ],
+        "StageRequest.decidedAt": [
+          "BR-UC-06-08"
+        ],
+        "StageRequest.decidedByParticipantId": [
+          "BR-UC-06-08"
+        ],
+        "StageRequest.id": [
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageRequest.participantId": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageRequest.status": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageRequest.version": [
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageRequestAction": [
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageRequestAction.CANCEL": [
+          "BR-UC-06-05",
+          "BR-UC-06-07"
+        ],
+        "StageRequestAction.CREATE": [
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-08"
+        ],
+        "StageRequestStatus": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageRequestStatus.CANCELLED": [
+          "BR-UC-06-08"
+        ],
+        "StageRequestStatus.PENDING": [
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "StageService": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StageService.submitRequest": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-05",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08"
+        ],
+        "StreamStatus": [
+          "BR-UC-06-04"
+        ],
+        "StreamStatus.LIVE": [
+          "BR-UC-06-04"
+        ],
+        "String": [
+          "BR-UC-06-01",
+          "BR-UC-06-02",
+          "BR-UC-06-03",
+          "BR-UC-06-04",
+          "BR-UC-06-06",
+          "BR-UC-06-07",
+          "BR-UC-06-08",
+          "BR-UC-06-09"
+        ],
+        "String.trim": [
+          "BR-UC-06-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-07-respond-to-a-stage-request.md",
+      "previous_projection_sha256": "sha256:44149aa871541742240341bacb919623eacec9f1669c6453ecee86a265ee089b",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-07-respond-to-a-stage-request.md",
+      "rule_count": 8,
+      "classifiers": [
+        "StageService",
+        "StageRequest",
+        "StageCommand",
+        "Session",
+        "LiveStream",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "ParticipantRole",
+        "SessionStatus",
+        "SessionKind",
+        "StreamStatus",
+        "StageRequestAction",
+        "StageRequestStatus",
+        "DateTime"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-07-07"
+        ],
+        "LiveStream": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-07-04"
+        ],
+        "LiveStream.status": [
+          "BR-UC-07-04"
+        ],
+        "Participant": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-08"
+        ],
+        "Participant.id": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-08"
+        ],
+        "Participant.principalId": [
+          "BR-UC-07-01"
+        ],
+        "Participant.role": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-08"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-07-01",
+          "BR-UC-07-05"
+        ],
+        "Participant.status": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06"
+        ],
+        "Participant.version": [
+          "BR-UC-07-08"
+        ],
+        "ParticipantRole": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-08"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-07-01"
+        ],
+        "ParticipantRole.STAGE_PARTICIPANT": [
+          "BR-UC-07-08"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-07-05",
+          "BR-UC-07-06"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-07-01",
+          "BR-UC-07-05",
+          "BR-UC-07-06"
+        ],
+        "RequestContext": [
+          "BR-UC-07-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-07-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-07-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-07-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-07-01"
+        ],
+        "Session": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "Session.id": [
+          "BR-UC-07-02",
+          "BR-UC-07-04",
+          "BR-UC-07-05"
+        ],
+        "Session.kind": [
+          "BR-UC-07-04"
+        ],
+        "Session.participants": [
+          "BR-UC-07-06"
+        ],
+        "Session.status": [
+          "BR-UC-07-02"
+        ],
+        "SessionKind": [
+          "BR-UC-07-04"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-07-04"
+        ],
+        "SessionStatus": [
+          "BR-UC-07-02"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-07-02"
+        ],
+        "StageCommand": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageCommand.action": [
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageCommand.actorParticipantId": [
+          "BR-UC-07-01",
+          "BR-UC-07-07"
+        ],
+        "StageCommand.expectedVersion": [
+          "BR-UC-07-05"
+        ],
+        "StageCommand.idempotencyKey": [
+          "BR-UC-07-03"
+        ],
+        "StageCommand.requestId": [
+          "BR-UC-07-05"
+        ],
+        "StageCommand.sessionId": [
+          "BR-UC-07-01",
+          "BR-UC-07-02"
+        ],
+        "StageRequest": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageRequest.decidedAt": [
+          "BR-UC-07-07"
+        ],
+        "StageRequest.decidedByParticipantId": [
+          "BR-UC-07-07"
+        ],
+        "StageRequest.id": [
+          "BR-UC-07-05"
+        ],
+        "StageRequest.participantId": [
+          "BR-UC-07-05",
+          "BR-UC-07-08"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-07-05"
+        ],
+        "StageRequest.status": [
+          "BR-UC-07-05",
+          "BR-UC-07-07"
+        ],
+        "StageRequest.version": [
+          "BR-UC-07-05",
+          "BR-UC-07-07"
+        ],
+        "StageRequestAction": [
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageRequestAction.ACCEPT": [
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageRequestAction.REJECT": [
+          "BR-UC-07-05"
+        ],
+        "StageRequestStatus": [
+          "BR-UC-07-05",
+          "BR-UC-07-07"
+        ],
+        "StageRequestStatus.ACCEPTED": [
+          "BR-UC-07-07"
+        ],
+        "StageRequestStatus.PENDING": [
+          "BR-UC-07-05"
+        ],
+        "StageRequestStatus.REJECTED": [
+          "BR-UC-07-07"
+        ],
+        "StageService": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StageService.decide": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-06",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "StreamStatus": [
+          "BR-UC-07-04"
+        ],
+        "StreamStatus.LIVE": [
+          "BR-UC-07-04"
+        ],
+        "String": [
+          "BR-UC-07-01",
+          "BR-UC-07-02",
+          "BR-UC-07-03",
+          "BR-UC-07-04",
+          "BR-UC-07-05",
+          "BR-UC-07-07",
+          "BR-UC-07-08"
+        ],
+        "String.trim": [
+          "BR-UC-07-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-08-view-session-participants.md",
+      "previous_projection_sha256": "sha256:13742db39dce82fadb3e4ecf3bc5a8513183f8f9aa81e322b1e4d88d82730609",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-08-view-session-participants.md",
+      "rule_count": 7,
+      "classifiers": [
+        "CollaborationService",
+        "ParticipantPage",
+        "ParticipantListQuery",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "Paging",
+        "DateTime",
+        "SessionService",
+        "SessionState",
+        "LiveStream",
+        "Recording",
+        "ContentShare",
+        "ShareStatus",
+        "MediaPreference",
+        "ViewPreference",
+        "StageRequest",
+        "ParticipantRole",
+        "ReactionEvent"
+      ],
+      "member_rule_references": {
+        "CollaborationService": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-07"
+        ],
+        "CollaborationService.listParticipants": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-07"
+        ],
+        "ContentShare": [
+          "BR-UC-08-05"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-08-05"
+        ],
+        "ContentShare.status": [
+          "BR-UC-08-05"
+        ],
+        "DateTime": [
+          "BR-UC-08-03",
+          "BR-UC-08-05"
+        ],
+        "LiveStream": [
+          "BR-UC-08-05"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-08-05"
+        ],
+        "MediaPreference": [
+          "BR-UC-08-05"
+        ],
+        "MediaPreference.participantId": [
+          "BR-UC-08-05"
+        ],
+        "Paging": [
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06"
+        ],
+        "Paging.latestRecording": [
+          "BR-UC-08-05"
+        ],
+        "Paging.nextReactionCursor": [
+          "BR-UC-08-06"
+        ],
+        "Paging.participants": [
+          "BR-UC-08-03"
+        ],
+        "Paging.reactions": [
+          "BR-UC-08-06"
+        ],
+        "Paging.validCursor": [
+          "BR-UC-08-02",
+          "BR-UC-08-04"
+        ],
+        "Participant": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06",
+          "BR-UC-08-07"
+        ],
+        "Participant.id": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06",
+          "BR-UC-08-07"
+        ],
+        "Participant.joinedAt": [
+          "BR-UC-08-03"
+        ],
+        "Participant.principalId": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "Participant.role": [
+          "BR-UC-08-06"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04"
+        ],
+        "Participant.status": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04"
+        ],
+        "ParticipantListQuery": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-07"
+        ],
+        "ParticipantListQuery.cursor": [
+          "BR-UC-08-02",
+          "BR-UC-08-03"
+        ],
+        "ParticipantListQuery.pageSize": [
+          "BR-UC-08-02",
+          "BR-UC-08-03"
+        ],
+        "ParticipantListQuery.requesterParticipantId": [
+          "BR-UC-08-01"
+        ],
+        "ParticipantListQuery.sessionId": [
+          "BR-UC-08-01",
+          "BR-UC-08-02"
+        ],
+        "ParticipantPage": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-07"
+        ],
+        "ParticipantPage.items": [
+          "BR-UC-08-03",
+          "BR-UC-08-07"
+        ],
+        "ParticipantPage.nextCursor": [
+          "BR-UC-08-03"
+        ],
+        "ParticipantRole": [
+          "BR-UC-08-06"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-08-06"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-08-01",
+          "BR-UC-08-03",
+          "BR-UC-08-04"
+        ],
+        "ReactionEvent": [
+          "BR-UC-08-06"
+        ],
+        "ReactionEvent.sequence": [
+          "BR-UC-08-06"
+        ],
+        "ReactionEvent.sessionId": [
+          "BR-UC-08-06"
+        ],
+        "Recording": [
+          "BR-UC-08-05"
+        ],
+        "Recording.createdAt": [
+          "BR-UC-08-05"
+        ],
+        "Recording.id": [
+          "BR-UC-08-05"
+        ],
+        "Recording.sessionId": [
+          "BR-UC-08-05"
+        ],
+        "RequestContext": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-08-01",
+          "BR-UC-08-04"
+        ],
+        "Session": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06",
+          "BR-UC-08-07"
+        ],
+        "Session.id": [
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06"
+        ],
+        "Session.status": [
+          "BR-UC-08-02",
+          "BR-UC-08-04"
+        ],
+        "SessionService": [
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06"
+        ],
+        "SessionService.readState": [
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06"
+        ],
+        "SessionState": [
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06"
+        ],
+        "SessionState.media": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.nextReactionCursor": [
+          "BR-UC-08-06"
+        ],
+        "SessionState.reactions": [
+          "BR-UC-08-06"
+        ],
+        "SessionState.recording": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.selfParticipant": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.session": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.share": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.stageRequests": [
+          "BR-UC-08-06"
+        ],
+        "SessionState.stream": [
+          "BR-UC-08-05"
+        ],
+        "SessionState.view": [
+          "BR-UC-08-05"
+        ],
+        "SessionStatus": [
+          "BR-UC-08-02",
+          "BR-UC-08-04"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-08-02",
+          "BR-UC-08-04"
+        ],
+        "ShareStatus": [
+          "BR-UC-08-05"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-08-05"
+        ],
+        "StageRequest": [
+          "BR-UC-08-06"
+        ],
+        "StageRequest.participantId": [
+          "BR-UC-08-06"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-08-06"
+        ],
+        "String": [
+          "BR-UC-08-01",
+          "BR-UC-08-02",
+          "BR-UC-08-03",
+          "BR-UC-08-04",
+          "BR-UC-08-05",
+          "BR-UC-08-06",
+          "BR-UC-08-07"
+        ],
+        "ViewPreference": [
+          "BR-UC-08-05"
+        ],
+        "ViewPreference.participantId": [
+          "BR-UC-08-05"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-09-send-a-chat-message.md",
+      "previous_projection_sha256": "sha256:286dc576ee2e6ae1a7d706ebb5ee6e1e3caf0b3fc34f930850f7b171af26b0e5",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-09-send-a-chat-message.md",
+      "rule_count": 9,
+      "classifiers": [
+        "CollaborationService",
+        "ChatMessage",
+        "ChatCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "DateTime",
+        "MessagePage",
+        "MessageQuery",
+        "Paging"
+      ],
+      "member_rule_references": {
+        "ChatCommand": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06"
+        ],
+        "ChatCommand.body": [
+          "BR-UC-09-04",
+          "BR-UC-09-06"
+        ],
+        "ChatCommand.idempotencyKey": [
+          "BR-UC-09-03"
+        ],
+        "ChatCommand.senderParticipantId": [
+          "BR-UC-09-01",
+          "BR-UC-09-05"
+        ],
+        "ChatCommand.sessionId": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-05"
+        ],
+        "ChatMessage": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06",
+          "BR-UC-09-09"
+        ],
+        "ChatMessage.body": [
+          "BR-UC-09-06"
+        ],
+        "ChatMessage.id": [
+          "BR-UC-09-05"
+        ],
+        "ChatMessage.senderParticipantId": [
+          "BR-UC-09-05"
+        ],
+        "ChatMessage.sentAt": [
+          "BR-UC-09-06"
+        ],
+        "ChatMessage.sequence": [
+          "BR-UC-09-06",
+          "BR-UC-09-09"
+        ],
+        "ChatMessage.sessionId": [
+          "BR-UC-09-05",
+          "BR-UC-09-09"
+        ],
+        "CollaborationService": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06",
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "CollaborationService.listMessages": [
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "CollaborationService.sendMessage": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06"
+        ],
+        "DateTime": [
+          "BR-UC-09-06"
+        ],
+        "MessagePage": [
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "MessagePage.items": [
+          "BR-UC-09-09"
+        ],
+        "MessagePage.nextCursor": [
+          "BR-UC-09-09"
+        ],
+        "MessageQuery": [
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "MessageQuery.cursor": [
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "MessageQuery.pageSize": [
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "MessageQuery.requesterParticipantId": [
+          "BR-UC-09-07"
+        ],
+        "MessageQuery.sessionId": [
+          "BR-UC-09-07",
+          "BR-UC-09-08"
+        ],
+        "Paging": [
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "Paging.messages": [
+          "BR-UC-09-09"
+        ],
+        "Paging.validCursor": [
+          "BR-UC-09-08"
+        ],
+        "Participant": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "Participant.id": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "Participant.principalId": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "Participant.status": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "RequestContext": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-09-01",
+          "BR-UC-09-07"
+        ],
+        "Session": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06",
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "Session.id": [
+          "BR-UC-09-02",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "Session.status": [
+          "BR-UC-09-02",
+          "BR-UC-09-08"
+        ],
+        "Session.version": [
+          "BR-UC-09-06"
+        ],
+        "SessionStatus": [
+          "BR-UC-09-02",
+          "BR-UC-09-08"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-09-02",
+          "BR-UC-09-08"
+        ],
+        "String": [
+          "BR-UC-09-01",
+          "BR-UC-09-02",
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-05",
+          "BR-UC-09-06",
+          "BR-UC-09-07",
+          "BR-UC-09-08",
+          "BR-UC-09-09"
+        ],
+        "String.trim": [
+          "BR-UC-09-03",
+          "BR-UC-09-04",
+          "BR-UC-09-06"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-10-send-an-emoji-reaction.md",
+      "previous_projection_sha256": "sha256:c4dcf25828570412300f7dafe2b159958ed09326812d8cc4c8fd8e88cfc1c1e2",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-10-send-an-emoji-reaction.md",
+      "rule_count": 7,
+      "classifiers": [
+        "CollaborationService",
+        "ReactionEvent",
+        "ReactionCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "ReactionCode",
+        "DateTime",
+        "StageRequest"
+      ],
+      "member_rule_references": {
+        "CollaborationService": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04",
+          "BR-UC-10-05",
+          "BR-UC-10-06",
+          "BR-UC-10-07"
+        ],
+        "CollaborationService.sendReaction": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04",
+          "BR-UC-10-05",
+          "BR-UC-10-06",
+          "BR-UC-10-07"
+        ],
+        "DateTime": [
+          "BR-UC-10-05"
+        ],
+        "Participant": [
+          "BR-UC-10-01",
+          "BR-UC-10-06"
+        ],
+        "Participant.id": [
+          "BR-UC-10-01"
+        ],
+        "Participant.principalId": [
+          "BR-UC-10-01"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-10-01"
+        ],
+        "Participant.status": [
+          "BR-UC-10-01"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-10-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-10-01"
+        ],
+        "ReactionCode": [
+          "BR-UC-10-05"
+        ],
+        "ReactionCommand": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04",
+          "BR-UC-10-05",
+          "BR-UC-10-06",
+          "BR-UC-10-07"
+        ],
+        "ReactionCommand.idempotencyKey": [
+          "BR-UC-10-03"
+        ],
+        "ReactionCommand.participantId": [
+          "BR-UC-10-01",
+          "BR-UC-10-04"
+        ],
+        "ReactionCommand.reaction": [
+          "BR-UC-10-05"
+        ],
+        "ReactionCommand.sessionId": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-04"
+        ],
+        "ReactionEvent": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04",
+          "BR-UC-10-05",
+          "BR-UC-10-06",
+          "BR-UC-10-07"
+        ],
+        "ReactionEvent.createdAt": [
+          "BR-UC-10-05"
+        ],
+        "ReactionEvent.id": [
+          "BR-UC-10-04"
+        ],
+        "ReactionEvent.participantId": [
+          "BR-UC-10-04"
+        ],
+        "ReactionEvent.reaction": [
+          "BR-UC-10-05"
+        ],
+        "ReactionEvent.sequence": [
+          "BR-UC-10-05"
+        ],
+        "ReactionEvent.sessionId": [
+          "BR-UC-10-04"
+        ],
+        "RequestContext": [
+          "BR-UC-10-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-10-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-10-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-10-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-10-01"
+        ],
+        "Session": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04",
+          "BR-UC-10-05",
+          "BR-UC-10-06",
+          "BR-UC-10-07"
+        ],
+        "Session.id": [
+          "BR-UC-10-02"
+        ],
+        "Session.status": [
+          "BR-UC-10-02"
+        ],
+        "Session.version": [
+          "BR-UC-10-05"
+        ],
+        "SessionStatus": [
+          "BR-UC-10-02"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-10-02"
+        ],
+        "StageRequest": [
+          "BR-UC-10-07"
+        ],
+        "String": [
+          "BR-UC-10-01",
+          "BR-UC-10-02",
+          "BR-UC-10-03",
+          "BR-UC-10-04"
+        ],
+        "String.trim": [
+          "BR-UC-10-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-11-share-presentation-content.md",
+      "previous_projection_sha256": "sha256:0733a5f4fbd862be63b4a93efac4e26acba8e1381f05b169f6fb50584dce0de0",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-11-share-presentation-content.md",
+      "rule_count": 7,
+      "classifiers": [
+        "ContentShareService",
+        "ContentShare",
+        "ContentShareCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "ShareAction",
+        "ShareKind",
+        "ShareStatus",
+        "SessionKind",
+        "ParticipantRole",
+        "DateTime"
+      ],
+      "member_rule_references": {
+        "ContentShare": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "ContentShare.kind": [
+          "BR-UC-11-06"
+        ],
+        "ContentShare.ownerParticipantId": [
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "ContentShare.sourceReference": [
+          "BR-UC-11-06"
+        ],
+        "ContentShare.startedAt": [
+          "BR-UC-11-06"
+        ],
+        "ContentShare.status": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "ContentShare.stoppedAt": [
+          "BR-UC-11-06"
+        ],
+        "ContentShare.version": [
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand.action": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand.expectedVersion": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand.idempotencyKey": [
+          "BR-UC-11-03"
+        ],
+        "ContentShareCommand.kind": [
+          "BR-UC-11-04",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand.ownerParticipantId": [
+          "BR-UC-11-01",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareCommand.sessionId": [
+          "BR-UC-11-01",
+          "BR-UC-11-02"
+        ],
+        "ContentShareCommand.sourceReference": [
+          "BR-UC-11-04",
+          "BR-UC-11-06"
+        ],
+        "ContentShareService": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ContentShareService.control": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "DateTime": [
+          "BR-UC-11-06"
+        ],
+        "Participant": [
+          "BR-UC-11-01",
+          "BR-UC-11-04",
+          "BR-UC-11-05"
+        ],
+        "Participant.id": [
+          "BR-UC-11-01",
+          "BR-UC-11-04",
+          "BR-UC-11-05"
+        ],
+        "Participant.principalId": [
+          "BR-UC-11-01"
+        ],
+        "Participant.role": [
+          "BR-UC-11-04",
+          "BR-UC-11-05"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-11-01"
+        ],
+        "Participant.status": [
+          "BR-UC-11-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-11-04",
+          "BR-UC-11-05"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-11-05"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-11-04"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-11-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-11-01"
+        ],
+        "RequestContext": [
+          "BR-UC-11-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-11-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-11-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-11-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-11-01"
+        ],
+        "Session": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "Session.id": [
+          "BR-UC-11-02",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "Session.kind": [
+          "BR-UC-11-04"
+        ],
+        "Session.status": [
+          "BR-UC-11-02",
+          "BR-UC-11-04"
+        ],
+        "SessionKind": [
+          "BR-UC-11-04"
+        ],
+        "SessionKind.LIVE_STREAM": [
+          "BR-UC-11-04"
+        ],
+        "SessionStatus": [
+          "BR-UC-11-02",
+          "BR-UC-11-04"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-11-02"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-11-04"
+        ],
+        "ShareAction": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06"
+        ],
+        "ShareAction.START": [
+          "BR-UC-11-04",
+          "BR-UC-11-06"
+        ],
+        "ShareAction.STOP": [
+          "BR-UC-11-05"
+        ],
+        "ShareKind": [
+          "BR-UC-11-04",
+          "BR-UC-11-06"
+        ],
+        "ShareStatus": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "ShareStatus.STOPPED": [
+          "BR-UC-11-06"
+        ],
+        "String": [
+          "BR-UC-11-01",
+          "BR-UC-11-02",
+          "BR-UC-11-03",
+          "BR-UC-11-04",
+          "BR-UC-11-05",
+          "BR-UC-11-06",
+          "BR-UC-11-07"
+        ],
+        "String.trim": [
+          "BR-UC-11-03",
+          "BR-UC-11-04"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-12-configure-audio-and-video-devices.md",
+      "previous_projection_sha256": "sha256:424420b7b0fd0e01dcbcdc9ceb3acfeea86c6de358d07d24e92182dfed787e2b",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-12-configure-audio-and-video-devices.md",
+      "rule_count": 13,
+      "classifiers": [
+        "PreferenceService",
+        "PreferencesResult",
+        "PreferencePatch",
+        "MediaPreference",
+        "ViewPreference",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "Session",
+        "SessionStatus",
+        "DateTime",
+        "ClientPreferenceService",
+        "PreviewDraft",
+        "DeviceCatalog"
+      ],
+      "member_rule_references": {
+        "ClientPreferenceService": [
+          "BR-UC-12-12",
+          "BR-UC-12-13"
+        ],
+        "ClientPreferenceService.selectDevices": [
+          "BR-UC-12-12",
+          "BR-UC-12-13"
+        ],
+        "DateTime": [
+          "BR-UC-12-04",
+          "BR-UC-12-11"
+        ],
+        "DeviceCatalog": [
+          "BR-UC-12-12"
+        ],
+        "DeviceCatalog.isAvailable": [
+          "BR-UC-12-12"
+        ],
+        "MediaPreference": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.cameraDeviceId": [
+          "BR-UC-12-08",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.microphoneDeviceId": [
+          "BR-UC-12-06",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.participantId": [
+          "BR-UC-12-03",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.speakerDeviceId": [
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.updatedAt": [
+          "BR-UC-12-04",
+          "BR-UC-12-11"
+        ],
+        "MediaPreference.virtualBackgroundId": [
+          "BR-UC-12-11"
+        ],
+        "Participant": [
+          "BR-UC-12-01"
+        ],
+        "Participant.id": [
+          "BR-UC-12-01"
+        ],
+        "Participant.principalId": [
+          "BR-UC-12-01"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-12-01"
+        ],
+        "Participant.status": [
+          "BR-UC-12-01"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-12-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-12-01"
+        ],
+        "PreferencePatch": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "PreferencePatch.cameraDeviceId": [
+          "BR-UC-12-07",
+          "BR-UC-12-08"
+        ],
+        "PreferencePatch.hasCameraDeviceId": [
+          "BR-UC-12-07",
+          "BR-UC-12-08"
+        ],
+        "PreferencePatch.hasMicrophoneDeviceId": [
+          "BR-UC-12-05",
+          "BR-UC-12-06"
+        ],
+        "PreferencePatch.hasSpeakerDeviceId": [
+          "BR-UC-12-09",
+          "BR-UC-12-10"
+        ],
+        "PreferencePatch.idempotencyKey": [
+          "BR-UC-12-02"
+        ],
+        "PreferencePatch.microphoneDeviceId": [
+          "BR-UC-12-05",
+          "BR-UC-12-06"
+        ],
+        "PreferencePatch.participantId": [
+          "BR-UC-12-01",
+          "BR-UC-12-03",
+          "BR-UC-12-11"
+        ],
+        "PreferencePatch.sessionId": [
+          "BR-UC-12-01",
+          "BR-UC-12-03"
+        ],
+        "PreferencePatch.speakerDeviceId": [
+          "BR-UC-12-09",
+          "BR-UC-12-10"
+        ],
+        "PreferenceService": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "PreferenceService.update": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "PreferencesResult": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "PreferencesResult.media": [
+          "BR-UC-12-04"
+        ],
+        "PreferencesResult.view": [
+          "BR-UC-12-04"
+        ],
+        "PreviewDraft": [
+          "BR-UC-12-12",
+          "BR-UC-12-13"
+        ],
+        "PreviewDraft.cameraDeviceId": [
+          "BR-UC-12-13"
+        ],
+        "PreviewDraft.microphoneDeviceId": [
+          "BR-UC-12-13"
+        ],
+        "PreviewDraft.participantKey": [
+          "BR-UC-12-12"
+        ],
+        "PreviewDraft.speakerDeviceId": [
+          "BR-UC-12-13"
+        ],
+        "PreviewDraft.virtualBackgroundId": [
+          "BR-UC-12-13"
+        ],
+        "RequestContext": [
+          "BR-UC-12-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-12-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-12-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-12-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-12-01"
+        ],
+        "Session": [
+          "BR-UC-12-03"
+        ],
+        "Session.id": [
+          "BR-UC-12-03"
+        ],
+        "Session.status": [
+          "BR-UC-12-03"
+        ],
+        "SessionStatus": [
+          "BR-UC-12-03"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-12-03"
+        ],
+        "String": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11",
+          "BR-UC-12-12",
+          "BR-UC-12-13"
+        ],
+        "String.trim": [
+          "BR-UC-12-02",
+          "BR-UC-12-05",
+          "BR-UC-12-07",
+          "BR-UC-12-09"
+        ],
+        "ViewPreference": [
+          "BR-UC-12-01",
+          "BR-UC-12-02",
+          "BR-UC-12-03",
+          "BR-UC-12-04",
+          "BR-UC-12-05",
+          "BR-UC-12-06",
+          "BR-UC-12-07",
+          "BR-UC-12-08",
+          "BR-UC-12-09",
+          "BR-UC-12-10",
+          "BR-UC-12-11"
+        ],
+        "ViewPreference.participantId": [
+          "BR-UC-12-03"
+        ],
+        "ViewPreference.updatedAt": [
+          "BR-UC-12-04"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-13-select-a-virtual-background.md",
+      "previous_projection_sha256": "sha256:bfd19ac1b5385bb108b9cf62107dc7e5efecbb3c2022ed661fef53aa7437386e",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-13-select-a-virtual-background.md",
+      "rule_count": 7,
+      "classifiers": [
+        "PreferenceService",
+        "PreferencesResult",
+        "PreferencePatch",
+        "MediaPreference",
+        "ViewPreference",
+        "String",
+        "VirtualBackground",
+        "ClientPreferenceService",
+        "PreviewDraft",
+        "RequestContext"
+      ],
+      "member_rule_references": {
+        "ClientPreferenceService": [
+          "BR-UC-13-03",
+          "BR-UC-13-04"
+        ],
+        "ClientPreferenceService.selectBackground": [
+          "BR-UC-13-03",
+          "BR-UC-13-04"
+        ],
+        "MediaPreference": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "MediaPreference.virtualBackgroundId": [
+          "BR-UC-13-02"
+        ],
+        "PreferencePatch": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "PreferencePatch.hasVirtualBackgroundId": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "PreferencePatch.virtualBackgroundId": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "PreferenceService": [
+          "BR-UC-13-01",
+          "BR-UC-13-02",
+          "BR-UC-13-05",
+          "BR-UC-13-06",
+          "BR-UC-13-07"
+        ],
+        "PreferenceService.listBackgrounds": [
+          "BR-UC-13-05",
+          "BR-UC-13-06",
+          "BR-UC-13-07"
+        ],
+        "PreferenceService.update": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "PreferencesResult": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "PreviewDraft": [
+          "BR-UC-13-03",
+          "BR-UC-13-04"
+        ],
+        "PreviewDraft.cameraDeviceId": [
+          "BR-UC-13-04"
+        ],
+        "PreviewDraft.microphoneDeviceId": [
+          "BR-UC-13-04"
+        ],
+        "PreviewDraft.speakerDeviceId": [
+          "BR-UC-13-04"
+        ],
+        "PreviewDraft.virtualBackgroundId": [
+          "BR-UC-13-04"
+        ],
+        "RequestContext": [
+          "BR-UC-13-05"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-13-05"
+        ],
+        "String": [
+          "BR-UC-13-01",
+          "BR-UC-13-02",
+          "BR-UC-13-03",
+          "BR-UC-13-04",
+          "BR-UC-13-07"
+        ],
+        "String.trim": [
+          "BR-UC-13-07"
+        ],
+        "ViewPreference": [
+          "BR-UC-13-01",
+          "BR-UC-13-02"
+        ],
+        "VirtualBackground": [
+          "BR-UC-13-01",
+          "BR-UC-13-03",
+          "BR-UC-13-05",
+          "BR-UC-13-06",
+          "BR-UC-13-07"
+        ],
+        "VirtualBackground.active": [
+          "BR-UC-13-01",
+          "BR-UC-13-03",
+          "BR-UC-13-06"
+        ],
+        "VirtualBackground.assetReference": [
+          "BR-UC-13-07"
+        ],
+        "VirtualBackground.id": [
+          "BR-UC-13-01",
+          "BR-UC-13-03",
+          "BR-UC-13-07"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-14-change-session-layout.md",
+      "previous_projection_sha256": "sha256:ceed82a010c49b43cf94944f63326009282bbb7fa226d1a4364b6a31c0ac4a7e",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-14-change-session-layout.md",
+      "rule_count": 7,
+      "classifiers": [
+        "PreferenceService",
+        "PreferencesResult",
+        "PreferencePatch",
+        "MediaPreference",
+        "ViewPreference",
+        "LayoutMode",
+        "ContentShare",
+        "String",
+        "ShareStatus"
+      ],
+      "member_rule_references": {
+        "ContentShare": [
+          "BR-UC-14-02"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-14-02"
+        ],
+        "ContentShare.status": [
+          "BR-UC-14-02"
+        ],
+        "LayoutMode": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-04"
+        ],
+        "LayoutMode.PRESENTER": [
+          "BR-UC-14-02"
+        ],
+        "MediaPreference": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "PreferencePatch": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "PreferencePatch.hasLayout": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-04"
+        ],
+        "PreferencePatch.hasPictureInPicture": [
+          "BR-UC-14-01",
+          "BR-UC-14-05"
+        ],
+        "PreferencePatch.hasSidePanel": [
+          "BR-UC-14-03",
+          "BR-UC-14-07"
+        ],
+        "PreferencePatch.layout": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-04"
+        ],
+        "PreferencePatch.pictureInPicture": [
+          "BR-UC-14-01",
+          "BR-UC-14-05"
+        ],
+        "PreferencePatch.sessionId": [
+          "BR-UC-14-02"
+        ],
+        "PreferencePatch.sidePanel": [
+          "BR-UC-14-03",
+          "BR-UC-14-07"
+        ],
+        "PreferenceService": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "PreferenceService.update": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "PreferencesResult": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "ShareStatus": [
+          "BR-UC-14-02"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-14-02"
+        ],
+        "String": [
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "ViewPreference": [
+          "BR-UC-14-01",
+          "BR-UC-14-02",
+          "BR-UC-14-03",
+          "BR-UC-14-04",
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "ViewPreference.layout": [
+          "BR-UC-14-04"
+        ],
+        "ViewPreference.pictureInPicture": [
+          "BR-UC-14-05",
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ],
+        "ViewPreference.sidePanel": [
+          "BR-UC-14-06",
+          "BR-UC-14-07"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-15-pin-or-spotlight-a-participant.md",
+      "previous_projection_sha256": "sha256:f2b8f3386e452172a7a405fec3befaaf6dacd9fbda99aad94c6d0287ac0f13be",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-15-pin-or-spotlight-a-participant.md",
+      "rule_count": 10,
+      "classifiers": [
+        "PreferenceService",
+        "PreferencesResult",
+        "PreferencePatch",
+        "MediaPreference",
+        "ViewPreference",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "LayoutMode",
+        "DateTime",
+        "SpotlightService",
+        "Session",
+        "SpotlightCommand",
+        "RequestContext",
+        "ParticipantRole",
+        "SessionStatus"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-15-03"
+        ],
+        "LayoutMode": [
+          "BR-UC-15-03"
+        ],
+        "MediaPreference": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "Participant": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06",
+          "BR-UC-15-07"
+        ],
+        "Participant.id": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06",
+          "BR-UC-15-07"
+        ],
+        "Participant.principalId": [
+          "BR-UC-15-04"
+        ],
+        "Participant.role": [
+          "BR-UC-15-07"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06"
+        ],
+        "Participant.status": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06"
+        ],
+        "ParticipantRole": [
+          "BR-UC-15-07"
+        ],
+        "ParticipantRole.BROADCASTER": [
+          "BR-UC-15-07"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-15-07"
+        ],
+        "ParticipantRole.STAGE_PARTICIPANT": [
+          "BR-UC-15-07"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-15-01",
+          "BR-UC-15-04",
+          "BR-UC-15-06"
+        ],
+        "PreferencePatch": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "PreferencePatch.focusedParticipantId": [
+          "BR-UC-15-01",
+          "BR-UC-15-02"
+        ],
+        "PreferencePatch.hasFocusedParticipantId": [
+          "BR-UC-15-01",
+          "BR-UC-15-02"
+        ],
+        "PreferencePatch.participantId": [
+          "BR-UC-15-03"
+        ],
+        "PreferencePatch.sessionId": [
+          "BR-UC-15-01"
+        ],
+        "PreferenceService": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "PreferenceService.update": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "PreferencesResult": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "RequestContext": [
+          "BR-UC-15-04"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-15-04"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-15-04"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-15-04"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-15-04"
+        ],
+        "Session": [
+          "BR-UC-15-04",
+          "BR-UC-15-05",
+          "BR-UC-15-06",
+          "BR-UC-15-07",
+          "BR-UC-15-08",
+          "BR-UC-15-09",
+          "BR-UC-15-10"
+        ],
+        "Session.id": [
+          "BR-UC-15-08",
+          "BR-UC-15-09"
+        ],
+        "Session.spotlightedParticipantId": [
+          "BR-UC-15-09"
+        ],
+        "Session.status": [
+          "BR-UC-15-08"
+        ],
+        "Session.version": [
+          "BR-UC-15-08",
+          "BR-UC-15-09"
+        ],
+        "SessionStatus": [
+          "BR-UC-15-08"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-15-08"
+        ],
+        "SpotlightCommand": [
+          "BR-UC-15-04",
+          "BR-UC-15-05",
+          "BR-UC-15-06",
+          "BR-UC-15-07",
+          "BR-UC-15-08",
+          "BR-UC-15-09",
+          "BR-UC-15-10"
+        ],
+        "SpotlightCommand.actorParticipantId": [
+          "BR-UC-15-04",
+          "BR-UC-15-07"
+        ],
+        "SpotlightCommand.expectedVersion": [
+          "BR-UC-15-08"
+        ],
+        "SpotlightCommand.idempotencyKey": [
+          "BR-UC-15-05"
+        ],
+        "SpotlightCommand.sessionId": [
+          "BR-UC-15-04",
+          "BR-UC-15-06",
+          "BR-UC-15-08"
+        ],
+        "SpotlightCommand.targetParticipantId": [
+          "BR-UC-15-06",
+          "BR-UC-15-09"
+        ],
+        "SpotlightService": [
+          "BR-UC-15-04",
+          "BR-UC-15-05",
+          "BR-UC-15-06",
+          "BR-UC-15-07",
+          "BR-UC-15-08",
+          "BR-UC-15-09",
+          "BR-UC-15-10"
+        ],
+        "SpotlightService.update": [
+          "BR-UC-15-04",
+          "BR-UC-15-05",
+          "BR-UC-15-06",
+          "BR-UC-15-07",
+          "BR-UC-15-08",
+          "BR-UC-15-09",
+          "BR-UC-15-10"
+        ],
+        "String": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03",
+          "BR-UC-15-04",
+          "BR-UC-15-05",
+          "BR-UC-15-06",
+          "BR-UC-15-07",
+          "BR-UC-15-08",
+          "BR-UC-15-09"
+        ],
+        "String.trim": [
+          "BR-UC-15-05"
+        ],
+        "ViewPreference": [
+          "BR-UC-15-01",
+          "BR-UC-15-02",
+          "BR-UC-15-03",
+          "BR-UC-15-10"
+        ],
+        "ViewPreference.focusedParticipantId": [
+          "BR-UC-15-02",
+          "BR-UC-15-03"
+        ],
+        "ViewPreference.layout": [
+          "BR-UC-15-03"
+        ],
+        "ViewPreference.participantId": [
+          "BR-UC-15-03"
+        ],
+        "ViewPreference.pictureInPicture": [
+          "BR-UC-15-03"
+        ],
+        "ViewPreference.sidePanel": [
+          "BR-UC-15-03"
+        ],
+        "ViewPreference.updatedAt": [
+          "BR-UC-15-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-16-control-session-recording.md",
+      "previous_projection_sha256": "sha256:4da49358dc00a3ff004ab639fa58a3328da7c1edb66e0c763a266d8769184ce4",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-16-control-session-recording.md",
+      "rule_count": 9,
+      "classifiers": [
+        "RecordingService",
+        "Recording",
+        "RecordingCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "ParticipantRole",
+        "SessionStatus",
+        "RecordingAction",
+        "RecordingStatus",
+        "DateTime",
+        "ProviderCompletion",
+        "TransactionContext"
+      ],
+      "member_rule_references": {
+        "DateTime": [
+          "BR-UC-16-06",
+          "BR-UC-16-08"
+        ],
+        "Participant": [
+          "BR-UC-16-01"
+        ],
+        "Participant.id": [
+          "BR-UC-16-01"
+        ],
+        "Participant.principalId": [
+          "BR-UC-16-01"
+        ],
+        "Participant.role": [
+          "BR-UC-16-01"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-16-01"
+        ],
+        "Participant.status": [
+          "BR-UC-16-01"
+        ],
+        "ParticipantRole": [
+          "BR-UC-16-01"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-16-01"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-16-01"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-16-01"
+        ],
+        "ProviderCompletion": [
+          "BR-UC-16-07",
+          "BR-UC-16-08"
+        ],
+        "ProviderCompletion.expectedVersion": [
+          "BR-UC-16-07"
+        ],
+        "ProviderCompletion.resourceId": [
+          "BR-UC-16-07"
+        ],
+        "ProviderCompletion.sessionId": [
+          "BR-UC-16-07"
+        ],
+        "ProviderCompletion.succeeded": [
+          "BR-UC-16-08"
+        ],
+        "Recording": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08",
+          "BR-UC-16-09"
+        ],
+        "Recording.createdAt": [
+          "BR-UC-16-06"
+        ],
+        "Recording.id": [
+          "BR-UC-16-07"
+        ],
+        "Recording.sessionId": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-09"
+        ],
+        "Recording.startedAt": [
+          "BR-UC-16-06",
+          "BR-UC-16-08"
+        ],
+        "Recording.startedByParticipantId": [
+          "BR-UC-16-06"
+        ],
+        "Recording.status": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08",
+          "BR-UC-16-09"
+        ],
+        "Recording.stoppedAt": [
+          "BR-UC-16-06",
+          "BR-UC-16-08"
+        ],
+        "Recording.version": [
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08"
+        ],
+        "RecordingAction": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06"
+        ],
+        "RecordingAction.START": [
+          "BR-UC-16-04",
+          "BR-UC-16-06"
+        ],
+        "RecordingAction.STOP": [
+          "BR-UC-16-05"
+        ],
+        "RecordingCommand": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06"
+        ],
+        "RecordingCommand.action": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06"
+        ],
+        "RecordingCommand.actorParticipantId": [
+          "BR-UC-16-01",
+          "BR-UC-16-06"
+        ],
+        "RecordingCommand.expectedVersion": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06"
+        ],
+        "RecordingCommand.idempotencyKey": [
+          "BR-UC-16-03"
+        ],
+        "RecordingCommand.sessionId": [
+          "BR-UC-16-01",
+          "BR-UC-16-02"
+        ],
+        "RecordingService": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08"
+        ],
+        "RecordingService.complete": [
+          "BR-UC-16-07",
+          "BR-UC-16-08"
+        ],
+        "RecordingService.control": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06"
+        ],
+        "RecordingStatus": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08",
+          "BR-UC-16-09"
+        ],
+        "RecordingStatus.FAILED": [
+          "BR-UC-16-08"
+        ],
+        "RecordingStatus.RECORDING": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-08",
+          "BR-UC-16-09"
+        ],
+        "RecordingStatus.STARTING": [
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-09"
+        ],
+        "RecordingStatus.STOPPED": [
+          "BR-UC-16-06"
+        ],
+        "RequestContext": [
+          "BR-UC-16-01",
+          "BR-UC-16-07"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-16-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-16-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-16-01"
+        ],
+        "RequestContext.providerAuthenticated": [
+          "BR-UC-16-07"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-16-01"
+        ],
+        "Session": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-08"
+        ],
+        "Session.id": [
+          "BR-UC-16-02",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07"
+        ],
+        "Session.status": [
+          "BR-UC-16-02",
+          "BR-UC-16-04",
+          "BR-UC-16-07"
+        ],
+        "Session.version": [
+          "BR-UC-16-08"
+        ],
+        "SessionStatus": [
+          "BR-UC-16-02",
+          "BR-UC-16-04",
+          "BR-UC-16-07"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-16-02"
+        ],
+        "SessionStatus.LIVE": [
+          "BR-UC-16-04",
+          "BR-UC-16-07"
+        ],
+        "String": [
+          "BR-UC-16-01",
+          "BR-UC-16-02",
+          "BR-UC-16-03",
+          "BR-UC-16-04",
+          "BR-UC-16-05",
+          "BR-UC-16-06",
+          "BR-UC-16-07",
+          "BR-UC-16-09"
+        ],
+        "String.trim": [
+          "BR-UC-16-03"
+        ],
+        "TransactionContext": [
+          "BR-UC-16-07"
+        ],
+        "TransactionContext.atomicCommit": [
+          "BR-UC-16-07"
+        ],
+        "TransactionContext.lockedSessionId": [
+          "BR-UC-16-07"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-17-leave-a-session.md",
+      "previous_projection_sha256": "sha256:35d6ec1f44bf556b9994402fa9284e494da05b5ca7e18e6efa5adc7d2248bc92",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-17-leave-a-session.md",
+      "rule_count": 10,
+      "classifiers": [
+        "SessionService",
+        "Departure",
+        "DepartureCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "SessionStatus",
+        "DepartureKind",
+        "DateTime",
+        "ParticipantRole",
+        "ContentShare",
+        "ShareStatus",
+        "StageRequest",
+        "StageRequestStatus"
+      ],
+      "member_rule_references": {
+        "ContentShare": [
+          "BR-UC-17-09"
+        ],
+        "ContentShare.ownerParticipantId": [
+          "BR-UC-17-09"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-17-09"
+        ],
+        "ContentShare.status": [
+          "BR-UC-17-09"
+        ],
+        "ContentShare.stoppedAt": [
+          "BR-UC-17-09"
+        ],
+        "ContentShare.version": [
+          "BR-UC-17-09"
+        ],
+        "DateTime": [
+          "BR-UC-17-05",
+          "BR-UC-17-07",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "Departure": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-04",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "Departure.createdAt": [
+          "BR-UC-17-05"
+        ],
+        "Departure.id": [
+          "BR-UC-17-05"
+        ],
+        "Departure.kind": [
+          "BR-UC-17-05"
+        ],
+        "Departure.participantId": [
+          "BR-UC-17-05"
+        ],
+        "Departure.sessionId": [
+          "BR-UC-17-05"
+        ],
+        "DepartureCommand": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-04",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "DepartureCommand.actorParticipantId": [
+          "BR-UC-17-01",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "DepartureCommand.expectedVersion": [
+          "BR-UC-17-04"
+        ],
+        "DepartureCommand.idempotencyKey": [
+          "BR-UC-17-03"
+        ],
+        "DepartureCommand.kind": [
+          "BR-UC-17-04"
+        ],
+        "DepartureCommand.sessionId": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-05",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "DepartureKind": [
+          "BR-UC-17-04",
+          "BR-UC-17-05"
+        ],
+        "DepartureKind.LEAVE": [
+          "BR-UC-17-04",
+          "BR-UC-17-05"
+        ],
+        "Participant": [
+          "BR-UC-17-01",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08"
+        ],
+        "Participant.cameraEnabled": [
+          "BR-UC-17-07",
+          "BR-UC-17-08"
+        ],
+        "Participant.id": [
+          "BR-UC-17-01",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08"
+        ],
+        "Participant.leftAt": [
+          "BR-UC-17-07"
+        ],
+        "Participant.microphoneEnabled": [
+          "BR-UC-17-07",
+          "BR-UC-17-08"
+        ],
+        "Participant.principalId": [
+          "BR-UC-17-01"
+        ],
+        "Participant.role": [
+          "BR-UC-17-06",
+          "BR-UC-17-08"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-17-01",
+          "BR-UC-17-08"
+        ],
+        "Participant.status": [
+          "BR-UC-17-01",
+          "BR-UC-17-07"
+        ],
+        "Participant.version": [
+          "BR-UC-17-07"
+        ],
+        "ParticipantRole": [
+          "BR-UC-17-06",
+          "BR-UC-17-08"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-17-06"
+        ],
+        "ParticipantRole.STAGE_PARTICIPANT": [
+          "BR-UC-17-08"
+        ],
+        "ParticipantRole.VIEWER": [
+          "BR-UC-17-08"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-17-01",
+          "BR-UC-17-07"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-17-01"
+        ],
+        "ParticipantStatus.LEFT": [
+          "BR-UC-17-07"
+        ],
+        "RequestContext": [
+          "BR-UC-17-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-17-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-17-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-17-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-17-01"
+        ],
+        "Session": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-04",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "Session.id": [
+          "BR-UC-17-02"
+        ],
+        "Session.status": [
+          "BR-UC-17-02",
+          "BR-UC-17-07"
+        ],
+        "Session.version": [
+          "BR-UC-17-04"
+        ],
+        "SessionService": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-04",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "SessionService.leave": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-04",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "SessionStatus": [
+          "BR-UC-17-02",
+          "BR-UC-17-07"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-17-02"
+        ],
+        "ShareStatus": [
+          "BR-UC-17-09"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-17-09"
+        ],
+        "ShareStatus.STOPPED": [
+          "BR-UC-17-09"
+        ],
+        "StageRequest": [
+          "BR-UC-17-10"
+        ],
+        "StageRequest.decidedAt": [
+          "BR-UC-17-10"
+        ],
+        "StageRequest.participantId": [
+          "BR-UC-17-10"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-17-10"
+        ],
+        "StageRequest.status": [
+          "BR-UC-17-10"
+        ],
+        "StageRequest.version": [
+          "BR-UC-17-10"
+        ],
+        "StageRequestStatus": [
+          "BR-UC-17-10"
+        ],
+        "StageRequestStatus.CANCELLED": [
+          "BR-UC-17-10"
+        ],
+        "StageRequestStatus.PENDING": [
+          "BR-UC-17-10"
+        ],
+        "String": [
+          "BR-UC-17-01",
+          "BR-UC-17-02",
+          "BR-UC-17-03",
+          "BR-UC-17-05",
+          "BR-UC-17-06",
+          "BR-UC-17-07",
+          "BR-UC-17-08",
+          "BR-UC-17-09",
+          "BR-UC-17-10"
+        ],
+        "String.trim": [
+          "BR-UC-17-03"
+        ]
+      }
+    },
+    {
+      "path": "docs/01-inception/use-cases/uc-18-end-a-session-for-everyone.md",
+      "previous_projection_sha256": "sha256:a2cd1ff7d5fc29a823997a3f5d32f2376944e42a03efa54fd16a207432ea50c7",
+      "previous_projection_archive": "resource/specification-transformations/100ms-local-uml/before/uc-18-end-a-session-for-everyone.md",
+      "rule_count": 11,
+      "classifiers": [
+        "SessionService",
+        "Departure",
+        "DepartureCommand",
+        "Session",
+        "RequestContext",
+        "String",
+        "Participant",
+        "ParticipantStatus",
+        "ParticipantRole",
+        "SessionStatus",
+        "DepartureKind",
+        "DateTime",
+        "LiveStream",
+        "StreamStatus",
+        "ContentShare",
+        "ShareStatus",
+        "StageRequest",
+        "StageRequestStatus",
+        "Recording",
+        "RecordingStatus"
+      ],
+      "member_rule_references": {
+        "ContentShare": [
+          "BR-UC-18-09"
+        ],
+        "ContentShare.sessionId": [
+          "BR-UC-18-09"
+        ],
+        "ContentShare.status": [
+          "BR-UC-18-09"
+        ],
+        "ContentShare.stoppedAt": [
+          "BR-UC-18-09"
+        ],
+        "ContentShare.version": [
+          "BR-UC-18-09"
+        ],
+        "DateTime": [
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "Departure": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-04",
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "Departure.createdAt": [
+          "BR-UC-18-05"
+        ],
+        "Departure.id": [
+          "BR-UC-18-05"
+        ],
+        "Departure.kind": [
+          "BR-UC-18-05"
+        ],
+        "Departure.participantId": [
+          "BR-UC-18-05"
+        ],
+        "Departure.sessionId": [
+          "BR-UC-18-05"
+        ],
+        "DepartureCommand": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-04",
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "DepartureCommand.actorParticipantId": [
+          "BR-UC-18-01",
+          "BR-UC-18-05"
+        ],
+        "DepartureCommand.expectedVersion": [
+          "BR-UC-18-04"
+        ],
+        "DepartureCommand.idempotencyKey": [
+          "BR-UC-18-03"
+        ],
+        "DepartureCommand.kind": [
+          "BR-UC-18-04"
+        ],
+        "DepartureCommand.sessionId": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-05",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "DepartureKind": [
+          "BR-UC-18-04",
+          "BR-UC-18-05"
+        ],
+        "DepartureKind.END": [
+          "BR-UC-18-04",
+          "BR-UC-18-05"
+        ],
+        "LiveStream": [
+          "BR-UC-18-08"
+        ],
+        "LiveStream.endedAt": [
+          "BR-UC-18-08"
+        ],
+        "LiveStream.sessionId": [
+          "BR-UC-18-08"
+        ],
+        "LiveStream.status": [
+          "BR-UC-18-08"
+        ],
+        "LiveStream.version": [
+          "BR-UC-18-08"
+        ],
+        "Participant": [
+          "BR-UC-18-01",
+          "BR-UC-18-07"
+        ],
+        "Participant.cameraEnabled": [
+          "BR-UC-18-07"
+        ],
+        "Participant.id": [
+          "BR-UC-18-01"
+        ],
+        "Participant.leftAt": [
+          "BR-UC-18-07"
+        ],
+        "Participant.microphoneEnabled": [
+          "BR-UC-18-07"
+        ],
+        "Participant.principalId": [
+          "BR-UC-18-01"
+        ],
+        "Participant.role": [
+          "BR-UC-18-01"
+        ],
+        "Participant.sessionId": [
+          "BR-UC-18-01",
+          "BR-UC-18-07"
+        ],
+        "Participant.status": [
+          "BR-UC-18-01",
+          "BR-UC-18-07"
+        ],
+        "Participant.version": [
+          "BR-UC-18-07"
+        ],
+        "ParticipantRole": [
+          "BR-UC-18-01"
+        ],
+        "ParticipantRole.HOST": [
+          "BR-UC-18-01"
+        ],
+        "ParticipantStatus": [
+          "BR-UC-18-01",
+          "BR-UC-18-07"
+        ],
+        "ParticipantStatus.JOINED": [
+          "BR-UC-18-01",
+          "BR-UC-18-07"
+        ],
+        "ParticipantStatus.LEFT": [
+          "BR-UC-18-07"
+        ],
+        "Recording": [
+          "BR-UC-18-11"
+        ],
+        "Recording.sessionId": [
+          "BR-UC-18-11"
+        ],
+        "Recording.status": [
+          "BR-UC-18-11"
+        ],
+        "Recording.stoppedAt": [
+          "BR-UC-18-11"
+        ],
+        "Recording.version": [
+          "BR-UC-18-11"
+        ],
+        "RecordingStatus": [
+          "BR-UC-18-11"
+        ],
+        "RecordingStatus.RECORDING": [
+          "BR-UC-18-11"
+        ],
+        "RecordingStatus.STARTING": [
+          "BR-UC-18-11"
+        ],
+        "RecordingStatus.STOPPED": [
+          "BR-UC-18-11"
+        ],
+        "RequestContext": [
+          "BR-UC-18-01"
+        ],
+        "RequestContext.authenticated": [
+          "BR-UC-18-01"
+        ],
+        "RequestContext.participantId": [
+          "BR-UC-18-01"
+        ],
+        "RequestContext.principalId": [
+          "BR-UC-18-01"
+        ],
+        "RequestContext.sessionId": [
+          "BR-UC-18-01"
+        ],
+        "Session": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-04",
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "Session.endedAt": [
+          "BR-UC-18-06"
+        ],
+        "Session.id": [
+          "BR-UC-18-02",
+          "BR-UC-18-07",
+          "BR-UC-18-08"
+        ],
+        "Session.status": [
+          "BR-UC-18-02",
+          "BR-UC-18-06"
+        ],
+        "Session.version": [
+          "BR-UC-18-04",
+          "BR-UC-18-06"
+        ],
+        "SessionService": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-04",
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "SessionService.end": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-04",
+          "BR-UC-18-05",
+          "BR-UC-18-06",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "SessionStatus": [
+          "BR-UC-18-02",
+          "BR-UC-18-06"
+        ],
+        "SessionStatus.ENDED": [
+          "BR-UC-18-02",
+          "BR-UC-18-06"
+        ],
+        "ShareStatus": [
+          "BR-UC-18-09"
+        ],
+        "ShareStatus.ACTIVE": [
+          "BR-UC-18-09"
+        ],
+        "ShareStatus.STOPPED": [
+          "BR-UC-18-09"
+        ],
+        "StageRequest": [
+          "BR-UC-18-10"
+        ],
+        "StageRequest.decidedAt": [
+          "BR-UC-18-10"
+        ],
+        "StageRequest.sessionId": [
+          "BR-UC-18-10"
+        ],
+        "StageRequest.status": [
+          "BR-UC-18-10"
+        ],
+        "StageRequest.version": [
+          "BR-UC-18-10"
+        ],
+        "StageRequestStatus": [
+          "BR-UC-18-10"
+        ],
+        "StageRequestStatus.CANCELLED": [
+          "BR-UC-18-10"
+        ],
+        "StageRequestStatus.PENDING": [
+          "BR-UC-18-10"
+        ],
+        "StreamStatus": [
+          "BR-UC-18-08"
+        ],
+        "StreamStatus.ENDED": [
+          "BR-UC-18-08"
+        ],
+        "String": [
+          "BR-UC-18-01",
+          "BR-UC-18-02",
+          "BR-UC-18-03",
+          "BR-UC-18-05",
+          "BR-UC-18-07",
+          "BR-UC-18-08",
+          "BR-UC-18-09",
+          "BR-UC-18-10",
+          "BR-UC-18-11"
+        ],
+        "String.trim": [
+          "BR-UC-18-03"
+        ]
+      }
+    }
+  ],
+  "retired_shared_model": {
+    "previous_projection_path": "docs/01-inception/use-cases/shared-domain-model.md",
+    "archive_path": "resource/specification-transformations/100ms-local-uml/before/shared-domain-model.md",
+    "sha256": "sha256:158ad8ddb61be7ce4dbe446e46b04d3c4d341f2edc3222e0c7cf44d4bd95b352",
+    "status": "historical evidence only; not an active UML dependency"
+  }
+}

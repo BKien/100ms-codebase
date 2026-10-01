@@ -6,9 +6,10 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 COPY package.json package-lock.json ./
 RUN npm ci
-COPY nest-cli.json tsconfig.json tsconfig.build.json ./
+COPY nest-cli.json tsconfig.json tsconfig.build.json eslint.config.mjs ./
 COPY src ./src
-RUN npm run build \
+RUN npm run lint \
+  && npm run build \
   && npm prune --omit=dev
 
 FROM node:22-bookworm-slim AS runtime

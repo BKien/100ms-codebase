@@ -1,0 +1,16 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-01-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6062:60",
+  "frame_name": "Index",
+  "node_type": "GROUP",
+  "natural_width": 1342,
+  "natural_height": 2124,
+  "page_id": "4732:52930",
+  "captured_at": "2026-10-01T09:51:53.507730Z",
+  "status": "partial-content",
+  "context_kind": "sparse-metadata",
+  "truncation_handled": false,
+  "missing_reason": "HTTP asset download or screenshot unavailable; MCP quota blocks further capture"
+}

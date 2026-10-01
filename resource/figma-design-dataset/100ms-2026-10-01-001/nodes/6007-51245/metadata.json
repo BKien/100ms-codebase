@@ -1,0 +1,16 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-01-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:51245",
+  "frame_name": "Preview Flow - Broadcaster",
+  "node_type": "SECTION",
+  "natural_width": 10582,
+  "natural_height": 1142,
+  "page_id": "6007:49584",
+  "captured_at": "2026-10-01T09:51:53.507730Z",
+  "status": "partial-content",
+  "context_kind": "sparse-metadata",
+  "truncation_handled": false,
+  "missing_reason": "HTTP asset download or screenshot unavailable; MCP quota blocks further capture"
+}
