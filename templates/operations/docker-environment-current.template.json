@@ -1,0 +1,10 @@
+{
+  "artifact_type": "docker-environment-current",
+  "observed_at": "<ISO-8601>",
+  "repository_revision": "<hash>",
+  "docker": {"cli": "unknown", "compose": "unknown", "daemon": "unknown"},
+  "configuration": {"env_present": false, "env_valid": false, "compose_valid": false},
+  "services": {},
+  "status": "UNKNOWN",
+  "next_action": "<concise text>"
+}

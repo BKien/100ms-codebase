@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build React Frontend"
+  short_description: "Build React/Vite UI from an approved prompt"
+  default_prompt: "Use $build-react-frontend to implement the frontend portion of this approved prompt."

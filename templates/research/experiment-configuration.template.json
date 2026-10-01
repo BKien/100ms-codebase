@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.4",
+  "artifact_type": "experiment-configuration",
+  "status": "Confirmed",
+  "configuration_id": "CFG-<UC-ID>-<MODEL>-<VARIANT>",
+  "comparison_group_id": "<COMPARISON-GROUP-ID>",
+  "researcher_id": "<stable identifier>",
+  "decided_at": "<ISO-8601>",
+  "sheet_revision": "<UC-SOURCE-REVISION>",
+  "timing_method": "system_timestamp_delta",
+  "flow_audit_rubric": "completion-critical-flow-runtime-v2",
+  "database_baseline": {
+    "migration_head": "<TypeORM migration class name including its 13-digit timestamp>",
+    "dbml_sha256": "sha256:<64 hex>",
+    "schema_fingerprint_sha256": "sha256:<64 hex>"
+  },
+  "figma_dataset": {
+    "dataset_version": "<selected immutable version>",
+    "manifest_path": "resource/figma-design-dataset/<version>/manifest.json",
+    "manifest_sha256": "sha256:<64 hex>"
+  },
+  "audit_design": {
+    "protocol": "fixed | matched | cross",
+    "fixed_auditor": null
+  },
+  "use_case": {
+    "uc_id": "<UC-ID>",
+    "business_rule_baseline": "docs/02-construction/implementation/<UC-ID>/business-rule-baseline.json",
+    "flow_baseline": "docs/02-construction/implementation/<UC-ID>/flow-baseline.json",
+    "api_contracts": [{
+      "api_id": "<API-ID>",
+      "path": "docs/01-inception/api-contracts/<API-ID>.md",
+      "sha256": "sha256:<64-hex>"
+    }]
+  },
+  "runs": [{
+    "run_id": "<UC-ID>-<MODEL>-<VARIANT>",
+    "uc_id": "<UC-ID>",
+    "prompt_variant": "<VARIANT>",
+    "requested_label": "<MODEL>",
+    "requested_model_id": "<exact model ID>",
+    "requested_reasoning_effort": "none | low | medium | high | xhigh | max",
+    "requested_reasoning_mode": "standard | pro",
+    "replicate_index": 1,
+    "run_order": 1,
+    "auditor_assignment": "fixed-auditor | same-as-generation | <auditor ID>"
+  }]
+}

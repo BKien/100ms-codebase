@@ -1,0 +1,24 @@
+{
+  "dataset_version": "2026-08-29-004",
+  "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+  "node_id": "137:8071",
+  "frame_name": "102. Signup",
+  "node_type": "FRAME",
+  "natural_width": 1440,
+  "natural_height": 1024,
+  "captured_at": "2026-08-27T11:07:12.1483469Z",
+  "framework": "react",
+  "language": "typescript",
+  "code_connect_status": "enabled",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 1024,
+    "original_width": 1440,
+    "original_height": 1024
+  },
+  "source_dataset_version": "2026-08-27-001",
+  "plugin_validated_at": "2026-08-29T02:00:13.036520Z"
+}

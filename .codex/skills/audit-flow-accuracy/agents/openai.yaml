@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Flow Accuracy"
+  short_description: "Score completion-critical use-case flows"
+  default_prompt: "Audit the active UC run against its frozen main, alternative and exception flows."

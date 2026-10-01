@@ -1,0 +1,38 @@
+{
+  "node_id": "137:8071",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "figma-mcp-asset/d648bc82-8521-425c-83ac-55aab6e1fe5c.png",
+      "local_path": "assets/sha256-d3ccc74a3d7abcf6e9ef3045b3b94a6f7009d39a002e990788e001df58784c1a.png",
+      "mime_type": "image/png",
+      "source": "design-context-and-raw",
+      "sha256": "d3ccc74a3d7abcf6e9ef3045b3b94a6f7009d39a002e990788e001df58784c1a",
+      "size_bytes": 88628
+    },
+    {
+      "source_identifier": "figma-mcp-asset/3bd26d06-fc3f-4632-ba52-14f9d67f8f44",
+      "local_path": "assets/sha256-70a2fedfc294f4c718dd538d32e1f43dec7c49f40aaa525e08caf8a1ca050a91.png",
+      "mime_type": "image/png",
+      "source": "raw",
+      "sha256": "70a2fedfc294f4c718dd538d32e1f43dec7c49f40aaa525e08caf8a1ca050a91",
+      "size_bytes": 10069
+    },
+    {
+      "source_identifier": "figma-mcp-export/137:8071",
+      "local_path": "export.png",
+      "mime_type": "image/png",
+      "source": "export",
+      "sha256": "d049218cb5a7ee5e96ac2922922a976d1af52eb6a09aa2721a295fb2d686e84a",
+      "size_bytes": 88654
+    },
+    {
+      "source_identifier": "figma-mcp-screenshot/137:8071",
+      "local_path": "screenshot.png",
+      "mime_type": "image/png",
+      "source": "screenshot",
+      "sha256": "91f47438e122563d9959ff46cf0c10fdb794c4a625e221707a02106b9ebe5151",
+      "size_bytes": 47181
+    }
+  ]
+}

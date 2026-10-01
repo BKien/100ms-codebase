@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Generation Metrics"
+  short_description: "Audit Business Rules and frozen use-case flows"
+  default_prompt: "Use $audit-generation-metrics during directly requested first-pass audit or automatically within authorized repair to audit Business Rules and frozen flows; preserve initial evidence and researcher-managed Figma/UI fields."

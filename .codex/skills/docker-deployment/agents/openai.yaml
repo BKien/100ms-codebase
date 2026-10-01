@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Deployment"
+  short_description: "Review and run the FE/BE/MySQL Compose environment"
+  default_prompt: "Use $docker-deployment to review the environment or run the stack when I authorize it."

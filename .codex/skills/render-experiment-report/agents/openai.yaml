@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render Experiment Report"
+  short_description: "Render finalized run JSON as Markdown"
+  default_prompt: "Render the selected finalized experiment-run JSON into a researcher-readable Markdown report."

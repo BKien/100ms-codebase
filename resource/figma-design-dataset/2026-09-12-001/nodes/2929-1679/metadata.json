@@ -1,0 +1,53 @@
+{
+  "dataset_version": "2026-09-12-001",
+  "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+  "node_id": "2929:1679",
+  "frame_name": "106.1, 106.2, 106.3",
+  "node_type": "FRAME",
+  "natural_width": 1440.0,
+  "natural_height": 3447.0,
+  "captured_at": "2026-09-12 14:09:11 UTC",
+  "framework": "react",
+  "language": "typescript",
+  "code_connect_status": "enabled",
+  "code_connect_configuration": "Tool default; no disable override supplied",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": true,
+  "truncation_handled": true,
+  "screenshot": {
+    "width": 1440,
+    "height": 3447,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 3447
+  },
+  "export_dimensions": {
+    "width": 1440,
+    "height": 3447,
+    "observed_scale": 1.0
+  },
+  "geometry_verification": {
+    "verified_at": "2026-09-12 18:23:40 UTC",
+    "id": "2929:1679",
+    "type": "FRAME",
+    "name": "106.1, 106.2, 106.3",
+    "width": 1440,
+    "height": 3447,
+    "absoluteBoundingBox": {
+      "x": 3477,
+      "y": 1100,
+      "width": 1440,
+      "height": 3447
+    },
+    "absoluteRenderBounds": {
+      "x": 3477,
+      "y": 1100,
+      "width": 1440,
+      "height": 3447
+    },
+    "clipsContent": false,
+    "file_key": "BTSOvEnU2X3CNrNvSxX9Ry"
+  },
+  "render_bounds_note": "Screenshot/export cover actual rendered bounds, including unclipped overflow; natural dimensions describe the design node itself."
+}

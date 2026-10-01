@@ -1,0 +1,154 @@
+{
+  "dataset_id": "2026-08-14-002",
+  "dataset_version": "2026-08-14-002",
+  "capture_schema_version": "1.0",
+  "created_at": "2026-08-14T10:10:00+07:00",
+  "source_mapping": "docs/00-context/FIGMA-LINK-REVIEW.md",
+  "mapping_complete": true,
+  "overall_status": "complete",
+  "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+  "unique_nodes": 9,
+  "complete_nodes": 9,
+  "partial_content_nodes": 0,
+  "pending_rate_limit_nodes": 0,
+  "nodes": {
+    "137:7477": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "101. Login",
+      "snapshot_dir": "nodes/137-7477",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "137:8071": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "102. Signup",
+      "snapshot_dir": "nodes/137-8071",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "66:5474": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "107. Transactions",
+      "snapshot_dir": "nodes/66-5474",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "66:5320": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "105. Balances",
+      "snapshot_dir": "nodes/66-5320",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": true
+    },
+    "416:7878": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "106. Account Details",
+      "snapshot_dir": "nodes/416-7878",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "66:5698": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "109. Expenses",
+      "snapshot_dir": "nodes/66-5698",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "66:5609": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "108. Bills",
+      "snapshot_dir": "nodes/66-5609",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "66:5829": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110. Goals",
+      "snapshot_dir": "nodes/66-5829",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "416:6052": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110.1. Goals",
+      "snapshot_dir": "nodes/416-6052",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    }
+  },
+  "use_cases": {
+    "UC-001": {
+      "node_id": "137:7477",
+      "status": "complete"
+    },
+    "UC-002": {
+      "node_id": "137:8071",
+      "status": "complete"
+    },
+    "UC-003": {
+      "node_id": "66:5474",
+      "status": "complete"
+    },
+    "UC-004": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-005": {
+      "node_id": "66:5320",
+      "status": "complete"
+    },
+    "UC-006": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-007": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-008": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-009": {
+      "node_id": "416:7878",
+      "status": "complete"
+    },
+    "UC-010": {
+      "node_id": "66:5698",
+      "status": "complete"
+    },
+    "UC-011": {
+      "node_id": "66:5698",
+      "status": "complete"
+    },
+    "UC-012": {
+      "node_id": "66:5609",
+      "status": "complete"
+    },
+    "UC-013": {
+      "node_id": "66:5829",
+      "status": "complete"
+    },
+    "UC-014": {
+      "node_id": "416:6052",
+      "status": "complete"
+    },
+    "UC-015": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-016": {
+      "node_id": "66:5829",
+      "status": "complete"
+    }
+  }
+}

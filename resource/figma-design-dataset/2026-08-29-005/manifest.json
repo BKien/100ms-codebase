@@ -1,0 +1,255 @@
+{
+  "dataset_id": "2026-08-29-005",
+  "dataset_version": "2026-08-29-005",
+  "capture_schema_version": "1.0",
+  "created_at": "2026-08-29T14:03:02.190Z",
+  "source_mapping": "docs/00-context/FIGMA-LINK-REVIEW.md",
+  "mapping_complete": true,
+  "overall_status": "complete",
+  "file_keys": [
+    "BTSOvEnU2X3CNrNvSxX9Ry",
+    "7lyW3RmfX2jUM2VI6XdHK9",
+    "zu3rZ336n1et2pWUGGIxlO"
+  ],
+  "unique_nodes": 15,
+  "primary_nodes": 14,
+  "supplementary_nodes": 1,
+  "complete_nodes": 15,
+  "partial_content_nodes": 0,
+  "pending_rate_limit_nodes": 0,
+  "nodes": {
+    "137:8071": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "102. Signup",
+      "snapshot_dir": "nodes/137-8071",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "137:7477": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "101. Login",
+      "snapshot_dir": "nodes/137-7477",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "66:5474": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "107. Transactions",
+      "snapshot_dir": "nodes/66-5474",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "4740:1106": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "107.1 Add Transactions",
+      "snapshot_dir": "nodes/4740-1106",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "2883:1676": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "105. View Bank Accounts",
+      "snapshot_dir": "nodes/2883-1676",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "4795:3": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "UC-06 • Add Bank Account",
+      "snapshot_dir": "nodes/4795-3",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "4795:4": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "UC-07 • Bank Account Details",
+      "snapshot_dir": "nodes/4795-4",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "4795:5": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "UC-08 • Edit Bank Account",
+      "snapshot_dir": "nodes/4795-5",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "2798:2356": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "106.4 Remove and Confirm Account Deletion",
+      "snapshot_dir": "nodes/2798-2356",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": true
+    },
+    "2798:2468": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "106.5 Account Removed Successfully",
+      "snapshot_dir": "nodes/2798-2468",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "role": "supplementary",
+      "related_use_cases": [
+        "UC-009"
+      ]
+    },
+    "66:5698": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "109. Expenses",
+      "snapshot_dir": "nodes/66-5698",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "66:5609": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "108. Bills",
+      "snapshot_dir": "nodes/66-5609",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "66:5829": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110. Goals",
+      "snapshot_dir": "nodes/66-5829",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "416:6052": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110.1. Goals",
+      "snapshot_dir": "nodes/416-6052",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "source_dataset_version": "2026-08-29-004"
+    },
+    "4795:6": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "UC-15 • Adjust Financial Goal",
+      "snapshot_dir": "nodes/4795-6",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    }
+  },
+  "use_cases": {
+    "UC-001": {
+      "node_id": "137:8071",
+      "status": "complete"
+    },
+    "UC-002": {
+      "node_id": "137:7477",
+      "status": "complete"
+    },
+    "UC-003": {
+      "node_id": "66:5474",
+      "status": "complete"
+    },
+    "UC-004": {
+      "node_id": "4740:1106",
+      "status": "complete"
+    },
+    "UC-005": {
+      "node_id": "2883:1676",
+      "status": "complete"
+    },
+    "UC-006": {
+      "node_id": "4795:3",
+      "status": "complete"
+    },
+    "UC-007": {
+      "node_id": "4795:4",
+      "status": "complete"
+    },
+    "UC-008": {
+      "node_id": "4795:5",
+      "status": "complete"
+    },
+    "UC-009": {
+      "node_id": "2798:2356",
+      "status": "complete",
+      "related_node_ids": [
+        "2798:2468"
+      ]
+    },
+    "UC-010": {
+      "node_id": "66:5698",
+      "status": "complete"
+    },
+    "UC-011": {
+      "node_id": "66:5698",
+      "status": "complete"
+    },
+    "UC-012": {
+      "node_id": "66:5609",
+      "status": "complete"
+    },
+    "UC-013": {
+      "node_id": "66:5829",
+      "status": "complete"
+    },
+    "UC-014": {
+      "node_id": "416:6052",
+      "status": "complete"
+    },
+    "UC-015": {
+      "node_id": "4795:6",
+      "status": "complete"
+    },
+    "UC-016": {
+      "node_id": "66:5829",
+      "status": "complete"
+    }
+  },
+  "composite_sources": [
+    {
+      "dataset_version": "2026-08-29-004",
+      "nodes": [
+        "137:8071",
+        "137:7477",
+        "66:5474",
+        "4740:1106",
+        "2883:1676",
+        "66:5698",
+        "66:5609",
+        "66:5829",
+        "416:6052"
+      ]
+    },
+    {
+      "dataset_version": null,
+      "captured_at": "2026-08-29T14:03:02.190Z",
+      "nodes": [
+        "4795:3",
+        "4795:4",
+        "4795:5",
+        "4795:6",
+        "2798:2356",
+        "2798:2468"
+      ]
+    }
+  ],
+  "capture_note": "Corrected the stale UC numbering and paths, added dedicated frames for UC-006/007/008/015, and captured both primary and success states for UC-009."
+}
+

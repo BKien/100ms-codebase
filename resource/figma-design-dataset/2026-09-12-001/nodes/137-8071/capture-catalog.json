@@ -1,0 +1,26 @@
+{
+  "root": {
+    "export": {
+      "nodeId": "137:8071",
+      "url": "../../assets/sha256-d049218cb5a7ee5e96ac2922922a976d1af52eb6a09aa2721a295fb2d686e84a.png",
+      "format": "png",
+      "sizeBytes": 88654
+    },
+    "rawImages": [
+      {
+        "url": "../../assets/sha256-d3ccc74a3d7abcf6e9ef3045b3b94a6f7009d39a002e990788e001df58784c1a.png",
+        "format": "png"
+      },
+      {
+        "url": "../../assets/sha256-70a2fedfc294f4c718dd538d32e1f43dec7c49f40aaa525e08caf8a1ca050a91.png",
+        "format": "png"
+      }
+    ],
+    "rawImagesTruncated": false,
+    "svgAssets": [],
+    "svgAssetsTruncated": false
+  },
+  "supplementary_catalogs": [],
+  "truncation_handled": false,
+  "resolution": "Catalogs were not truncated."
+}

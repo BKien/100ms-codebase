@@ -1,0 +1,39 @@
+{
+  "assets": [
+    {
+      "source_identifier": "figma-mcp-asset/28b54369-873f-4f28-a846-3371eab803cf",
+      "local_path": "assets/asset-003.bin",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 302839,
+      "sha256": "22b30a523f5c203bc81c5db2a018aaf29f5007731dd0ddfc25314e03c0a987d4"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/647a284d-ecc4-47d1-ace8-6b3fb1f9240b.png",
+      "local_path": "assets/asset-001.png",
+      "mime_type": "image/png",
+      "size_bytes": 302839,
+      "sha256": "22b30a523f5c203bc81c5db2a018aaf29f5007731dd0ddfc25314e03c0a987d4"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/6bff23b7-ac26-4504-9dbd-a86ccff74cdf.png",
+      "local_path": "screenshot.png",
+      "mime_type": "image/png",
+      "size_bytes": 131606,
+      "sha256": "8fb6d62e0ae693765e668f1e007bca7ea1519279b8f12e3805fe3661c5d1f70a"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/b2a9ea87-decf-4277-8574-39b58ef380d9",
+      "local_path": "assets/asset-004.bin",
+      "mime_type": "application/octet-stream",
+      "size_bytes": 22067,
+      "sha256": "b299088911505bbd5980e08e79041a33a923ceb1af1653ab6037669ee35a4870"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/f7df7855-370c-4bce-b419-2a06c4d9bd79.png",
+      "local_path": "export.png",
+      "mime_type": "image/png",
+      "size_bytes": 302508,
+      "sha256": "131aa1e32e54d1ddbe957832183183f4a26398a68c740a611b3a0ec283973513"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "node_id": "416:6052",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "figma-mcp-asset/ce10cb23-7094-4320-b90f-c59ea3e62a98.png",
+      "local_path": "../../assets/sha256-e53a93987aeaf6f25da7594455fbdb4d463482513101d7cfbac88816983cd799.png",
+      "mime_type": "image/png",
+      "size_bytes": 268865,
+      "sha256": "e53a93987aeaf6f25da7594455fbdb4d463482513101d7cfbac88816983cd799"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/57f4204b-a10d-4507-b882-59b83327e4b4.png",
+      "local_path": "../../assets/sha256-ea04fd2c73355eef183efb708ac250b3cea3f273f6260697f69f433d3b727e6b.png",
+      "mime_type": "image/png",
+      "size_bytes": 268935,
+      "sha256": "ea04fd2c73355eef183efb708ac250b3cea3f273f6260697f69f433d3b727e6b"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/5cf6f025-b7fd-4424-a664-b826108e0f3b",
+      "local_path": "../../assets/sha256-e53a93987aeaf6f25da7594455fbdb4d463482513101d7cfbac88816983cd799.png",
+      "mime_type": "image/png",
+      "size_bytes": 268865,
+      "sha256": "e53a93987aeaf6f25da7594455fbdb4d463482513101d7cfbac88816983cd799"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/11f44f86-c58c-452f-8d69-d950e08b35da",
+      "local_path": "../../assets/sha256-7625482def598238b77126830be04057a19194d2f5362035a4daad7f5850717d.png",
+      "mime_type": "image/png",
+      "size_bytes": 21429,
+      "sha256": "7625482def598238b77126830be04057a19194d2f5362035a4daad7f5850717d"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/136cade8-05a6-4621-8ba3-b2edf923eb7b.png",
+      "local_path": "../../assets/sha256-87603fb7dd07a7dd563ef742cfa6dbb97947bd8b0e5cf63e50d9ac73ceed5908.png",
+      "mime_type": "image/png",
+      "size_bytes": 122750,
+      "sha256": "87603fb7dd07a7dd563ef742cfa6dbb97947bd8b0e5cf63e50d9ac73ceed5908"
+    }
+  ]
+}

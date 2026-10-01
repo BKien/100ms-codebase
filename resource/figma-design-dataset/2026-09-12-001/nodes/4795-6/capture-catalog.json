@@ -1,0 +1,23 @@
+{
+  "root": {
+    "export": {
+      "nodeId": "4795:6",
+      "url": "../../assets/sha256-128843393af07ec483019226efa0c1377e86b1b790b9a217051ecde97e349743.png",
+      "format": "png",
+      "sizeBytes": 109822
+    },
+    "rawImages": [],
+    "rawImagesTruncated": false,
+    "svgAssets": [
+      {
+        "url": "../../assets/sha256-c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34.svg",
+        "format": "svg",
+        "sizeBytes": 234
+      }
+    ],
+    "svgAssetsTruncated": false
+  },
+  "supplementary_catalogs": [],
+  "truncation_handled": false,
+  "resolution": "Catalogs were not truncated."
+}

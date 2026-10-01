@@ -1,0 +1,4 @@
+interface:
+  display_name: "Restore Source Baseline"
+  short_description: "Safely restore the provided source baseline"
+  default_prompt: "Use $restore-source-baseline to inspect and, after my approval, restore finalsource to the provided baseline."

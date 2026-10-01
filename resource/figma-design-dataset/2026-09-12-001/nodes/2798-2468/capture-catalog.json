@@ -1,0 +1,48 @@
+{
+  "root": {
+    "export": {
+      "nodeId": "2798:2468",
+      "url": "../../assets/sha256-0a07aa44cd89a03bdcc40faa975c6064c61e6eaa4de1e6ca8d96804887c1aff4.png",
+      "format": "png",
+      "sizeBytes": 57857
+    },
+    "rawImages": [],
+    "rawImagesTruncated": false,
+    "svgAssets": [
+      {
+        "url": "../../assets/sha256-c80d8dba127828568fbf27e62c7987e40d7db18638601b5d1f52674a79c46502.svg",
+        "format": "svg",
+        "sizeBytes": 448
+      },
+      {
+        "url": "../../assets/sha256-4ff6c0ba616b04fc37b5e3d87cfd0cbd24980f227282eff83bc61dc4a3b75afc.svg",
+        "format": "svg",
+        "sizeBytes": 387
+      },
+      {
+        "url": "../../assets/sha256-897124eff0ded2c161b2cd60505cc2347345de7cd02c0d98de41db41d006708f.svg",
+        "format": "svg",
+        "sizeBytes": 1710
+      },
+      {
+        "url": "../../assets/sha256-f32d8c95c3bce313a9f817fab7cef576bf4551feaa42908c56c012e77a6024e3.svg",
+        "format": "svg",
+        "sizeBytes": 301
+      },
+      {
+        "url": "../../assets/sha256-78313ca8553dfd9bb0df32cc405458cae4992a9a782564fa90c4e33b9336dd1f.svg",
+        "format": "svg",
+        "sizeBytes": 314
+      },
+      {
+        "url": "../../assets/sha256-1d2e2a1dc9278f7efa75629a8d91ed6bb25f12c9c13b69cbb6cc0a03697adfdc.svg",
+        "format": "svg",
+        "sizeBytes": 1710
+      }
+    ],
+    "svgAssetsTruncated": false
+  },
+  "supplementary_catalogs": [],
+  "truncation_handled": false,
+  "resolution": "Catalogs were not truncated."
+}

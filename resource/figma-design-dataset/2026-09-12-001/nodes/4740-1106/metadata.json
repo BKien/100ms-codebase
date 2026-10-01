@@ -1,0 +1,53 @@
+{
+  "dataset_version": "2026-09-12-001",
+  "file_key": "zu3rZ336n1et2pWUGGIxlO",
+  "node_id": "4740:1106",
+  "frame_name": "107.1 Add Transactions ",
+  "node_type": "FRAME",
+  "natural_width": 1440.0,
+  "natural_height": 1024.0,
+  "captured_at": "2026-09-12 14:08:30 UTC",
+  "framework": "react",
+  "language": "typescript",
+  "code_connect_status": "enabled",
+  "code_connect_configuration": "Tool default; no disable override supplied",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "truncation_handled": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 1024,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 1024
+  },
+  "export_dimensions": {
+    "width": 2880,
+    "height": 2048,
+    "observed_scale": 2.0
+  },
+  "geometry_verification": {
+    "verified_at": "2026-09-12 18:23:40 UTC",
+    "id": "4740:1106",
+    "type": "FRAME",
+    "name": "107.1 Add Transactions ",
+    "width": 1440,
+    "height": 1024,
+    "absoluteBoundingBox": {
+      "x": 17245,
+      "y": -512,
+      "width": 1440,
+      "height": 1024
+    },
+    "absoluteRenderBounds": {
+      "x": 17245,
+      "y": -512,
+      "width": 1440,
+      "height": 1024
+    },
+    "clipsContent": true,
+    "file_key": "zu3rZ336n1et2pWUGGIxlO"
+  },
+  "render_bounds_note": "Screenshot/export cover actual rendered bounds, including unclipped overflow; natural dimensions describe the design node itself."
+}

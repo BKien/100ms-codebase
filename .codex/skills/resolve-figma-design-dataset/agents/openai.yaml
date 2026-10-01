@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create or Resolve Figma Dataset"
+  short_description: "Build and map complete offline Figma data"
+  default_prompt: "Use $resolve-figma-design-dataset to create or resolve the full offline Figma dataset using only the approved review mapping."

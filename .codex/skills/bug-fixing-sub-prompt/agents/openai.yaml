@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug-fixing Sub-prompt"
+  short_description: "Repair evidenced generated-source errors and record metrics"
+  default_prompt: "Use $bug-fixing-sub-prompt as my explicit repair authorization: verify complete accepted flow verdicts, record the pending Repair Decision and repair evidenced defects immediately without another confirmation; automatically verify BR/flow/runtime before Repair Gate."

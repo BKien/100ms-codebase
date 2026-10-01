@@ -1,0 +1,271 @@
+{
+  "dataset_id": "2026-09-12-001",
+  "dataset_version": "2026-09-12-001",
+  "capture_schema_version": "1.0",
+  "created_at": "2026-09-12T18:23:46.265038+00:00",
+  "source_mapping": "docs/00-context/FIGMA-LINK-REVIEW.md",
+  "source_mapping_sha256": "978f6b9cc6beef2bdf429681288cc01aaa8c344a61236991c445d0393fedee79",
+  "source_mapping_snapshot": "source-mapping.md",
+  "mapping_complete": true,
+  "overall_status": "complete",
+  "file_keys": [
+    "BTSOvEnU2X3CNrNvSxX9Ry",
+    "zu3rZ336n1et2pWUGGIxlO"
+  ],
+  "unique_nodes": 15,
+  "primary_nodes": 14,
+  "supplementary_nodes": 1,
+  "complete_nodes": 15,
+  "partial_content_nodes": 0,
+  "pending_rate_limit_nodes": 0,
+  "capture_started_at": "2026-09-12 14:08:29 UTC",
+  "vector_capture_completed_at": "2026-09-12 18:19:50 UTC",
+  "capture_note": "Fresh capture of every approved mapping; no prior snapshot copied. Capture resumed across turns and is not an atomic Figma file transaction. Per-node capture times and vector supplement time are retained.",
+  "nodes": {
+    "137:8071": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "102. Signup",
+      "snapshot_dir": "nodes/137-8071",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:08:29 UTC"
+    },
+    "137:7477": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "101. Login",
+      "snapshot_dir": "nodes/137-7477",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:08:30 UTC"
+    },
+    "611:3062": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "107",
+      "snapshot_dir": "nodes/611-3062",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:08:30 UTC"
+    },
+    "4740:1106": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "107.1 Add Transactions ",
+      "snapshot_dir": "nodes/4740-1106",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:08:30 UTC"
+    },
+    "66:5320": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "105. View Bank Accounts",
+      "snapshot_dir": "nodes/66-5320",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": true,
+      "truncation_handled": true,
+      "captured_at": "2026-09-12 14:09:11 UTC"
+    },
+    "2925:1677": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "105.1 Add a Bank Baccount",
+      "snapshot_dir": "nodes/2925-1677",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": true,
+      "truncation_handled": true,
+      "captured_at": "2026-09-12 14:09:11 UTC"
+    },
+    "416:7878": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "106. Account Details",
+      "snapshot_dir": "nodes/416-7878",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:11 UTC"
+    },
+    "2929:1679": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "106.1, 106.2, 106.3",
+      "snapshot_dir": "nodes/2929-1679",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": true,
+      "truncation_handled": true,
+      "captured_at": "2026-09-12 14:09:11 UTC"
+    },
+    "2929:1680": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "106.4, 106.5",
+      "snapshot_dir": "nodes/2929-1680",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": true,
+      "truncation_handled": true,
+      "captured_at": "2026-09-12 14:09:11 UTC"
+    },
+    "66:5698": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "109. Expenses",
+      "snapshot_dir": "nodes/66-5698",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC"
+    },
+    "66:5609": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "108. Bills",
+      "snapshot_dir": "nodes/66-5609",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC"
+    },
+    "66:5829": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "110. Goals",
+      "snapshot_dir": "nodes/66-5829",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC"
+    },
+    "416:6052": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "110.1. Goals",
+      "snapshot_dir": "nodes/416-6052",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC"
+    },
+    "4795:6": {
+      "file_key": "zu3rZ336n1et2pWUGGIxlO",
+      "frame_name": "UC-15 • Adjust Financial Goal",
+      "snapshot_dir": "nodes/4795-6",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC"
+    },
+    "2798:2468": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "Frame",
+      "snapshot_dir": "nodes/2798-2468",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "truncation_handled": false,
+      "captured_at": "2026-09-12 14:09:49 UTC",
+      "role": "supplementary",
+      "related_use_cases": [
+        "UC-009"
+      ]
+    }
+  },
+  "use_cases": {
+    "UC-001": {
+      "node_id": "137:8071",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-01-register-account.md"
+    },
+    "UC-002": {
+      "node_id": "137:7477",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-02-login.md"
+    },
+    "UC-003": {
+      "node_id": "611:3062",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-03-view-transaction-history.md"
+    },
+    "UC-004": {
+      "node_id": "4740:1106",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-04-create-transaction.md"
+    },
+    "UC-005": {
+      "node_id": "66:5320",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-05-view-bank-accounts.md"
+    },
+    "UC-006": {
+      "node_id": "2925:1677",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-06-add-bank-account.md"
+    },
+    "UC-007": {
+      "node_id": "416:7878",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-07-view-bank-account-details.md"
+    },
+    "UC-008": {
+      "node_id": "2929:1679",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-08-edit-bank-account.md"
+    },
+    "UC-009": {
+      "node_id": "2929:1680",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-09-delete-bank-account.md",
+      "related_node_ids": [
+        "2798:2468"
+      ]
+    },
+    "UC-010": {
+      "node_id": "66:5698",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-10-view-monthly-expense-summary.md"
+    },
+    "UC-011": {
+      "node_id": "66:5698",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-11-view-expenses-by-category.md"
+    },
+    "UC-012": {
+      "node_id": "66:5609",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-12-view-upcoming-bills.md"
+    },
+    "UC-013": {
+      "node_id": "66:5829",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-13-view-financial-goals.md"
+    },
+    "UC-014": {
+      "node_id": "416:6052",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-14-create-financial-goal.md"
+    },
+    "UC-015": {
+      "node_id": "4795:6",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-15-adjust-financial-goal.md"
+    },
+    "UC-016": {
+      "node_id": "66:5829",
+      "status": "complete",
+      "source_uc": "docs/01-inception/use-cases/uc-16-view-savings-summary.md"
+    }
+  },
+  "asset_summary": {
+    "downloaded_source_identifiers": 488,
+    "supplemental_vector_exports": 268,
+    "empty_vectors_recorded": 7,
+    "unique_asset_files": 171
+  }
+}

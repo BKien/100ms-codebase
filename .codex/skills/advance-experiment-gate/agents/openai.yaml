@@ -1,0 +1,4 @@
+interface:
+  display_name: "Record Workflow Commands"
+  short_description: "Record command steps without extra confirmations"
+  default_prompt: "Use $advance-experiment-gate only for internal command bookkeeping under FILE-DRIVEN-WORKFLOW.md. Never ask extra gate confirmations or require activation. Save either follow-up path and wait for the repair command if defects remain."

@@ -1,0 +1,56 @@
+{
+  "dataset_version": "2026-08-29-004",
+  "source_dataset_version": "2026-08-29-003",
+  "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+  "node_id": "2883:1676",
+  "frame_name": "105. View Bank Accounts",
+  "node_type": "frame",
+  "natural_width": 1440,
+  "natural_height": 5109,
+  "captured_at": "2026-08-29T12:09:41.889Z",
+  "framework": "React 18",
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "code_connect_status": "queried-by-get_design_context",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "grouped_child_capture": {
+    "reason": "Parent export exceeded the 20-SVG response cap; all verified child screens and shared component subtrees were captured separately.",
+    "child_nodes": [
+      "66:5320",
+      "2798:2163",
+      "2798:2264",
+      "2798:2372"
+    ],
+    "split_nodes": [
+      "410:5547",
+      "411:6111",
+      "413:7727",
+      "2798:2265",
+      "2798:2266",
+      "411:6376",
+      "411:6386",
+      "411:6379",
+      "411:6380",
+      "411:6381",
+      "411:6382",
+      "411:6383",
+      "411:6384",
+      "411:6385"
+    ],
+    "all_split_responses_untruncated": true
+  },
+  "ignored_documentation_examples": [
+    "550e8400-e29b-41d4-a716-446655440000.png"
+  ],
+  "screenshot": {
+    "width": 1440,
+    "height": 5109,
+    "original_width": 1440,
+    "original_height": 5109
+  }
+}

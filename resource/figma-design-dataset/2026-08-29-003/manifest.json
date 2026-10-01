@@ -1,0 +1,177 @@
+{
+  "dataset_id": "2026-08-29-003",
+  "dataset_version": "2026-08-29-003",
+  "capture_schema_version": "1.0",
+  "created_at": "2026-08-29T12:09:41.889Z",
+  "source_mapping": "docs/00-context/FIGMA-LINK-REVIEW.md",
+  "mapping_complete": true,
+  "overall_status": "partial-content",
+  "file_keys": [
+    "BTSOvEnU2X3CNrNvSxX9Ry",
+    "7lyW3RmfX2jUM2VI6XdHK9"
+  ],
+  "unique_nodes": 9,
+  "complete_nodes": 1,
+  "partial_content_nodes": 8,
+  "pending_rate_limit_nodes": 0,
+  "nodes": {
+    "137:8071": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "102. Signup",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "137:7477": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "101. Login",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "66:5474": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "107. Transactions",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "2883:1676": {
+      "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+      "frame_name": "105. View Bank Accounts",
+      "snapshot_dir": "nodes/2883-1676",
+      "status": "complete",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false
+    },
+    "416:7878": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "106. Account Details",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "66:5698": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "109. Expenses",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "66:5609": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "108. Bills",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "66:5829": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110. Goals",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    },
+    "416:6052": {
+      "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+      "frame_name": "110.1. Goals",
+      "snapshot_dir": null,
+      "status": "partial-content",
+      "raw_images_truncated": false,
+      "svg_assets_truncated": false,
+      "missing_reason": "not_in_focused_capture"
+    }
+  },
+  "use_cases": {
+    "UC-001": {
+      "node_id": "137:8071",
+      "status": "partial-content"
+    },
+    "UC-002": {
+      "node_id": "137:7477",
+      "status": "partial-content"
+    },
+    "UC-003": {
+      "node_id": "66:5474",
+      "status": "partial-content"
+    },
+    "UC-004": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-005": {
+      "node_id": "2883:1676",
+      "status": "complete"
+    },
+    "UC-006": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-007": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-008": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-009": {
+      "node_id": "416:7878",
+      "status": "partial-content"
+    },
+    "UC-010": {
+      "node_id": "66:5698",
+      "status": "partial-content"
+    },
+    "UC-011": {
+      "node_id": "66:5698",
+      "status": "partial-content"
+    },
+    "UC-012": {
+      "node_id": "66:5609",
+      "status": "partial-content"
+    },
+    "UC-013": {
+      "node_id": "66:5829",
+      "status": "partial-content"
+    },
+    "UC-014": {
+      "node_id": "416:6052",
+      "status": "partial-content"
+    },
+    "UC-015": {
+      "node_id": null,
+      "status": "no-design"
+    },
+    "UC-016": {
+      "node_id": "66:5829",
+      "status": "partial-content"
+    }
+  },
+  "capture_scope": [
+    "UC-005"
+  ],
+  "plugin_validation": {
+    "validated_at": "2026-08-29T12:09:41.889Z",
+    "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+    "node_id": "2883:1676",
+    "frame_name": "105. View Bank Accounts",
+    "width": 1440,
+    "height": 5109
+  }
+}
+

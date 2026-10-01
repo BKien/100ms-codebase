@@ -1,0 +1,6 @@
+interface:
+  display_name: "Export Experiment Excel"
+  short_description: "Fill Excel results with traceable values or N/A"
+  default_prompt: "$export-experiment-excel uc-01 results.xlsx Results"
+policy:
+  allow_implicit_invocation: false

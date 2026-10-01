@@ -1,0 +1,53 @@
+{
+  "dataset_version": "2026-09-12-001",
+  "file_key": "zu3rZ336n1et2pWUGGIxlO",
+  "node_id": "4795:6",
+  "frame_name": "UC-15 • Adjust Financial Goal",
+  "node_type": "FRAME",
+  "natural_width": 1440.0,
+  "natural_height": 900.0,
+  "captured_at": "2026-09-12 14:09:49 UTC",
+  "framework": "react",
+  "language": "typescript",
+  "code_connect_status": "enabled",
+  "code_connect_configuration": "Tool default; no disable override supplied",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "truncation_handled": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 900,
+    "format": "png",
+    "original_width": 1440,
+    "original_height": 900
+  },
+  "export_dimensions": {
+    "width": 1440,
+    "height": 900,
+    "observed_scale": 1.0
+  },
+  "geometry_verification": {
+    "verified_at": "2026-09-12 18:23:40 UTC",
+    "id": "4795:6",
+    "type": "FRAME",
+    "name": "UC-15 • Adjust Financial Goal",
+    "width": 1440,
+    "height": 900,
+    "absoluteBoundingBox": {
+      "x": 23389,
+      "y": -512,
+      "width": 1440,
+      "height": 900
+    },
+    "absoluteRenderBounds": {
+      "x": 23389,
+      "y": -512,
+      "width": 1440,
+      "height": 900
+    },
+    "clipsContent": true,
+    "file_key": "zu3rZ336n1et2pWUGGIxlO"
+  },
+  "render_bounds_note": "Screenshot/export cover actual rendered bounds, including unclipped overflow; natural dimensions describe the design node itself."
+}

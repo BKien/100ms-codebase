@@ -1,0 +1,23 @@
+{
+  "node_id": "4795:3",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "ff7e626e-516e-465b-97b3-81956995a9d7.svg",
+      "local_path": "../../assets/sha256-c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34.svg",
+      "mime_type": "image/svg+xml",
+      "source": "design-context",
+      "sha256": "c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34",
+      "size_bytes": 234
+    },
+    {
+      "source_identifier": "ded12fa7-beac-4ff6-8efd-a0536f27aa5e.svg",
+      "local_path": "../../assets/sha256-c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34.svg",
+      "mime_type": "image/svg+xml",
+      "source": "svg",
+      "sha256": "c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34",
+      "size_bytes": 234
+    }
+  ]
+}
+

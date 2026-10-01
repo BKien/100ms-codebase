@@ -1,0 +1,12 @@
+{
+  "artifact_type": "run-activation",
+  "gate_version": 5,
+  "uc_id": "<UC-ID>",
+  "run_id": "<RUN-ID>",
+  "prompt_variant": "<value from pinned configuration>",
+  "approved_prompt": {"path": "<approved prompt repo path>", "sha256": "sha256:<approved bytes checksum>"},
+  "configuration_artifact": "docs/04-experiments/configurations/<CONFIG-ID>.json",
+  "configuration_checksum": "sha256:<checksum>",
+  "activated_at": "<ISO-8601>",
+  "status": "Confirmed"
+}

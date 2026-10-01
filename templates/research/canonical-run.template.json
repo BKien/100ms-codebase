@@ -1,0 +1,61 @@
+{
+  "run_id": "<UC-ID>-<MODEL>-<VARIANT>",
+  "prompt_variant": "<VARIANT>",
+  "coding_prompt": null,
+  "experiment_configuration": {
+    "configuration_id": "CFG-<UC-ID>-<MODEL>-<VARIANT>",
+    "comparison_group_id": "<COMPARISON-GROUP-ID>",
+    "researcher_id": "<researcher identifier>",
+    "artifact": "docs/04-experiments/configurations/CFG-<UC-ID>-<MODEL>-<VARIANT>.json",
+    "checksum": "sha256:<checksum>",
+    "run_activation": "docs/02-construction/implementation/<UC-ID>/runs/<UC-ID>-<MODEL>-<VARIANT>/run-activation.json"
+  },
+  "uc_id": "<UC-ID>",
+  "uc_name": "<Use case name>",
+  "replicate_index": 1,
+  "run_order": 1,
+  "audit_protocol": "fixed | matched | cross",
+  "generation_model": {
+    "requested_model_id": "<exact ID>",
+    "requested_reasoning_effort": "<effort>",
+    "effective_model_id": null,
+    "effective_snapshot": null,
+    "codex_client_version": null
+  },
+  "run_status": "draft",
+  "gates": {
+    "current": "prompt",
+    "history": []
+  },
+  "metrics_schema_version": 3,
+  "metrics": null,
+  "repair_authorization": { "approved": false, "turn_id": null },
+  "business_rules": {
+    "baseline": "docs/02-construction/implementation/<UC-ID>/business-rule-baseline.json",
+    "source_revision": null,
+    "ordered_br_ids": ["<BR-ID>"],
+    "initial": null,
+    "final": null
+  },
+  "repairs": [],
+  "manual_estimates_minutes": [],
+  "ui_accuracy_percent": null,
+  "ui_accuracy_status": "researcher_managed",
+  "ui_accuracy_source": "manual",
+  "ui_accuracy_evidence": null,
+  "ui_accuracy_recorded_by": null,
+  "ui_accuracy_recorded_at": null,
+  "flow_accuracy_percent": null,
+  "flow_error_percent": null,
+  "flow_accuracy_status": "not_evaluated",
+  "flow_accuracy": null,
+  "complexity": {
+    "actors": 0,
+    "main_flow_steps": 0,
+    "alternate_exception_flows": 0,
+    "data_entities": 0,
+    "integrations": 0,
+    "business_rules": 0,
+    "ui_states": 0
+  }
+}

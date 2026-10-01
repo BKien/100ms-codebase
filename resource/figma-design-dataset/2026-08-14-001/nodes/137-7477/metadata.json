@@ -1,0 +1,27 @@
+{
+  "dataset_version": "2026-08-14-001",
+  "file_key": "7lyW3RmfX2jUM2VI6XdHK9",
+  "node_id": "137:7477",
+  "frame_name": "101. Login",
+  "node_type": "frame",
+  "natural_width": 1440,
+  "natural_height": 1024,
+  "captured_at": "2026-08-14T09:40:00+07:00",
+  "framework": "React 18",
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "code_connect_status": "queried-by-get_design_context",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 1024,
+    "original_width": 1440,
+    "original_height": 1024
+  }
+}
+

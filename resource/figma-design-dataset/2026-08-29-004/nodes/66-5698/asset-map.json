@@ -1,0 +1,39 @@
+{
+    "assets":  [
+                   {
+                       "source_identifier":  "figma-mcp-asset/4b8e2c4d-6d17-4fd8-90f6-bcac05a247d4.png",
+                       "local_path":  "../../assets/sha256-2499bc34435b1115b5574bbd33c3266f13ac341b9047064e3f9a8282756a3482.png",
+                       "mime_type":  "image/png",
+                       "size_bytes":  339432,
+                       "sha256":  "2499bc34435b1115b5574bbd33c3266f13ac341b9047064e3f9a8282756a3482"
+                   },
+                   {
+                       "source_identifier":  "figma-mcp-asset/9d385c25-fd36-47ad-8fe9-48087e131899.png",
+                       "local_path":  "../../assets/sha256-b83c83549c6cc94a6dd79248224e43267715d9ac79633a124ec7e19b210580d6.png",
+                       "mime_type":  "image/png",
+                       "size_bytes":  339359,
+                       "sha256":  "b83c83549c6cc94a6dd79248224e43267715d9ac79633a124ec7e19b210580d6"
+                   },
+                   {
+                       "source_identifier":  "figma-mcp-asset/adb5dcd3-dfee-4127-8c7f-c3bbf5265b36",
+                       "local_path":  "../../assets/sha256-24854a7ad9affb53ea5161132aabf67e69396d6150d68561f2fd4c1c65db5daa.png",
+                       "mime_type":  "image/png",
+                       "size_bytes":  23508,
+                       "sha256":  "24854a7ad9affb53ea5161132aabf67e69396d6150d68561f2fd4c1c65db5daa"
+                   },
+                   {
+                       "source_identifier":  "figma-mcp-asset/b056d522-0268-4343-bc87-a06401bb2aa7.png",
+                       "local_path":  "../../assets/sha256-0d56a8fe98ab1c744bbeca693715b72b5e732286634b314ce75d8d5359d357ba.png",
+                       "mime_type":  "image/png",
+                       "size_bytes":  148162,
+                       "sha256":  "0d56a8fe98ab1c744bbeca693715b72b5e732286634b314ce75d8d5359d357ba"
+                   },
+                   {
+                       "source_identifier":  "figma-mcp-asset/bd37ec3f-72db-430b-9b2e-9193f4dc082f",
+                       "local_path":  "../../assets/sha256-b83c83549c6cc94a6dd79248224e43267715d9ac79633a124ec7e19b210580d6.png",
+                       "mime_type":  "image/png",
+                       "size_bytes":  339359,
+                       "sha256":  "b83c83549c6cc94a6dd79248224e43267715d9ac79633a124ec7e19b210580d6"
+                   }
+               ]
+}

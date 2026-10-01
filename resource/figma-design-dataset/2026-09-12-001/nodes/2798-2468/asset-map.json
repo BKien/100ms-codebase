@@ -1,0 +1,90 @@
+{
+  "node_id": "2798:2468",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "figma-mcp-asset/a463fd2a-3875-4a06-9e9a-66afdba5ff71.svg",
+      "local_path": "../../assets/sha256-9888aa7c0b223b1c66a7495dadfbc75a3f7e9a5aab59c49dc1c9686bdb8bb2f6.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 539,
+      "sha256": "9888aa7c0b223b1c66a7495dadfbc75a3f7e9a5aab59c49dc1c9686bdb8bb2f6"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/3ebcc2f7-96cd-4951-9b3e-93ff458a87de.svg",
+      "local_path": "../../assets/sha256-c80d8dba127828568fbf27e62c7987e40d7db18638601b5d1f52674a79c46502.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 448,
+      "sha256": "c80d8dba127828568fbf27e62c7987e40d7db18638601b5d1f52674a79c46502"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/85228ea7-d714-4f8f-8ed9-fa90e73a33c8.svg",
+      "local_path": "../../assets/sha256-5b079a3e6e7f6c5353fe9abdeae3d7f9b42bb2948f20f3c3e2abe9344d8714f7.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 1710,
+      "sha256": "5b079a3e6e7f6c5353fe9abdeae3d7f9b42bb2948f20f3c3e2abe9344d8714f7"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/b801ddd6-04ff-4ab5-be6a-461ca2410987.svg",
+      "local_path": "../../assets/sha256-78313ca8553dfd9bb0df32cc405458cae4992a9a782564fa90c4e33b9336dd1f.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 314,
+      "sha256": "78313ca8553dfd9bb0df32cc405458cae4992a9a782564fa90c4e33b9336dd1f"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/eaf0ce15-dec9-4ab7-bf08-578b8954dd65.png",
+      "local_path": "../../assets/sha256-0a07aa44cd89a03bdcc40faa975c6064c61e6eaa4de1e6ca8d96804887c1aff4.png",
+      "mime_type": "image/png",
+      "size_bytes": 57857,
+      "sha256": "0a07aa44cd89a03bdcc40faa975c6064c61e6eaa4de1e6ca8d96804887c1aff4"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/c9a940b1-6718-4ad1-8d4d-1caa89b59e12.svg",
+      "local_path": "../../assets/sha256-c80d8dba127828568fbf27e62c7987e40d7db18638601b5d1f52674a79c46502.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 448,
+      "sha256": "c80d8dba127828568fbf27e62c7987e40d7db18638601b5d1f52674a79c46502"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/395887e4-f1db-486f-a064-1d4ea931cc26.svg",
+      "local_path": "../../assets/sha256-4ff6c0ba616b04fc37b5e3d87cfd0cbd24980f227282eff83bc61dc4a3b75afc.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 387,
+      "sha256": "4ff6c0ba616b04fc37b5e3d87cfd0cbd24980f227282eff83bc61dc4a3b75afc"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/55f906fc-b640-4b66-81bc-16b74e8e7f8c.svg",
+      "local_path": "../../assets/sha256-897124eff0ded2c161b2cd60505cc2347345de7cd02c0d98de41db41d006708f.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 1710,
+      "sha256": "897124eff0ded2c161b2cd60505cc2347345de7cd02c0d98de41db41d006708f"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/a00697a0-76ab-4c43-9074-7c6244d42aaf.svg",
+      "local_path": "../../assets/sha256-f32d8c95c3bce313a9f817fab7cef576bf4551feaa42908c56c012e77a6024e3.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 301,
+      "sha256": "f32d8c95c3bce313a9f817fab7cef576bf4551feaa42908c56c012e77a6024e3"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/d53c47dd-f334-4b55-af27-d031075c7f55.svg",
+      "local_path": "../../assets/sha256-78313ca8553dfd9bb0df32cc405458cae4992a9a782564fa90c4e33b9336dd1f.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 314,
+      "sha256": "78313ca8553dfd9bb0df32cc405458cae4992a9a782564fa90c4e33b9336dd1f"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/1e01f5c5-d385-43e8-a9f7-f549b11842f5.svg",
+      "local_path": "../../assets/sha256-1d2e2a1dc9278f7efa75629a8d91ed6bb25f12c9c13b69cbb6cc0a03697adfdc.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 1710,
+      "sha256": "1d2e2a1dc9278f7efa75629a8d91ed6bb25f12c9c13b69cbb6cc0a03697adfdc"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/6646a185-34d2-42df-9d81-16321d5e95ab.png",
+      "local_path": "../../assets/sha256-e10f03ad4f578bb2f56175591eaf400f160c43d7da9350c47a22c7dfa81e8283.png",
+      "mime_type": "image/png",
+      "size_bytes": 58627,
+      "sha256": "e10f03ad4f578bb2f56175591eaf400f160c43d7da9350c47a22c7dfa81e8283"
+    }
+  ]
+}

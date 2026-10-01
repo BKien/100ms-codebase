@@ -1,0 +1,31 @@
+{
+  "node_id": "137:8071",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "c9e6ac80-0db1-402e-982b-5ac3257a8716.png",
+      "local_path": "assets/context-001.png",
+      "mime_type": "image/png",
+      "source": "design-context",
+      "sha256": "d3ccc74a3d7abcf6e9ef3045b3b94a6f7009d39a002e990788e001df58784c1a",
+      "size_bytes": 88628
+    },
+    {
+      "source_identifier": "7ac9836c-5245-4b3a-a564-867071a00f1c",
+      "local_path": "assets/raw-001.png",
+      "mime_type": "image/png",
+      "source": "raw",
+      "sha256": "d3ccc74a3d7abcf6e9ef3045b3b94a6f7009d39a002e990788e001df58784c1a",
+      "size_bytes": 88628
+    },
+    {
+      "source_identifier": "78d94f2c-c33f-4824-9ad1-b9640bc4670d",
+      "local_path": "assets/raw-002.png",
+      "mime_type": "image/png",
+      "source": "raw",
+      "sha256": "70a2fedfc294f4c718dd538d32e1f43dec7c49f40aaa525e08caf8a1ca050a91",
+      "size_bytes": 10069
+    }
+  ]
+}
+

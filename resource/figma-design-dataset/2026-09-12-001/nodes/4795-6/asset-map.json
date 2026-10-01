@@ -1,0 +1,34 @@
+{
+  "node_id": "4795:6",
+  "temporary_urls_persisted": false,
+  "assets": [
+    {
+      "source_identifier": "figma-mcp-asset/24626aa2-9ee1-4411-a8dd-b00090af7543.svg",
+      "local_path": "../../assets/sha256-c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 234,
+      "sha256": "c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/ef157f8a-ac2d-4c78-82df-79fb69bebbf9.png",
+      "local_path": "../../assets/sha256-128843393af07ec483019226efa0c1377e86b1b790b9a217051ecde97e349743.png",
+      "mime_type": "image/png",
+      "size_bytes": 109822,
+      "sha256": "128843393af07ec483019226efa0c1377e86b1b790b9a217051ecde97e349743"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/d0ca5ad7-d755-4ac6-b910-ce8c25054cfe.svg",
+      "local_path": "../../assets/sha256-c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34.svg",
+      "mime_type": "image/svg+xml",
+      "size_bytes": 234,
+      "sha256": "c4a74d2cb1ef51dc2f45a87f46ea83edfbf04944d1a5e06e8c53445d20d76c34"
+    },
+    {
+      "source_identifier": "figma-mcp-asset/03ac0799-cab2-4ccf-8982-4510fddfc3c1.png",
+      "local_path": "../../assets/sha256-2c18e8d07b66b15736d7a6659b1cfb03d77018cb824647c6b4880f1e74ecfefc.png",
+      "mime_type": "image/png",
+      "size_bytes": 110872,
+      "sha256": "2c18e8d07b66b15736d7a6659b1cfb03d77018cb824647c6b4880f1e74ecfefc"
+    }
+  ]
+}

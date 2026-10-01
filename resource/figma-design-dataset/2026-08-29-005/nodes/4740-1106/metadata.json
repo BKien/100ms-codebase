@@ -1,0 +1,26 @@
+{
+  "dataset_version": "2026-08-29-005",
+  "file_key": "zu3rZ336n1et2pWUGGIxlO",
+  "node_id": "4740:1106",
+  "frame_name": "107.1 Add Transactions",
+  "node_type": "frame",
+  "natural_width": 1440,
+  "natural_height": 1024,
+  "captured_at": "2026-08-29T13:38:16.426Z",
+  "framework": "React 18",
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "code_connect_status": "queried-by-get_design_context",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 1024,
+    "original_width": 1440,
+    "original_height": 1024
+  }
+}

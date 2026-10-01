@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Nest Backend"
+  short_description: "Build NestJS APIs from an approved prompt"
+  default_prompt: "Use $build-nest-backend to implement the approved backend prompt and request approval for missing schema decisions."

@@ -1,0 +1,43 @@
+{
+  "dataset_version": "2026-08-29-005",
+  "file_key": "BTSOvEnU2X3CNrNvSxX9Ry",
+  "node_id": "2798:2356",
+  "frame_name": "106.4 Remove and Confirm Account Deletion",
+  "node_type": "frame",
+  "natural_width": 1440,
+  "natural_height": 1024,
+  "captured_at": "2026-08-29T14:02:18.566Z",
+  "framework": "React 18",
+  "languages": [
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "code_connect_status": "queried-by-get_design_context",
+  "capture_schema_version": "1.0",
+  "raw_images_truncated": false,
+  "svg_assets_truncated": false,
+  "screenshot": {
+    "width": 1440,
+    "height": 1024,
+    "original_width": 1440,
+    "original_height": 1024
+  },
+  "truncation_handled": {
+    "original_svg_assets_truncated": true,
+    "partition_nodes": [
+      "2798:2358",
+      "2798:2357",
+      "411:6379",
+      "411:6380",
+      "411:6381",
+      "411:6382",
+      "411:6383",
+      "411:6384",
+      "411:6385",
+      "411:6386"
+    ],
+    "all_partition_captures_complete": true
+  }
+}
+

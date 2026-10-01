@@ -1,0 +1,4 @@
+interface:
+  display_name: "Measure UC Workflow Tokens"
+  short_description: "Close Prompt/Source or finalize Repair and workflow"
+  default_prompt: "Use $measure-uc-workflow for my requested close/finalize command; finalize must close or skip Repair and finalize the workflow atomically without another measurement turn."

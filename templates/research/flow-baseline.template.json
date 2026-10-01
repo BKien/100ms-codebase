@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "artifact_type": "flow-baseline",
+  "status": "Frozen",
+  "uc_id": "<UC-ID>",
+  "use_case_path": "docs/01-inception/use-cases/<uc-file>.md",
+  "use_case_sha256": "sha256:<64-hex>",
+  "spreadsheet_source": "<UC-SOURCE-LOCATION>",
+  "ordered_flow_ids": ["<FLOW-ID>"],
+  "frozen_at": "<ISO-8601>"
+}

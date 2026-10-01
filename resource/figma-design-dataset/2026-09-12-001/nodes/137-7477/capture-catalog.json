@@ -1,0 +1,68 @@
+{
+  "root": {
+    "export": {
+      "nodeId": "137:7477",
+      "url": "../../assets/sha256-123299cf8f6f42eae5ee47356208ec059c6bce32bd6b1ec50bec61c3be42bbcc.png",
+      "format": "png",
+      "sizeBytes": 75706
+    },
+    "rawImages": [],
+    "rawImagesTruncated": false,
+    "svgAssets": [
+      {
+        "url": "../../assets/sha256-2409cf5c7e2d05a35b118cd0eba3d47e74369d62db050ba380586999b1f21e28.svg",
+        "format": "svg",
+        "sizeBytes": 342
+      },
+      {
+        "url": "../../assets/sha256-b6be73e831158c217409f3bf011f2d03bd310e5b6aaf4e590f82407f95bb8eeb.svg",
+        "format": "svg",
+        "sizeBytes": 278
+      },
+      {
+        "url": "../../assets/sha256-d54bc384d2dc75427ac33b986496e32be8089886467bc369c61dc87afbd621c6.svg",
+        "format": "svg",
+        "sizeBytes": 909
+      },
+      {
+        "url": "../../assets/sha256-8d6ee12f5ebd0c5112f8c75f772918f5d4aaa3fde647f3016c81dc87a9ad0c08.svg",
+        "format": "svg",
+        "sizeBytes": 376
+      },
+      {
+        "url": "../../assets/sha256-4a0dc8d5dd48cfddb127a04523aa22d6fa8fbaa11ba37a740ee61d02003ab4c5.svg",
+        "format": "svg",
+        "sizeBytes": 655
+      },
+      {
+        "url": "../../assets/sha256-aa13e05cf66fc1f2ff68691d71693de259c93f914a57527fc115c49de4205cdd.svg",
+        "format": "svg",
+        "sizeBytes": 901
+      },
+      {
+        "url": "../../assets/sha256-2c6bae94259d51d9696ff199365f69ca3b39491866308d10c14c95ba1e2c2dc4.svg",
+        "format": "svg",
+        "sizeBytes": 939
+      },
+      {
+        "url": "../../assets/sha256-18153f6fb6116c83166705f32cfbf7856005a21d092a68ee7be7b93ce06825e7.svg",
+        "format": "svg",
+        "sizeBytes": 929
+      },
+      {
+        "url": "../../assets/sha256-4a0dc8d5dd48cfddb127a04523aa22d6fa8fbaa11ba37a740ee61d02003ab4c5.svg",
+        "format": "svg",
+        "sizeBytes": 655
+      },
+      {
+        "url": "../../assets/sha256-ee2a449bff7f72c4de8ababeef19079b96e34bdddaf894fd10c4abdbfcd55f97.svg",
+        "format": "svg",
+        "sizeBytes": 929
+      }
+    ],
+    "svgAssetsTruncated": false
+  },
+  "supplementary_catalogs": [],
+  "truncation_handled": false,
+  "resolution": "Catalogs were not truncated."
+}
