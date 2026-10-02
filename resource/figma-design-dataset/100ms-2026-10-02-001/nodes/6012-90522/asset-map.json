@@ -1,0 +1,88 @@
+{
+  "assets": [
+    {
+      "identifier": "976a46909ed6eb2aa174f796a374d9892950d6eb473efa0b5d54033996db7230",
+      "url_sha256": "976a46909ed6eb2aa174f796a374d9892950d6eb473efa0b5d54033996db7230",
+      "local_path": "../../assets/554bb3fda9e81717c1807d54ac805371ab1f9bc25bb05b192d00575acb4b8ebb.png",
+      "mime_type": "image/png",
+      "byte_size": 7994,
+      "sha256": "sha256:554bb3fda9e81717c1807d54ac805371ab1f9bc25bb05b192d00575acb4b8ebb"
+    },
+    {
+      "identifier": "51e5b4b80be9ab0ccff264c4790eb5c50d7a240b7c10a3e7a1e60d34b987bff7",
+      "url_sha256": "51e5b4b80be9ab0ccff264c4790eb5c50d7a240b7c10a3e7a1e60d34b987bff7",
+      "local_path": "../../assets/37c0902927f5c14b0d512fc031305eaf6d09d0ea1562f7cb534bf2b523962a72.png",
+      "mime_type": "image/png",
+      "byte_size": 34695,
+      "sha256": "sha256:37c0902927f5c14b0d512fc031305eaf6d09d0ea1562f7cb534bf2b523962a72"
+    },
+    {
+      "identifier": "0bf633f146db4c752eb52f709be2f5f9b74d7a51719da514e5bf84b3d6197680",
+      "url_sha256": "0bf633f146db4c752eb52f709be2f5f9b74d7a51719da514e5bf84b3d6197680",
+      "local_path": "../../assets/02b0198920857a8efc35bf6459d4896d3c5f9efce48f5a5196ba1ecd1ddf4ee7.png",
+      "mime_type": "image/png",
+      "byte_size": 1495062,
+      "sha256": "sha256:02b0198920857a8efc35bf6459d4896d3c5f9efce48f5a5196ba1ecd1ddf4ee7"
+    },
+    {
+      "identifier": "50155b7d6543afc29c1741271ad814865baae5993747bfb48479038cfc3ec196",
+      "url_sha256": "50155b7d6543afc29c1741271ad814865baae5993747bfb48479038cfc3ec196",
+      "local_path": "../../assets/3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660.png",
+      "mime_type": "image/png",
+      "byte_size": 3567,
+      "sha256": "sha256:3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660"
+    },
+    {
+      "identifier": "4434e19ffeaacfcad618b9eb95eec10a4e8294d39cf625959dc71b7eff410ad8",
+      "url_sha256": "4434e19ffeaacfcad618b9eb95eec10a4e8294d39cf625959dc71b7eff410ad8",
+      "local_path": "../../assets/70bc146106db8ee208135b57c9bb52f3062c5ae1c973e25c1b81837cb32d5991.png",
+      "mime_type": "image/png",
+      "byte_size": 70367,
+      "sha256": "sha256:70bc146106db8ee208135b57c9bb52f3062c5ae1c973e25c1b81837cb32d5991"
+    },
+    {
+      "identifier": "cb350b6926fd2b589bef9406fbc71a3a55b05517c0f2ce1f0f5853fa83a593e3",
+      "url_sha256": "cb350b6926fd2b589bef9406fbc71a3a55b05517c0f2ce1f0f5853fa83a593e3",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/cb350b6926fd2b589bef9406fbc71a3a55b05517c0f2ce1f0f5853fa83a593e3"
+    },
+    {
+      "identifier": "61371e7e5956e8e342505dcab562179c15c4f4b043db72b1cf38fcb846615629",
+      "url_sha256": "61371e7e5956e8e342505dcab562179c15c4f4b043db72b1cf38fcb846615629",
+      "local_path": "../../assets/626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 200718,
+      "sha256": "sha256:626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9"
+    },
+    {
+      "identifier": "e48687cfd56e6cb4bb5a96e06cafff4d48d1b2c2d57e923d7431fa57744fd750",
+      "url_sha256": "e48687cfd56e6cb4bb5a96e06cafff4d48d1b2c2d57e923d7431fa57744fd750",
+      "local_path": "../../assets/3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 8502778,
+      "sha256": "sha256:3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597"
+    },
+    {
+      "identifier": "235dc46605af9b570c4b6373da0fbce348aaf675daf31d6532f47113342b4163",
+      "url_sha256": "235dc46605af9b570c4b6373da0fbce348aaf675daf31d6532f47113342b4163",
+      "local_path": "../../assets/c223366345596bf48e0f77a8f1faa2883e23819164578c54afb063cd1d389117.png",
+      "mime_type": "image/png",
+      "byte_size": 2332,
+      "sha256": "sha256:c223366345596bf48e0f77a8f1faa2883e23819164578c54afb063cd1d389117"
+    },
+    {
+      "identifier": "86072e20d3f6784d10bbb54698b9d611006204f9deebdc7a08292f0dfc83d418",
+      "url_sha256": "86072e20d3f6784d10bbb54698b9d611006204f9deebdc7a08292f0dfc83d418",
+      "local_path": "../../assets/7b008cc444ad394f6cd130b79c485dd14d42fbc0a57d63837387f6d4bf1638a8.png",
+      "mime_type": "image/png",
+      "byte_size": 18780,
+      "sha256": "sha256:7b008cc444ad394f6cd130b79c485dd14d42fbc0a57d63837387f6d4bf1638a8"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:47214",
+  "frame_name": "Colors",
+  "node_type": "FRAME",
+  "natural_width": 1056,
+  "natural_height": 3775,
+  "page_id": "4707:64284",
+  "captured_at": "2026-10-02T01:55:01.048518+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-instructions",
+  "context_characters": 64193,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "complete",
+  "download_failures": 0,
+  "raw_image_count": 0,
+  "svg_asset_count": 0
+}

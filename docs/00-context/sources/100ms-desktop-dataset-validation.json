@@ -1,0 +1,274 @@
+{
+  "schema": "desktop-dataset-validation-v1",
+  "validated_at": "2026-10-02T03:16:02.708676+00:00",
+  "dataset_version": "100ms-2026-10-02-001",
+  "manifest_path": "resource/figma-design-dataset/100ms-2026-10-02-001/manifest.json",
+  "manifest_sha256": "sha256:ead5b6aa248f3c132950dc533b5b3392052cfdcfec6efc029c3fb01e6845c298",
+  "scope": "desktop only; mobile excluded by researcher instruction",
+  "required_nodes": 74,
+  "use_cases": 18,
+  "required_pages": 8,
+  "integrity_ok": true,
+  "checksum_files": 1929,
+  "failed_checksums": 0,
+  "use_case_inventory": {
+    "UC-001": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:51246",
+        "6007:51266",
+        "6007:51296",
+        "6007:51317",
+        "6066:89729",
+        "6066:89749",
+        "6066:89779"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-002": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6066:89824",
+        "6007:51341",
+        "6007:51391",
+        "6007:51418"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-003": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:87452",
+        "6007:51102",
+        "6007:87457",
+        "6007:87462",
+        "6007:87294"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-004": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:87446",
+        "6007:87130"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-005": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:87420",
+        "6007:51398",
+        "6007:87410",
+        "6007:87425"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-006": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:87266",
+        "6007:87261",
+        "6007:87286"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-007": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:87235",
+        "6007:87241",
+        "6007:87247",
+        "6007:87253"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-008": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58204",
+        "6007:58211",
+        "6007:58218"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-009": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58181",
+        "6007:58174",
+        "6007:58188"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-010": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58047",
+        "6045:42131"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-011": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58057",
+        "6007:58063",
+        "6007:58070",
+        "6007:87336",
+        "6007:87343",
+        "6007:77993"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-012": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:51133",
+        "6007:51161",
+        "6066:89800"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-013": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6026:1184330",
+        "6026:1184356"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-014": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:96237",
+        "6007:96344",
+        "6007:96540",
+        "6007:96324",
+        "6007:87353",
+        "6007:87359",
+        "6007:77668",
+        "6007:77774",
+        "6007:77874",
+        "6007:78001",
+        "6007:58080"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-015": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:57911",
+        "6007:57904",
+        "6007:58234",
+        "6073:21769"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-016": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:57969",
+        "6007:57964",
+        "6007:57974",
+        "6007:57979"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-017": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58165",
+        "6007:58149",
+        "6007:58163",
+        "6007:87165",
+        "6007:87163"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    },
+    "UC-018": {
+      "status": "complete",
+      "required_nodes_complete": true,
+      "required_node_ids": [
+        "6007:58149",
+        "6007:58165",
+        "6007:58147",
+        "6007:87132",
+        "6007:87130"
+      ],
+      "platforms": [
+        "desktop"
+      ]
+    }
+  },
+  "representative_cli_resolution": {
+    "uc_id": "UC-018",
+    "status": "complete",
+    "primary_node_id": "6007:58149",
+    "supplementary_nodes": 4,
+    "platforms": [
+      "desktop"
+    ],
+    "excluded_platforms": [
+      "mobile"
+    ]
+  },
+  "required_asset_validation": {
+    "asset_records": 455,
+    "image_format_byte_size_sha256": "pass"
+  },
+  "database": "deferred; no schema/migration change",
+  "generation_ready": false,
+  "note": "Design input validation only, not BR/flow/runtime acceptance. No tests created or executed."
+}

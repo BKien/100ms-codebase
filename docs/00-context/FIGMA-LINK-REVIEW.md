@@ -2,7 +2,7 @@
 
 The researcher authorized migration to the standard file on 2026-10-01. All 69 pages were inspected read-only through figma-use. The supplied `4732:52930` is a PAGE, not a root frame. Profile URLs below identify verified root frames. UC source UI references may identify pages/sections; they are provenance, not capture authority.
 
-Primary mappings and the supplementary inventory below are the sole capture authority. Full-file capture includes product pages, documentation, foundations, components and local assets. Empty pages are recorded in [page inventory](sources/100ms-figma-page-inventory.json). Shared frames are captured once.
+Primary mappings and the supplementary inventory below are the sole capture authority. The historical full-file inventory is discovery evidence. The active scope below selects only UC-required product states and referenced components/assets. Empty pages are recorded in [page inventory](sources/100ms-figma-page-inventory.json). Shared frames are captured once.
 
 | UC | Source UC | File key | Node ID | Replacement URL | Connector verification |
 |---|---|---|---|---|---|
@@ -697,3 +697,30 @@ Every numeric FRAME below was inspected through the plugin. These descendants ar
 | 185:10094 | `4707:64859` | Content | `https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=4707-64859` |
 | 185:10094 | `5117:48521` | Thumbnail | `https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=5117-48521` |
 | 185:10094 | `6012:42461` | Unit | `https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6012-42461` |
+
+## Active UC-sufficient capture scope (2026-10-02)
+
+Researcher authorized quota-optimal **desktop-only** capture for the frozen UC specifications and explicitly excluded mobile in the latest instruction. Required nodes are selected from the verified Replacement URLs already listed above; no UC provenance URL is used. Frozen UC mobile references remain unchanged as provenance, outside this dataset scope. Documentation, unused libraries and redundant peer counts are optional. Previously downloaded mobile evidence is retained only as superseded evidence and is not used by desktop resolution.
+
+Exact version: `100ms-2026-10-02-001`. Required inventory and flow/platform coverage: [capture request](../../resource/figma-design-dataset/100ms-2026-10-02-001/capture-request.json), [coverage matrix](../../resource/figma-design-dataset/100ms-2026-10-02-001/uc-design-coverage.json).
+
+| UC | Primary | Required nodes (shared nodes captured once) |
+|---|---|---|
+| UC-001 | `6007:51246` | `6007:51246`, `6007:51266`, `6007:51296`, `6007:51317`, `6066:89729`, `6066:89749`, `6066:89779` |
+| UC-002 | `6066:89824` | `6066:89824`, `6007:51341`, `6007:51391`, `6007:51418` |
+| UC-003 | `6007:87452` | `6007:87452`, `6007:51102`, `6007:87457`, `6007:87462`, `6007:87294` |
+| UC-004 | `6007:87446` | `6007:87446`, `6007:87130` |
+| UC-005 | `6007:87420` | `6007:87420`, `6007:51398`, `6007:87410`, `6007:87425` |
+| UC-006 | `6007:87266` | `6007:87266`, `6007:87261`, `6007:87286` |
+| UC-007 | `6007:87235` | `6007:87235`, `6007:87241`, `6007:87247`, `6007:87253` |
+| UC-008 | `6007:58204` | `6007:58204`, `6007:58211`, `6007:58218` |
+| UC-009 | `6007:58181` | `6007:58181`, `6007:58174`, `6007:58188` |
+| UC-010 | `6007:58047` | `6007:58047`, `6045:42131` |
+| UC-011 | `6007:58057` | `6007:58057`, `6007:58063`, `6007:58070`, `6007:87336`, `6007:87343`, `6007:77993` |
+| UC-012 | `6007:51133` | `6007:51133`, `6007:51161`, `6066:89800` |
+| UC-013 | `6026:1184330` | `6026:1184330`, `6026:1184356` |
+| UC-014 | `6007:96237` | `6007:96237`, `6007:96344`, `6007:96540`, `6007:96324`, `6007:87353`, `6007:87359`, `6007:77668`, `6007:77774`, `6007:77874`, `6007:78001`, `6007:58080` |
+| UC-015 | `6007:57911` | `6007:57911`, `6007:57904`, `6007:58234`, `6073:21769` |
+| UC-016 | `6007:57969` | `6007:57969`, `6007:57964`, `6007:57974`, `6007:57979` |
+| UC-017 | `6007:58165` | `6007:58165`, `6007:58149`, `6007:58163`, `6007:87165`, `6007:87163` |
+| UC-018 | `6007:58149` | `6007:58149`, `6007:58165`, `6007:58147`, `6007:87132`, `6007:87130` |

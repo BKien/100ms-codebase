@@ -1,30 +1,47 @@
 {
   "artifact_type": "clean-source-baseline",
   "project_id": "100ms-video-conferencing",
-  "created_at": "2026-10-01T09:51:53.507730Z",
+  "created_at": "2026-10-02T04:57:59.745841+00:00",
   "zip_path": ".codex/skills/restore-source-baseline/assets/source-baseline.zip",
-  "zip_sha256": "sha256:e7a5d8b5c5624ba29af74209ae0cfce51a93e2a8d0fe817ded1de864f9973f20",
-  "database_status": "deferred-by-researcher",
+  "zip_sha256": "sha256:f9ea38ec331cb0b09ddc737a0cb01232f76a4b513968a5bb6a4767ef847f8259",
+  "database_status": "prepared",
+  "database_baseline_receipt": "docs/00-context/sources/100ms-database-baseline.json",
+  "retained_previous_baseline": {
+    "zip_path": "resource/source-baselines/100ms-pre-database-2026-10-02-001/source-baseline.zip",
+    "zip_sha256": "sha256:e7a5d8b5c5624ba29af74209ae0cfce51a93e2a8d0fe817ded1de864f9973f20",
+    "receipt_path": "resource/source-baselines/100ms-pre-database-2026-10-02-001/100ms-source-baseline.json"
+  },
+  "reason": "Authorized database setup adds migration, database config/connection and real health query; retains neutral FE/BE without UC business implementations.",
   "files": [
     {
       "path": "finalsource/be/src/app.controller.ts",
       "archive_entry": "baseline/be/src/app.controller.ts",
-      "sha256": "sha256:dddfaf85bbfca4730310372e0bfb197c5a7c2e1ba0c9a3336be6436948962e44"
+      "sha256": "sha256:3ac78751c0085662838611b0f3f6d75b02591d05832003f67b85634ec05e7f98"
     },
     {
       "path": "finalsource/be/src/app.module.ts",
       "archive_entry": "baseline/be/src/app.module.ts",
-      "sha256": "sha256:7e5d925e56388e1cce1ed8c2b949b569d894968a3b3e1f5ea0d5cc3e9ee85c66"
+      "sha256": "sha256:3bfbb390303139bc0bd4bf24d8755d0e777ee9c22781c1b8309168a449c4c2ab"
+    },
+    {
+      "path": "finalsource/be/src/config/database.config.ts",
+      "archive_entry": "baseline/be/src/config/database.config.ts",
+      "sha256": "sha256:b1c87f337fa366be42ee075bba82b50b444c9178488c7b96b292772d607c3682"
     },
     {
       "path": "finalsource/be/src/database/migration-data-source.ts",
       "archive_entry": "baseline/be/src/database/migration-data-source.ts",
-      "sha256": "sha256:8180f89a3ac2855ab096bdec0e52698627d0f0a316270537401bb4d9e7cc1cba"
+      "sha256": "sha256:90f42fec625c814724ba71e77aed0ec821b71a7689e0d9389281d8e90e6e94c5"
+    },
+    {
+      "path": "finalsource/be/src/database/migrations/1790916544190-Initial100msSchema.ts",
+      "archive_entry": "baseline/be/src/database/migrations/1790916544190-Initial100msSchema.ts",
+      "sha256": "sha256:7417eb88ca99df193b8d284089714c6e367e24ac506e2b5c9d64a512051f55af"
     },
     {
       "path": "finalsource/be/src/database/README.md",
       "archive_entry": "baseline/be/src/database/README.md",
-      "sha256": "sha256:ac3ff4fe2a915b27fc0829a1e985f91f6b79c851f7cc9055f08bf35607c38e97"
+      "sha256": "sha256:2d866b98cd0fb93bd2178bf68eedf0a5cf5e02d068cfc1141e1c9f500f25e748"
     },
     {
       "path": "finalsource/be/src/main.ts",

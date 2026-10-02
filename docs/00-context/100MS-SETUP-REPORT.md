@@ -1,3 +1,64 @@
+# Database setup hoàn tất — 2026-10-02
+
+Database đã được setup theo ưu tiên repository và chỉ dẫn Google Docs. MySQL 8.4.11, unchanged mysql84-tables-v1; migration Initial100msSchema1790916544190 đã áp dụng thành công. FE/BE/MySQL đều healthy; migration exited 0; frontend HTTP 200 và backend health HTTP 200 với database connected.
+
+| Kết quả | Bằng chứng |
+|---|---|
+| Cấu trúc | 16 bảng ứng dụng + typeorm_migrations, 28 FK, 13 CHECK, 5 conditional unique indexes. DBML/live columns, defaults, nullability, PK/FK correspondence PASS. |
+| Lịch sử | 1 migration đã áp dụng, không pending; file migration giữ nguyên sau apply. |
+| Baseline | Ba database pins đã capture bằng helper hiện có; application tables rỗng. Không seed, reset, volume cleanup hoặc tests. |
+| Source baseline | ZIP mới gồm 12 file source/infrastructure, checksum khớp current source. ZIP/receipt cũ được lưu riêng. |
+| Design/source | Desktop dataset 74 node/18 UC không đổi; 18 UC, 15 API, 167 BR, 47 source documents/39 projections giữ nguyên checksum. |
+| Secret | Researcher đã thay placeholder; finalsource/.env ignored/untracked, giá trị không được lưu trong báo cáo. Literal quoting bảo toàn ký tự đặc biệt. |
+| Điều kiện generation | Database input đã chuẩn bị; bốn research JSON inputs vẫn cần chuẩn bị/chốt riêng. Không tạo experiment configuration/run hoặc kết luận BR met/unmet. |
+
+Giữ MySQL 8.4 và tables-only theo yêu cầu repo. Capacity, HOST identity, membership immutability, transaction/replay phải được triển khai trong MutationGateway của UC. Idempotency-Key vẫn TEXT, digest index không unique và không thay thế full-key byte-exact comparison; không thêm giới hạn 255 byte.
+
+MySQL connection: 127.0.0.1:3307. Database/user/password lấy từ finalsource/.env. Frontend: http://localhost:18080. Backend health: http://localhost:13000/api/health.
+
+- [Active DBML](engineering/schema.dbml)
+- [Migration](../../finalsource/be/src/database/migrations/1790916544190-Initial100msSchema.ts)
+- [Quyết định adaptation](engineering/100MS-DATABASE-ADAPTATION.md)
+- [Ba database pins và validation](sources/100ms-database-baseline.json)
+- [Setup operation](../03-audit/docker-deployment/operations/20261002-100ms-database-setup.json)
+- [Baseline ZIP receipt](sources/100ms-source-baseline.json)
+- [Google Docs: Database](https://docs.google.com/document/d/1R9Z4LQ_FEbEop_TmGMTyCPnM3HdNau9JvLBV4uB8ZMg/edit?tab=t.7vwf3xf4pxs9)
+
+Migration head: Initial100msSchema1790916544190.
+DBML SHA-256: sha256:7281415d0e1cfda9788fae848d4df7d6ebe1bf902a944260a6abdf1e97afabad.
+Schema fingerprint: sha256:e0b8e2833611589303c491f5691d04474e836b3543289a3f547e3063b92672bd.
+
+## Báo cáo trước database setup — lịch sử
+
+# Cập nhật setup 100ms — 2026-10-02
+
+Đã hoàn tất dataset Figma **desktop only** đủ làm đầu vào thiết kế cho 18 UC. Database vẫn deferred; repo chưa đủ điều kiện generation khi thiếu schema và research inputs đã pin.
+
+| Hạng mục | Trạng thái hiện hành |
+|---|---|
+| Dataset | 100ms-2026-10-02-001, complete/frozen; 74/74 required node, 18/18 UC, 8 page. |
+| Phạm vi | Desktop và component liên quan; mobile bị loại theo researcher. Không khẳng định mobile readiness. |
+| Quota | 74 thay cho 604 target; loại 530 target (87,7% số target kế hoạch). Cache và shared assets tránh capture trùng; không suy ra quota thực tế từ tỷ lệ này. |
+| Evidence | 18 primary có reference code; tất cả required node có full native subtree, screenshot và referenced assets cục bộ. Truncation bắt buộc đã xử lý, không còn pending required assets. |
+| Integrity | Ledger 1.929 file; 455 asset records xác minh byte size, SHA-256 và định dạng ảnh; source UC hashes không đổi. |
+| UC/API | Structural validator PASS: 18 UC, 15 endpoint API, 167 BR, 47 source documents, 39 active projections. Không thực hiện BR/flow audit. |
+| Baseline/archive | 10 file baseline khớp ZIP; 1.332 archive file đã xác minh. |
+| Docker | Compose config, FE/BE lint/build PASS; FE/BE healthy, frontend HTTP 200 và backend health HTTP 200. Database/migration không khởi động. |
+| Database | Còn mâu thuẫn MySQL 8.0/8.4, trigger/procedure fingerprint và TEXT idempotency unique index. Đã viết phương án; chưa đổi DBML, migration hoặc schema. |
+
+- [Frozen manifest](../../resource/figma-design-dataset/100ms-2026-10-02-001/manifest.json)
+- [Validation receipt: checksum và 18 UC](sources/100ms-desktop-dataset-validation.json)
+- [UC desktop coverage và giới hạn](../../resource/figma-design-dataset/100ms-2026-10-02-001/uc-design-coverage.json)
+- [Kế hoạch capture đã chỉnh](100MS-REPOSITORY-MIGRATION-PLAN.md)
+- [Phương án database](engineering/100MS-DATABASE-RESOLUTION-PROPOSAL.md)
+- [Runtime receipt](../03-audit/docker-deployment/operations/20261002-100ms-setup-follow-up.json)
+
+Manifest pin: sha256:ead5b6aa248f3c132950dc533b5b3392052cfdcfec6efc029c3fb01e6845c298.
+
+Coverage giữ hành vi/error semantics theo frozen UC/API. Không khẳng định mỗi lỗi server/device có màn hình Figma riêng, không đổi frozen BR/flow inventory và không tạo experiment configuration/run. Resolver trả cả primary và supplementary desktop directories.
+
+## Báo cáo lịch sử 2026-10-01 — trạng thái đã được cập nhật ở trên
+
 # Báo cáo chuẩn bị codebase thực nghiệm 100ms
 
 Ngày: 2026-10-01 (Asia/Saigon). Researcher đã yêu cầu thực hiện kế hoạch và sau đó yêu cầu tạm hoãn database.

@@ -1,0 +1,27 @@
+{
+  "artifact_type": "researcher-prepared-database-baseline",
+  "prepared_at": "2026-10-02T04:55:04.325076+00:00",
+  "source_adaptation_path": "docs/00-context/sources/100ms-database-adaptation.json",
+  "database_baseline": {
+    "migration_head": "Initial100msSchema1790916544190",
+    "dbml_sha256": "sha256:7281415d0e1cfda9788fae848d4df7d6ebe1bf902a944260a6abdf1e97afabad",
+    "schema_fingerprint_sha256": "sha256:e0b8e2833611589303c491f5691d04474e836b3543289a3f547e3063b92672bd"
+  },
+  "fingerprint_protocol": "mysql84-tables-v1",
+  "validation": {
+    "status": "PASS",
+    "mysql_version": "8.4.11",
+    "application_tables": 16,
+    "migration_history_records": 1,
+    "foreign_keys": 28,
+    "checks": 13,
+    "conditional_unique_indexes": 5,
+    "source_column_inventory_preserved": true,
+    "dbml_runtime_columns_defaults_nullability_pk_fk_correspondence": true,
+    "unsupported_schema_objects": 0,
+    "application_tables_empty": true,
+    "idempotency_digest_index_non_unique": true,
+    "sync_and_automatic_migrations_disabled": true
+  },
+  "boundaries": "Setup only; no UC business implementation, BR audit, seeds, reset, tests, experiment configuration or run creation."
+}

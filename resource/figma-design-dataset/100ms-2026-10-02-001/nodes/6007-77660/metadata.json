@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:77660",
+  "frame_name": "Equal Prominence with Inset",
+  "node_type": "SECTION",
+  "natural_width": 15603,
+  "natural_height": 1142,
+  "page_id": "6007:77656",
+  "captured_at": "2026-10-02T01:51:01.448056+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 11389,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 15,
+  "svg_asset_count": 0
+}

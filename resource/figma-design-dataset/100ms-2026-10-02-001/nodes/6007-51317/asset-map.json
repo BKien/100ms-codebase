@@ -1,0 +1,227 @@
+{
+  "assets": [
+    {
+      "identifier": "66e29c7fee4c97922687b51542ded4d8b13049f3",
+      "origin": "native-plugin-api",
+      "kind": "image-paint",
+      "reused_local_cache": true,
+      "local_path": "../../assets/62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368.png",
+      "mime_type": "image/png",
+      "byte_size": 2024051,
+      "sha256": "sha256:62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368"
+    },
+    {
+      "identifier": "I6007:51330;6012:268629;6013:633528",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/591f8722672322912908cb0a203a44ca7ffedd46d293e6cbdc70ad50287ccc1e.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 2501,
+      "sha256": "sha256:591f8722672322912908cb0a203a44ca7ffedd46d293e6cbdc70ad50287ccc1e"
+    },
+    {
+      "identifier": "I6007:51330;6012:268632",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 227,
+      "sha256": "sha256:8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55"
+    },
+    {
+      "identifier": "I6007:51330;6012:268633;6013:633618",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/ffe116d319c1371878abcca9cc4284c0c890ce1b9716ed56a6a178cdc01027be.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 729,
+      "sha256": "sha256:ffe116d319c1371878abcca9cc4284c0c890ce1b9716ed56a6a178cdc01027be"
+    },
+    {
+      "identifier": "I6007:51331;6012:268533;6013:633547",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/753ed54d3a72771e822cbc34b89a2c8915091d85266fd17a551706133277c555.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 987,
+      "sha256": "sha256:753ed54d3a72771e822cbc34b89a2c8915091d85266fd17a551706133277c555"
+    },
+    {
+      "identifier": "I6007:51331;6012:268536",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 227,
+      "sha256": "sha256:8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55"
+    },
+    {
+      "identifier": "I6007:51331;6012:268537;6013:633618",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/e259dcc54fdbbbf8a01d9d95fb9ea16ba5f256d1471e85a4b6f27ef3a82e9976.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 729,
+      "sha256": "sha256:e259dcc54fdbbbf8a01d9d95fb9ea16ba5f256d1471e85a4b6f27ef3a82e9976"
+    },
+    {
+      "identifier": "I6007:51332;6012:268517;6013:633608",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/49d4cbc2b504055a16d55e100e8d0ac9ffbf8b2d9ad02921df02ded2a7da5911.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 6019,
+      "sha256": "sha256:49d4cbc2b504055a16d55e100e8d0ac9ffbf8b2d9ad02921df02ded2a7da5911"
+    },
+    {
+      "identifier": "I6007:51334;6012:272844;6013:633494",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/fcec2c46cb540b63a5e2c8217980edcf7a389bb81b4bdc60a0b4a1bd40927445.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 592,
+      "sha256": "sha256:fcec2c46cb540b63a5e2c8217980edcf7a389bb81b4bdc60a0b4a1bd40927445"
+    },
+    {
+      "identifier": "I6007:51337;6012:268517;6013:633701",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 5591,
+      "sha256": "sha256:40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c"
+    },
+    {
+      "identifier": "I6007:51340;6012:268741;6013:634060",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/af1aa7538688cdddfc6f090328ec8b145118cd05fe8949dbfda7bf95116ff5cf.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 2807,
+      "sha256": "sha256:af1aa7538688cdddfc6f090328ec8b145118cd05fe8949dbfda7bf95116ff5cf"
+    },
+    {
+      "identifier": "66e29c7fee4c97922687b51542ded4d8b13049f3",
+      "origin": "native-plugin-api",
+      "kind": "image-paint",
+      "reused_local_cache": true,
+      "local_path": "../../assets/62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368.png",
+      "mime_type": "image/png",
+      "byte_size": 2024051,
+      "sha256": "sha256:62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368"
+    },
+    {
+      "identifier": "I6007:51330;6012:268629;6013:633528",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/591f8722672322912908cb0a203a44ca7ffedd46d293e6cbdc70ad50287ccc1e.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 2501,
+      "sha256": "sha256:591f8722672322912908cb0a203a44ca7ffedd46d293e6cbdc70ad50287ccc1e"
+    },
+    {
+      "identifier": "I6007:51330;6012:268632",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 227,
+      "sha256": "sha256:8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55"
+    },
+    {
+      "identifier": "I6007:51330;6012:268633;6013:633618",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/ffe116d319c1371878abcca9cc4284c0c890ce1b9716ed56a6a178cdc01027be.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 729,
+      "sha256": "sha256:ffe116d319c1371878abcca9cc4284c0c890ce1b9716ed56a6a178cdc01027be"
+    },
+    {
+      "identifier": "I6007:51331;6012:268533;6013:633547",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/753ed54d3a72771e822cbc34b89a2c8915091d85266fd17a551706133277c555.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 987,
+      "sha256": "sha256:753ed54d3a72771e822cbc34b89a2c8915091d85266fd17a551706133277c555"
+    },
+    {
+      "identifier": "I6007:51331;6012:268536",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 227,
+      "sha256": "sha256:8665ddd45f10290cdac79cd2082249e52aff148a1c94b028b77958f8e3927a55"
+    },
+    {
+      "identifier": "I6007:51331;6012:268537;6013:633618",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/e259dcc54fdbbbf8a01d9d95fb9ea16ba5f256d1471e85a4b6f27ef3a82e9976.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 729,
+      "sha256": "sha256:e259dcc54fdbbbf8a01d9d95fb9ea16ba5f256d1471e85a4b6f27ef3a82e9976"
+    },
+    {
+      "identifier": "I6007:51332;6012:268517;6013:633608",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/49d4cbc2b504055a16d55e100e8d0ac9ffbf8b2d9ad02921df02ded2a7da5911.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 6019,
+      "sha256": "sha256:49d4cbc2b504055a16d55e100e8d0ac9ffbf8b2d9ad02921df02ded2a7da5911"
+    },
+    {
+      "identifier": "I6007:51334;6012:272844;6013:633494",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/fcec2c46cb540b63a5e2c8217980edcf7a389bb81b4bdc60a0b4a1bd40927445.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 592,
+      "sha256": "sha256:fcec2c46cb540b63a5e2c8217980edcf7a389bb81b4bdc60a0b4a1bd40927445"
+    },
+    {
+      "identifier": "I6007:51337;6012:268517;6013:633701",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 5591,
+      "sha256": "sha256:40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c"
+    },
+    {
+      "identifier": "I6007:51340;6012:268741;6013:634060",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/af1aa7538688cdddfc6f090328ec8b145118cd05fe8949dbfda7bf95116ff5cf.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 2807,
+      "sha256": "sha256:af1aa7538688cdddfc6f090328ec8b145118cd05fe8949dbfda7bf95116ff5cf"
+    }
+  ],
+  "excluded_unused_inventory_assets": [],
+  "truncation": {},
+  "native_assets_complete": true
+}

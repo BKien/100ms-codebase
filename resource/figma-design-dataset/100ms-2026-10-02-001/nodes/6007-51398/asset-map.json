@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "identifier": "I6007:51408;6013:634435",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/67f9017f6c5b20d75cb1de86f9e173ef71a1f7b9caa624b697e4ab2029bcf540.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 247,
+      "sha256": "sha256:67f9017f6c5b20d75cb1de86f9e173ef71a1f7b9caa624b697e4ab2029bcf540"
+    },
+    {
+      "identifier": "I6007:51416;6012:268517;6013:633701",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 5591,
+      "sha256": "sha256:40e5dd91ff850a7e8bd1c4bcaa4e8e516b316964475bf9284b5577d825fd133c"
+    }
+  ],
+  "excluded_unused_inventory_assets": [],
+  "truncation": {},
+  "native_assets_complete": true
+}

@@ -1,0 +1,18 @@
+{
+  "package": "fflate",
+  "version": "0.8.2",
+  "source": "https://registry.npmjs.org/fflate/0.8.2",
+  "upstream": "https://github.com/101arrowz/fflate",
+  "license": "MIT",
+  "sha256": "sha256:c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf",
+  "use": "setup-only synchronous lossless capture transport; not an application dependency",
+  "capture_bundle": {
+    "path": "capture.min.js",
+    "exports": [
+      "zlibSync",
+      "strToU8"
+    ],
+    "build_tool": "esbuild@0.25.0 (Windows x64)",
+    "sha256": "sha256:1c4eb20bc6be53c78df935bef12a02afd3386212e114b6d2ef699e00000aef49"
+  }
+}

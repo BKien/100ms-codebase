@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "identifier": "629ea39edb0fd4b6ac6aeba7fa09d026ed1b5fea18834234afb8c64daf10bdee",
+      "url_sha256": "629ea39edb0fd4b6ac6aeba7fa09d026ed1b5fea18834234afb8c64daf10bdee",
+      "local_path": "../../assets/62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368.png",
+      "mime_type": "image/png",
+      "byte_size": 2024051,
+      "sha256": "sha256:62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368"
+    },
+    {
+      "identifier": "4425acef70a925f7a9e481371116e14fae43bbd46b8e2100f6d2784a37f110a7",
+      "url_sha256": "4425acef70a925f7a9e481371116e14fae43bbd46b8e2100f6d2784a37f110a7",
+      "local_path": "../../assets/626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 200718,
+      "sha256": "sha256:626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9"
+    },
+    {
+      "identifier": "d9bd21df7fc2d35da1c4cdcc7f80a900c8c811c503c11e06dd556c2a224bff2c",
+      "url_sha256": "d9bd21df7fc2d35da1c4cdcc7f80a900c8c811c503c11e06dd556c2a224bff2c",
+      "local_path": "../../assets/91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62.png",
+      "mime_type": "image/png",
+      "byte_size": 171949,
+      "sha256": "sha256:91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62"
+    },
+    {
+      "identifier": "f677e0221b6683e4a9133f5338f874e7e727777cc49915da28f86d910af1da59",
+      "url_sha256": "f677e0221b6683e4a9133f5338f874e7e727777cc49915da28f86d910af1da59",
+      "local_path": "../../assets/3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 8502778,
+      "sha256": "sha256:3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597"
+    },
+    {
+      "identifier": "f8b0ae133e439ef96aaf86a8453e3d986b6556323b3a1fd12cbc3bd405593dd9",
+      "url_sha256": "f8b0ae133e439ef96aaf86a8453e3d986b6556323b3a1fd12cbc3bd405593dd9",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/f8b0ae133e439ef96aaf86a8453e3d986b6556323b3a1fd12cbc3bd405593dd9"
+    },
+    {
+      "identifier": "2f0ad9986b99468ab61779d4545cdc69e8e597233e0c6d1d7db6f918a6422601",
+      "url_sha256": "2f0ad9986b99468ab61779d4545cdc69e8e597233e0c6d1d7db6f918a6422601",
+      "local_path": "../../assets/249ff5a41064530ed5a4b36e91e6903f4e2ec8c55e615e5ceec5bd1d44eb8273.png",
+      "mime_type": "image/png",
+      "byte_size": 2383,
+      "sha256": "sha256:249ff5a41064530ed5a4b36e91e6903f4e2ec8c55e615e5ceec5bd1d44eb8273"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

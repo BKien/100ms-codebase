@@ -1,0 +1,2191 @@
+{
+  "dataset_id": "100ms-2026-10-02-001",
+  "dataset_version": "100ms-2026-10-02-001",
+  "project_id": "100ms-video-conferencing",
+  "created_at": "2026-10-02T03:11:10.354855+00:00",
+  "derived_from_dataset": "100ms-2026-10-01-001",
+  "overall_status": "complete",
+  "frozen": true,
+  "scope": "desktop-uc-sufficient-v2",
+  "platforms": [
+    "desktop"
+  ],
+  "excluded_platforms": [
+    "mobile"
+  ],
+  "coverage_path": "uc-design-coverage.json",
+  "mapping_authority_path": "docs/00-context/FIGMA-LINK-REVIEW.md",
+  "mapping_authority_sha256": "sha256:74042e9684de29a7002e0624f981772db4a5b67d8cbc1a7a5166c3ea4ffcce01",
+  "page_inventory_path": "docs/00-context/sources/100ms-figma-page-inventory.json",
+  "page_count": 8,
+  "discovery_page_count": 69,
+  "discovery_target_count": 604,
+  "excluded_target_count": 530,
+  "complete_nodes": 74,
+  "pending_nodes": 0,
+  "payload_nodes": 74,
+  "retained_nonrequired_node_count": 128,
+  "retention_note": "Nonrequired captures, including earlier mobile evidence, are historical only and never returned by desktop UC resolution.",
+  "export_policy": "Existing export.png retained; native captures require one whole-node screenshot without redundant PNG export.",
+  "blocker": null,
+  "use_cases": {
+    "UC-001": {
+      "node_id": "6007:51246",
+      "required_node_ids": [
+        "6007:51246",
+        "6007:51266",
+        "6007:51296",
+        "6007:51317",
+        "6066:89729",
+        "6066:89749",
+        "6066:89779"
+      ],
+      "supplementary_node_ids": [
+        "6007:51266",
+        "6007:51296",
+        "6007:51317",
+        "6066:89729",
+        "6066:89749",
+        "6066:89779"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-01-review-join-preview-and-permissions.md",
+      "source_uc_sha256": "sha256:ce64fcaa4b52edc17610030069528f62117dd81d63920691a9a83d8cb0f76004",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-002": {
+      "node_id": "6066:89824",
+      "required_node_ids": [
+        "6066:89824",
+        "6007:51341",
+        "6007:51391",
+        "6007:51418"
+      ],
+      "supplementary_node_ids": [
+        "6007:51341",
+        "6007:51391",
+        "6007:51418"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-02-join-a-session.md",
+      "source_uc_sha256": "sha256:6997ccc88da2d6c892c75db195f9151214b8acd81bc4d8aa9282f37753b64cad",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-003": {
+      "node_id": "6007:87452",
+      "required_node_ids": [
+        "6007:87452",
+        "6007:51102",
+        "6007:87457",
+        "6007:87462",
+        "6007:87294"
+      ],
+      "supplementary_node_ids": [
+        "6007:51102",
+        "6007:87457",
+        "6007:87462",
+        "6007:87294"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-03-start-a-live-stream.md",
+      "source_uc_sha256": "sha256:1c463f53daaefdc2e3862ef15119d081130abe1558eb59f8caecdc70f39ca736",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-004": {
+      "node_id": "6007:87446",
+      "required_node_ids": [
+        "6007:87446",
+        "6007:87130"
+      ],
+      "supplementary_node_ids": [
+        "6007:87130"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-04-stop-a-live-stream.md",
+      "source_uc_sha256": "sha256:c63926b621236357a6787f61f72959a0f6c2b32cf338175e228d9e7233bdaa33",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-005": {
+      "node_id": "6007:87420",
+      "required_node_ids": [
+        "6007:87420",
+        "6007:51398",
+        "6007:87410",
+        "6007:87425"
+      ],
+      "supplementary_node_ids": [
+        "6007:51398",
+        "6007:87410",
+        "6007:87425"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-05-watch-a-live-stream.md",
+      "source_uc_sha256": "sha256:f7db2d083f783640c1011231ab10d58408624f6f8eb7ed18beb05fd8d485a605",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-006": {
+      "node_id": "6007:87266",
+      "required_node_ids": [
+        "6007:87266",
+        "6007:87261",
+        "6007:87286"
+      ],
+      "supplementary_node_ids": [
+        "6007:87261",
+        "6007:87286"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-06-request-stage-access.md",
+      "source_uc_sha256": "sha256:112576264bbf9974870b923b6d697e44f3170a5582abe9dac43573bf6de952ae",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-007": {
+      "node_id": "6007:87235",
+      "required_node_ids": [
+        "6007:87235",
+        "6007:87241",
+        "6007:87247",
+        "6007:87253"
+      ],
+      "supplementary_node_ids": [
+        "6007:87241",
+        "6007:87247",
+        "6007:87253"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-07-respond-to-a-stage-request.md",
+      "source_uc_sha256": "sha256:4802285d85848e2a7c3c0ccfd57c5ef355bee340536870dcbe8f7abc71f69c68",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-008": {
+      "node_id": "6007:58204",
+      "required_node_ids": [
+        "6007:58204",
+        "6007:58211",
+        "6007:58218"
+      ],
+      "supplementary_node_ids": [
+        "6007:58211",
+        "6007:58218"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-08-view-session-participants.md",
+      "source_uc_sha256": "sha256:2b2acf269a815903e83ebba5fff7c033c282e97c57173abaf0a35f6ff1954a1a",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-009": {
+      "node_id": "6007:58181",
+      "required_node_ids": [
+        "6007:58181",
+        "6007:58174",
+        "6007:58188"
+      ],
+      "supplementary_node_ids": [
+        "6007:58174",
+        "6007:58188"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-09-send-a-chat-message.md",
+      "source_uc_sha256": "sha256:68a376cf91584556c676b8527f963ae1dedb06a29f1330c6406572b59c582cd3",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-010": {
+      "node_id": "6007:58047",
+      "required_node_ids": [
+        "6007:58047",
+        "6045:42131"
+      ],
+      "supplementary_node_ids": [
+        "6045:42131"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-10-send-an-emoji-reaction.md",
+      "source_uc_sha256": "sha256:0d5c9c02f603db3971444cde26667573aef1a3199a7731a378d8dddb234b3c1f",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-011": {
+      "node_id": "6007:58057",
+      "required_node_ids": [
+        "6007:58057",
+        "6007:58063",
+        "6007:58070",
+        "6007:87336",
+        "6007:87343",
+        "6007:77993"
+      ],
+      "supplementary_node_ids": [
+        "6007:58063",
+        "6007:58070",
+        "6007:87336",
+        "6007:87343",
+        "6007:77993"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-11-share-presentation-content.md",
+      "source_uc_sha256": "sha256:72c4e55ef45f5e88f5ec9a16851776f5762603019b32757d08e04de4ad43cce5",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-012": {
+      "node_id": "6007:51133",
+      "required_node_ids": [
+        "6007:51133",
+        "6007:51161",
+        "6066:89800"
+      ],
+      "supplementary_node_ids": [
+        "6007:51161",
+        "6066:89800"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-12-configure-audio-and-video-devices.md",
+      "source_uc_sha256": "sha256:91dbc3ef818ebf1537161d6bbd32b3755e24fc8518cc3334b5984c6ec7daabbe",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-013": {
+      "node_id": "6026:1184330",
+      "required_node_ids": [
+        "6026:1184330",
+        "6026:1184356"
+      ],
+      "supplementary_node_ids": [
+        "6026:1184356"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-13-select-a-virtual-background.md",
+      "source_uc_sha256": "sha256:33a50243a2d082e5f9a2e1ae00ed8552670fb1fcd4055aa8c9babbae35a427ce",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-014": {
+      "node_id": "6007:96237",
+      "required_node_ids": [
+        "6007:96237",
+        "6007:96344",
+        "6007:96540",
+        "6007:96324",
+        "6007:87353",
+        "6007:87359",
+        "6007:77668",
+        "6007:77774",
+        "6007:77874",
+        "6007:78001",
+        "6007:58080"
+      ],
+      "supplementary_node_ids": [
+        "6007:96344",
+        "6007:96540",
+        "6007:96324",
+        "6007:87353",
+        "6007:87359",
+        "6007:77668",
+        "6007:77774",
+        "6007:77874",
+        "6007:78001",
+        "6007:58080"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-14-change-session-layout.md",
+      "source_uc_sha256": "sha256:9fa9200ec77f1b8d671c9ed10f244fc4dcc26d5106c641b2fb68597229bc5561",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-015": {
+      "node_id": "6007:57911",
+      "required_node_ids": [
+        "6007:57911",
+        "6007:57904",
+        "6007:58234",
+        "6073:21769"
+      ],
+      "supplementary_node_ids": [
+        "6007:57904",
+        "6007:58234",
+        "6073:21769"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-15-pin-or-spotlight-a-participant.md",
+      "source_uc_sha256": "sha256:42a7649d3dc7eca17942ab25621f93ebd3a87fa5fdb539784dd6e68f8a3cabae",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-016": {
+      "node_id": "6007:57969",
+      "required_node_ids": [
+        "6007:57969",
+        "6007:57964",
+        "6007:57974",
+        "6007:57979"
+      ],
+      "supplementary_node_ids": [
+        "6007:57964",
+        "6007:57974",
+        "6007:57979"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-16-control-session-recording.md",
+      "source_uc_sha256": "sha256:8b24eeb6ee48f4e0c1bfd64acff3aeab26e59641d9f0034176b08edffcfd48c6",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-017": {
+      "node_id": "6007:58165",
+      "required_node_ids": [
+        "6007:58165",
+        "6007:58149",
+        "6007:58163",
+        "6007:87165",
+        "6007:87163"
+      ],
+      "supplementary_node_ids": [
+        "6007:58149",
+        "6007:58163",
+        "6007:87165",
+        "6007:87163"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-17-leave-a-session.md",
+      "source_uc_sha256": "sha256:0a44aec9f45c4680c1c4dfaa2f22d04b30815d863977f9b2b9f36bf658fe1e82",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-018": {
+      "node_id": "6007:58149",
+      "required_node_ids": [
+        "6007:58149",
+        "6007:58165",
+        "6007:58147",
+        "6007:87132",
+        "6007:87130"
+      ],
+      "supplementary_node_ids": [
+        "6007:58165",
+        "6007:58147",
+        "6007:87132",
+        "6007:87130"
+      ],
+      "status": "complete",
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "source_uc": "docs/01-inception/use-cases/uc-18-end-a-session-for-everyone.md",
+      "source_uc_sha256": "sha256:99aaf4db99916e3bdc30ef3facfc0c2191c6993132dad085fbd51402ddf9cd65",
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    }
+  },
+  "nodes": {
+    "6007:51246": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "A/V Muted",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51246",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51266": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Permission Denied Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51266",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51296": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Permission",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51296",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51317": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51317",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6066:89729": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "A/V Muted",
+      "node_type": "FRAME",
+      "page_id": "6066:89727",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6066-89729",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6066:89749": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Permission Denied Dialog",
+      "node_type": "FRAME",
+      "page_id": "6066:89727",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6066-89749",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6066:89779": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Permission",
+      "node_type": "FRAME",
+      "page_id": "6066:89727",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6066-89779",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6066:89824": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Details Filled",
+      "node_type": "FRAME",
+      "page_id": "6066:89727",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6066-89824",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51341": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Details Filled",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51341",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51391": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Starting",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51391",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51418": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Details Filled",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51418",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87452": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Go Live",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87452",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51102": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Details Filled",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51102",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87457": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Live",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87457",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87462": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Starting",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87462",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87294": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Session Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87294",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87446": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "End Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87446",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87130": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Ended",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87130",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87420": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Playing",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87420",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51398": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Live Preview",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51398",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87410": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Empty Session",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87410",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87425": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Paused",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87425",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87266": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Join",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87266",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87261": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Notification",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87261",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87286": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Joined",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87286",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87235": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Notification",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87235",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87241": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Notification - Multiple Raise Hand",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87241",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87247": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Joined",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87247",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87253": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Participant Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87253",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58204": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Default",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58204",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58211": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Participant Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58211",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58218": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Group Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58218",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58181": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Messages & Pinned",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58181",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58174": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Empty",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58174",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58188": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "New Messages",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58188",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58047": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Reactions",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58047",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6045:42131": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Emoji Reactions",
+      "node_type": "FRAME",
+      "page_id": "6012:273081",
+      "page_name": "Modal/Emoji Reactions",
+      "status": "complete",
+      "snapshot_dir": "nodes/6045-42131",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58057": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Share Screen Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58057",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58063": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Share PDF",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58063",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58070": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Share Screen",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58070",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87336": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Share PDF",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87336",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87343": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Share Screen",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87343",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:77993": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Single Screenshare",
+      "node_type": "FRAME",
+      "page_id": "6007:77656",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-77993",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51133": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Device Settings",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51133",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:51161": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Notifications",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-51161",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6066:89800": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Menu",
+      "node_type": "FRAME",
+      "page_id": "6066:89727",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6066-89800",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6026:1184330": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Preview",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6026-1184330",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6026:1184356": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Preview",
+      "node_type": "FRAME",
+      "page_id": "6007:49584",
+      "page_name": "-> Desktop / Preview",
+      "status": "complete",
+      "snapshot_dir": "nodes/6026-1184356",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:96237": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "1 peer",
+      "node_type": "FRAME",
+      "page_id": "6007:96234",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-96237",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:96344": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "1 peer",
+      "node_type": "FRAME",
+      "page_id": "6007:96234",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-96344",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:96540": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "1 peer",
+      "node_type": "FRAME",
+      "page_id": "6007:96234",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-96540",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:96324": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "9 Peers+",
+      "node_type": "FRAME",
+      "page_id": "6007:96234",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-96324",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87353": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "PiP - Default",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87353",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87359": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "PiP - Hover",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87359",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:77668": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "2 Peers",
+      "node_type": "FRAME",
+      "page_id": "6007:77656",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-77668",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:77774": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "2 Peers",
+      "node_type": "FRAME",
+      "page_id": "6007:77656",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-77774",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:77874": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "2 Peers",
+      "node_type": "FRAME",
+      "page_id": "6007:77656",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-77874",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:78001": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Screenshare without Chat",
+      "node_type": "FRAME",
+      "page_id": "6007:77656",
+      "page_name": "-> Desktop / Layouts",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-78001",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58080": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "PiP - Default",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58080",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57911": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Remote Tile: Spotlighted",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57911",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57904": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Remote Tile: Menu",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57904",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58234": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "2 peers",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58234",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6073:21769": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Tile Menu",
+      "node_type": "COMPONENT_SET",
+      "page_id": "6073:15912",
+      "page_name": "Panel/Tile Menu",
+      "status": "complete",
+      "snapshot_dir": "nodes/6073-21769",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57969": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Recording",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57969",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "export.png",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57964": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Default",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57964",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57974": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Starting",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57974",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:57979": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Stop Recording",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-57979",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58165": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58165",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58149": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58149",
+      "missing_reasons": [],
+      "context_kind": "reference-code-and-native-subtree",
+      "truncation": {
+        "rawImagesTruncated": false,
+        "svgAssetsTruncated": true
+      },
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "pending-assets.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58163": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Left",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58163",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87165": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87165",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87163": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Left",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87163",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:58147": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Ended",
+      "node_type": "FRAME",
+      "page_id": "6007:55138",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-58147",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    },
+    "6007:87132": {
+      "file_key": "lCvn1rB7IdRchqAuEatJJp",
+      "frame_name": "Dialog",
+      "node_type": "FRAME",
+      "page_id": "6007:86770",
+      "page_name": "-> Desktop / Features",
+      "status": "complete",
+      "snapshot_dir": "nodes/6007-87132",
+      "missing_reasons": [],
+      "context_kind": "native-subtree",
+      "truncation": {},
+      "truncation_handled": true,
+      "captured_files": [
+        "asset-map.json",
+        "assets/index.json",
+        "design-context.md",
+        "metadata.json",
+        "native-design.json",
+        "screenshot.png"
+      ]
+    }
+  }
+}

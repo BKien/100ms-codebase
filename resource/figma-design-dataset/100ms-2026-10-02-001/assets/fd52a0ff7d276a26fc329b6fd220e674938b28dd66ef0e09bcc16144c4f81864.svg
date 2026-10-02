@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="480" viewBox="0 0 240 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="1:2">
+<g clip-path="url(#clip0_0_1630)">
+<rect id="Cell" x="240" width="240" height="240" transform="rotate(90 240 0)" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_2" x="240" y="240" width="240" height="240" transform="rotate(90 240 240)" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<path id="Line" d="M-1.90735e-05 480L240 240" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+<path id="Line_2" d="M240 240L1.04907e-05 0" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+</g>
+<rect x="0.5" y="0.5" width="239" height="479" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1630">
+<rect width="240" height="480" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

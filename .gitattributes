@@ -5,3 +5,5 @@ resource/figma-design-dataset/** -text
 archive/** -text
 *.zip binary
 finalsource/** text eol=lf
+docs/00-context/engineering/schema.dbml -text
+resource/source-baselines/** -text

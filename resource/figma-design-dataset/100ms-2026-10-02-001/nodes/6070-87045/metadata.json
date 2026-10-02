@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6070:87045",
+  "frame_name": "Video Conferencing",
+  "node_type": "GROUP",
+  "natural_width": 846,
+  "natural_height": 394,
+  "page_id": "6007:77654",
+  "captured_at": "2026-10-02T01:47:32.267399+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-instructions",
+  "context_characters": 11930,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": true
+  },
+  "truncation_handled": false,
+  "status": "partial-content",
+  "download_failures": 0,
+  "raw_image_count": 4,
+  "svg_asset_count": 20
+}

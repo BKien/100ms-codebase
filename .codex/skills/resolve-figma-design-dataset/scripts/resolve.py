@@ -102,7 +102,19 @@ def main() -> int:
         return 2
     integrity_ok = all(item["ok"] for item in checks)
     if args.validate_all:
-        print(json.dumps({"dataset_id": manifest["dataset_id"], "integrity_ok": integrity_ok, "files": checks}, ensure_ascii=False, indent=2))
+        inventory = {}
+        for key, entry in manifest["use_cases"].items():
+            required = entry.get("required_node_ids", [entry["node_id"]] + entry.get("supplementary_node_ids", []))
+            snapshots = [manifest["nodes"].get(identifier, {}) for identifier in required if identifier]
+            inventory[key] = {
+                "status": entry["status"],
+                "required_node_ids": required,
+                "snapshot_dirs": [str(dataset / node["snapshot_dir"]) for node in snapshots if node.get("snapshot_dir")],
+                "required_nodes_complete": all(node.get("status") == "complete" for node in snapshots),
+                "platforms": entry.get("platforms", manifest.get("platforms", [])),
+            }
+        print(json.dumps({"dataset_id": manifest["dataset_id"], "integrity_ok": integrity_ok,
+            "files": checks, "use_case_inventory": inventory}, ensure_ascii=False, indent=2))
         return 0 if integrity_ok else 2
     if not args.target:
         parser.error("target or --validate-all is required")
@@ -119,8 +131,23 @@ def main() -> int:
     output = {"uc_id": key, "status": entry["status"], "dataset_id": manifest["dataset_id"], "node_id": entry["node_id"], "integrity_ok": integrity_ok}
     if node:
         output.update({"frame_name": node["frame_name"], "snapshot_dir": str(dataset / node["snapshot_dir"]) if node["snapshot_dir"] else None})
+    required = entry.get("required_node_ids", [entry["node_id"]] + entry.get("supplementary_node_ids", []))
+    if "platforms" in manifest:
+        required_ok = all(manifest["nodes"].get(identifier, {}).get("status") == "complete" for identifier in required)
+        if not required_ok or not manifest.get("frozen"):
+            output["status"] = "partial-content"
+        output.update({
+            "platforms": entry.get("platforms", manifest["platforms"]),
+            "excluded_platforms": entry.get("excluded_platforms", []),
+            "required_node_ids": required,
+            "supplementary_snapshot_dirs": [str(dataset / manifest["nodes"][identifier]["snapshot_dir"])
+                for identifier in entry.get("supplementary_node_ids", [])
+                if manifest["nodes"].get(identifier, {}).get("snapshot_dir")],
+            "coverage_path": str(dataset / manifest["coverage_path"]),
+            "design_limitations": entry.get("design_limitations", []),
+        })
     print(json.dumps(output, ensure_ascii=False, indent=2))
-    return 0 if entry["status"] in {"complete", "no-design"} and integrity_ok else 3
+    return 0 if output["status"] in {"complete", "no-design"} and integrity_ok else 3
 
 
 if __name__ == "__main__":

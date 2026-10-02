@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6040:2386030",
+  "frame_name": "Control Bar",
+  "node_type": "FRAME",
+  "natural_width": 6417,
+  "natural_height": 2449,
+  "page_id": "6012:265232",
+  "captured_at": "2026-10-02T01:56:46.653764+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 20546,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": true
+  },
+  "truncation_handled": false,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 4,
+  "svg_asset_count": 20
+}

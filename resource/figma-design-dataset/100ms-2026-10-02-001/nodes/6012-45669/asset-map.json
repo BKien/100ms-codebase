@@ -1,0 +1,107 @@
+{
+  "assets": [
+    {
+      "identifier": "I6012:45677;6013:634435",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/d931b4f61f70127dc49d3ccdf09f62d56ce7383b1d9905851b13bb5e58cda4c2.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 199,
+      "sha256": "sha256:d931b4f61f70127dc49d3ccdf09f62d56ce7383b1d9905851b13bb5e58cda4c2"
+    },
+    {
+      "identifier": "I6012:45682;1616:104628;6013:633686",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/0a359706f51e69fe5cac71ae5f0bca98285614fa350a4d3bffbd70d46752934d.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 583,
+      "sha256": "sha256:0a359706f51e69fe5cac71ae5f0bca98285614fa350a4d3bffbd70d46752934d"
+    },
+    {
+      "identifier": "I6012:45684;6012:265801;6012:268319;6007:48434",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/e38909d3953224e595eb5b6f184717f3d046b42b76253ebb3c19bc4a0b117b45.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1802,
+      "sha256": "sha256:e38909d3953224e595eb5b6f184717f3d046b42b76253ebb3c19bc4a0b117b45"
+    },
+    {
+      "identifier": "I6012:45684;6012:265803;6012:272927;6012:272906;6293:59771",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": false,
+      "local_path": "../../assets/b82921c89bb207665c5bc31a957ad381e1c1ced7372bbdc5d2e3f7bb9904e7db.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 289,
+      "sha256": "sha256:b82921c89bb207665c5bc31a957ad381e1c1ced7372bbdc5d2e3f7bb9904e7db"
+    },
+    {
+      "identifier": "b219b1b75bf30e64e3f15d19b74bc9e316619325",
+      "origin": "native-plugin-api",
+      "kind": "image-paint",
+      "reused_local_cache": false,
+      "local_path": "../../assets/3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660.png",
+      "mime_type": "image/png",
+      "byte_size": 3567,
+      "sha256": "sha256:3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660"
+    },
+    {
+      "identifier": "I6012:45677;6013:634435",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/d931b4f61f70127dc49d3ccdf09f62d56ce7383b1d9905851b13bb5e58cda4c2.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 199,
+      "sha256": "sha256:d931b4f61f70127dc49d3ccdf09f62d56ce7383b1d9905851b13bb5e58cda4c2"
+    },
+    {
+      "identifier": "I6012:45682;1616:104628;6013:633686",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/0a359706f51e69fe5cac71ae5f0bca98285614fa350a4d3bffbd70d46752934d.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 583,
+      "sha256": "sha256:0a359706f51e69fe5cac71ae5f0bca98285614fa350a4d3bffbd70d46752934d"
+    },
+    {
+      "identifier": "I6012:45684;6012:265801;6012:268319;6007:48434",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/e38909d3953224e595eb5b6f184717f3d046b42b76253ebb3c19bc4a0b117b45.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1802,
+      "sha256": "sha256:e38909d3953224e595eb5b6f184717f3d046b42b76253ebb3c19bc4a0b117b45"
+    },
+    {
+      "identifier": "I6012:45684;6012:265803;6012:272927;6012:272906;6293:59771",
+      "origin": "native-plugin-api",
+      "kind": "vector-export",
+      "reused_local_cache": true,
+      "local_path": "../../assets/b82921c89bb207665c5bc31a957ad381e1c1ced7372bbdc5d2e3f7bb9904e7db.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 289,
+      "sha256": "sha256:b82921c89bb207665c5bc31a957ad381e1c1ced7372bbdc5d2e3f7bb9904e7db"
+    },
+    {
+      "identifier": "b219b1b75bf30e64e3f15d19b74bc9e316619325",
+      "origin": "native-plugin-api",
+      "kind": "image-paint",
+      "reused_local_cache": true,
+      "local_path": "../../assets/3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660.png",
+      "mime_type": "image/png",
+      "byte_size": 3567,
+      "sha256": "sha256:3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660"
+    }
+  ],
+  "excluded_unused_inventory_assets": [],
+  "truncation": {},
+  "native_assets_complete": true
+}

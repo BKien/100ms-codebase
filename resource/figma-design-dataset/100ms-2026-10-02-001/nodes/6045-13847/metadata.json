@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6045:13847",
+  "frame_name": "Divider",
+  "node_type": "FRAME",
+  "natural_width": 619,
+  "natural_height": 399,
+  "page_id": "6012:271816",
+  "captured_at": "2026-10-02T01:56:55.187390+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-instructions",
+  "context_characters": 3099,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "complete",
+  "download_failures": 0,
+  "raw_image_count": 0,
+  "svg_asset_count": 0
+}

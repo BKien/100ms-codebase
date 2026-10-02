@@ -1,0 +1,32 @@
+{
+  "assets": [
+    {
+      "identifier": "79d461db70fdca8fd30c418a10c23b10a793b365d9adf890469fa3c8f4d33c31",
+      "url_sha256": "79d461db70fdca8fd30c418a10c23b10a793b365d9adf890469fa3c8f4d33c31",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/79d461db70fdca8fd30c418a10c23b10a793b365d9adf890469fa3c8f4d33c31"
+    },
+    {
+      "identifier": "65839f3aef2bc329f70b76fe849c9c0a43bf64e9397efd89ac10a20456057b56",
+      "url_sha256": "65839f3aef2bc329f70b76fe849c9c0a43bf64e9397efd89ac10a20456057b56",
+      "local_path": "../../assets/be6ca96b5a23667c981122b3e2148bee764a09364aaab7d3d36cc6bcf93030e8.png",
+      "mime_type": "image/png",
+      "byte_size": 1952214,
+      "sha256": "sha256:be6ca96b5a23667c981122b3e2148bee764a09364aaab7d3d36cc6bcf93030e8"
+    },
+    {
+      "identifier": "88bc4a8991b8caa453aa0cfbceabc7a3215949847893ac4088cc9dc4ee38fc89",
+      "url_sha256": "88bc4a8991b8caa453aa0cfbceabc7a3215949847893ac4088cc9dc4ee38fc89",
+      "local_path": "../../assets/d5ce061433450df82060538cde3a1c90a10c98b312c154cd00edcf72bb45c14b.png",
+      "mime_type": "image/png",
+      "byte_size": 177898,
+      "sha256": "sha256:d5ce061433450df82060538cde3a1c90a10c98b312c154cd00edcf72bb45c14b"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

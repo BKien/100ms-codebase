@@ -1,0 +1,219 @@
+{
+  "status": "not-downloaded",
+  "assets": [
+    {
+      "identifier": "f4302.svg",
+      "url_sha256": "501e0d5ab909592bce6bcbefd70440f069dbb7a5ab5d2bc0b158520d69086160",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/501e0d5ab909592bce6bcbefd70440f069dbb7a5ab5d2bc0b158520d69086160"
+    },
+    {
+      "identifier": "9bba8.svg",
+      "url_sha256": "d0058fa3e1328efe4ec27fb64b454f904327da08550970b86e7d1e358c250954",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/d0058fa3e1328efe4ec27fb64b454f904327da08550970b86e7d1e358c250954"
+    },
+    {
+      "identifier": "45e92.svg",
+      "url_sha256": "943141eac01406e9bae20ad152894887facc673e5ffc78d7f9965ffb3d1fca02",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/943141eac01406e9bae20ad152894887facc673e5ffc78d7f9965ffb3d1fca02"
+    },
+    {
+      "identifier": "d2b34.svg",
+      "url_sha256": "f19e3295a3c3796f0a5fe2beae62133ce388ef4b1aa97d2b2f72b201437146ce",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/f19e3295a3c3796f0a5fe2beae62133ce388ef4b1aa97d2b2f72b201437146ce"
+    },
+    {
+      "identifier": "ec048.svg",
+      "url_sha256": "583d3f579dd01a60012961812c0798edb56145f15de66e97758185ca8331891d",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/583d3f579dd01a60012961812c0798edb56145f15de66e97758185ca8331891d"
+    },
+    {
+      "identifier": "4f134.svg",
+      "url_sha256": "1a47956b7d0b7390b4ccc66578354efe17856fc4177e5f590ace67993f7f52c4",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/1a47956b7d0b7390b4ccc66578354efe17856fc4177e5f590ace67993f7f52c4"
+    },
+    {
+      "identifier": "2b95c.svg",
+      "url_sha256": "6cd1d006af54292c859bbb1bb483dbbb84e439fb0bdd64e4bfbf0c4ab6f8e34f",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/6cd1d006af54292c859bbb1bb483dbbb84e439fb0bdd64e4bfbf0c4ab6f8e34f"
+    },
+    {
+      "identifier": "966dc.svg",
+      "url_sha256": "dbdbc1c3cdf0503529a0245f2a3d2a9394c72ca81d43546d1e452b87f7639691",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/dbdbc1c3cdf0503529a0245f2a3d2a9394c72ca81d43546d1e452b87f7639691"
+    },
+    {
+      "identifier": "161fc.svg",
+      "url_sha256": "42d9c9bb3efc9489ac5cfc0ee20cfeac9c35db57625ffcd225abae09112cea8a",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/42d9c9bb3efc9489ac5cfc0ee20cfeac9c35db57625ffcd225abae09112cea8a"
+    },
+    {
+      "identifier": "c1160.svg",
+      "url_sha256": "af1ebd4ba67498e810d07e9e9375cc35d74b479762430e3c00ff6642edbd7e93",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/af1ebd4ba67498e810d07e9e9375cc35d74b479762430e3c00ff6642edbd7e93"
+    },
+    {
+      "identifier": "67f3e.svg",
+      "url_sha256": "ca75974b477e20bf45778ceeecb4589b53d681fd710d1a118b9c28daf34eb20d",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/ca75974b477e20bf45778ceeecb4589b53d681fd710d1a118b9c28daf34eb20d"
+    },
+    {
+      "identifier": "f4291.svg",
+      "url_sha256": "39bc07cd59682a285f11a3adbddd3c907d9b264ceea22af528f17382627f6fbf",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/39bc07cd59682a285f11a3adbddd3c907d9b264ceea22af528f17382627f6fbf"
+    },
+    {
+      "identifier": "3f520.svg",
+      "url_sha256": "72ef1f645b69168dca58151c34d6d0752e5b9c4fdfa7439de57e7b3b6c4ad3ca",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/72ef1f645b69168dca58151c34d6d0752e5b9c4fdfa7439de57e7b3b6c4ad3ca"
+    },
+    {
+      "identifier": "9ba4fca33076938fecc0e27fb01c3c7c0aeabca8a08f3b5bc717c64fc10b0227",
+      "url_sha256": "9ba4fca33076938fecc0e27fb01c3c7c0aeabca8a08f3b5bc717c64fc10b0227",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/9ba4fca33076938fecc0e27fb01c3c7c0aeabca8a08f3b5bc717c64fc10b0227"
+    },
+    {
+      "identifier": "de9c2f3c7f83cf9c1e0aba04a6b5e2d5b315d43b409adf1a11f989fcd5ee753c",
+      "url_sha256": "de9c2f3c7f83cf9c1e0aba04a6b5e2d5b315d43b409adf1a11f989fcd5ee753c",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/de9c2f3c7f83cf9c1e0aba04a6b5e2d5b315d43b409adf1a11f989fcd5ee753c"
+    },
+    {
+      "identifier": "9632347b674d1345e2898f0b0fd20e3f5b0be5b060e837de46e9a6b2141cee47",
+      "url_sha256": "9632347b674d1345e2898f0b0fd20e3f5b0be5b060e837de46e9a6b2141cee47",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/9632347b674d1345e2898f0b0fd20e3f5b0be5b060e837de46e9a6b2141cee47"
+    },
+    {
+      "identifier": "01a65818de6c12be15e8e26f374fd28284c1b7b3c86dcf7ae7e683fee7ac2579",
+      "url_sha256": "01a65818de6c12be15e8e26f374fd28284c1b7b3c86dcf7ae7e683fee7ac2579",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/01a65818de6c12be15e8e26f374fd28284c1b7b3c86dcf7ae7e683fee7ac2579"
+    },
+    {
+      "identifier": "84282fdc0707b2d84b272821508c1bda6f1fd7e4a648888675195a51cd20e1fc",
+      "url_sha256": "84282fdc0707b2d84b272821508c1bda6f1fd7e4a648888675195a51cd20e1fc",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/84282fdc0707b2d84b272821508c1bda6f1fd7e4a648888675195a51cd20e1fc"
+    },
+    {
+      "identifier": "4f1baf4280add15ccf265318a484428b01170f9324924a12b9f3c172811a08dc",
+      "url_sha256": "4f1baf4280add15ccf265318a484428b01170f9324924a12b9f3c172811a08dc",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/4f1baf4280add15ccf265318a484428b01170f9324924a12b9f3c172811a08dc"
+    },
+    {
+      "identifier": "af31f29d7d7672dd52d9b1487313c349e43021ebc3fb9e80f471f126bf807a70",
+      "url_sha256": "af31f29d7d7672dd52d9b1487313c349e43021ebc3fb9e80f471f126bf807a70",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/af31f29d7d7672dd52d9b1487313c349e43021ebc3fb9e80f471f126bf807a70"
+    },
+    {
+      "identifier": "48e6b08cded7d1f53c122ed8ef2fe3bdbaa8a72fd30fe43ed70d91a095771846",
+      "url_sha256": "48e6b08cded7d1f53c122ed8ef2fe3bdbaa8a72fd30fe43ed70d91a095771846",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/48e6b08cded7d1f53c122ed8ef2fe3bdbaa8a72fd30fe43ed70d91a095771846"
+    },
+    {
+      "identifier": "f3a722ff0303be94d74c3fba5c2dd12855f7ddfb970a6a5c801a43b05903f5ad",
+      "url_sha256": "f3a722ff0303be94d74c3fba5c2dd12855f7ddfb970a6a5c801a43b05903f5ad",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/f3a722ff0303be94d74c3fba5c2dd12855f7ddfb970a6a5c801a43b05903f5ad"
+    },
+    {
+      "identifier": "609631dd3d02795f0690465fad053f2e7ac27956d6cd420125319a8213478b9a",
+      "url_sha256": "609631dd3d02795f0690465fad053f2e7ac27956d6cd420125319a8213478b9a",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/609631dd3d02795f0690465fad053f2e7ac27956d6cd420125319a8213478b9a"
+    },
+    {
+      "identifier": "13f6df03184256788856d1911c5c92898ecba60972efa0533521f05f57dd70c3",
+      "url_sha256": "13f6df03184256788856d1911c5c92898ecba60972efa0533521f05f57dd70c3",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/13f6df03184256788856d1911c5c92898ecba60972efa0533521f05f57dd70c3"
+    },
+    {
+      "identifier": "919d38df6471a476903b3bacb2abd37e74d94bf1b075aec00fc2b027016f956a",
+      "url_sha256": "919d38df6471a476903b3bacb2abd37e74d94bf1b075aec00fc2b027016f956a",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/919d38df6471a476903b3bacb2abd37e74d94bf1b075aec00fc2b027016f956a"
+    },
+    {
+      "identifier": "fcbb0cc6f4454ff08eb40008956e7cf7316853d2397892dd1373830a2be361bc",
+      "url_sha256": "fcbb0cc6f4454ff08eb40008956e7cf7316853d2397892dd1373830a2be361bc",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/fcbb0cc6f4454ff08eb40008956e7cf7316853d2397892dd1373830a2be361bc"
+    },
+    {
+      "identifier": "node-export",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset"
+    }
+  ]
+}

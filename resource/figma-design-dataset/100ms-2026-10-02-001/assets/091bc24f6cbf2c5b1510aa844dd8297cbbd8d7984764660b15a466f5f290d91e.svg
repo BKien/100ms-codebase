@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-16" y="-16" width="64" height="64"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(8px);clip-path:url(#bgblur_0_0_1645_clip_path);height:100%;width:100%"></div></foreignObject><g id="button" data-figma-bg-blur-radius="16">
+<rect width="32" height="32" rx="16" fill="#14181F" fill-opacity="0.6" style="fill:#14181F;fill:color(display-p3 0.0784 0.0941 0.1216);fill-opacity:0.6;"/>
+<path id="Arrow" d="M22.4853 16H9.51471M16.1213 22.364L22.4853 16L16.1213 9.63604" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_1645_clip_path" transform="translate(16 16)"><rect width="32" height="32" rx="16"/>
+</clipPath></defs>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6074:83353",
+  "frame_name": "Feedback",
+  "node_type": "GROUP",
+  "natural_width": 2764,
+  "natural_height": 338,
+  "page_id": "4732:52930",
+  "captured_at": "2026-10-02T01:38:11.926943+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-instructions",
+  "context_characters": 8044,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 27,
+  "raw_image_count": 0,
+  "svg_asset_count": 13
+}

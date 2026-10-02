@@ -1,0 +1,102 @@
+{
+  "artifact_type": "docker-setup-operation",
+  "observed_at": "2026-10-02T05:02:19.785429+00:00",
+  "authorization": "Researcher requested repository-priority database setup and authoring migrations; researcher replaced secrets.",
+  "mode": "initialize/run",
+  "compose_source_sha256": "sha256:2b46bfd2447e993ff0419666a0322c9acc46e4bdbc9f46b8959a741da5dda976",
+  "migration_source_sha256": "sha256:7417eb88ca99df193b8d284089714c6e367e24ac506e2b5c9d64a512051f55af",
+  "commands": [
+    {
+      "id": "compose-config-quiet",
+      "exit_code": 0
+    },
+    {
+      "id": "compose-build-migration-backend; lint-build in Docker",
+      "exit_code": 0
+    },
+    {
+      "id": "compose-up-database; new named volume",
+      "exit_code": 0
+    },
+    {
+      "id": "compose-run-migration-force-recreate",
+      "exit_code": 0
+    },
+    {
+      "id": "compose-up-build-whole-stack",
+      "exit_code": 0
+    },
+    {
+      "id": "compose-migration-show-read-only",
+      "exit_code": 0
+    },
+    {
+      "id": "existing-database-baseline-capture-require-empty",
+      "exit_code": 0
+    },
+    {
+      "id": "100ms-dbml-runtime-correspondence-validator",
+      "exit_code": 0
+    }
+  ],
+  "database_baseline": {
+    "migration_head": "Initial100msSchema1790916544190",
+    "dbml_sha256": "sha256:7281415d0e1cfda9788fae848d4df7d6ebe1bf902a944260a6abdf1e97afabad",
+    "schema_fingerprint_sha256": "sha256:e0b8e2833611589303c491f5691d04474e836b3543289a3f547e3063b92672bd"
+  },
+  "services": {
+    "backend": {
+      "state": "running",
+      "health": "healthy",
+      "exit_code": 0,
+      "url": "http://localhost:13000/api/health"
+    },
+    "database": {
+      "state": "running",
+      "health": "healthy",
+      "exit_code": 0,
+      "connection": "127.0.0.1:3307; credentials in ignored finalsource/.env"
+    },
+    "frontend": {
+      "state": "running",
+      "health": "healthy",
+      "exit_code": 0,
+      "url": "http://localhost:18080"
+    },
+    "migration": {
+      "state": "exited",
+      "health": "",
+      "exit_code": 0
+    }
+  },
+  "http": {
+    "frontend": 200,
+    "backend_health": 200,
+    "backend_database": "connected"
+  },
+  "preserved": {
+    "existing_data": true,
+    "source_snapshots": true,
+    "frozen_uc_api": true,
+    "prior_baseline_zip": true
+  },
+  "destructive_reset": false,
+  "seed_or_tests": false,
+  "status": "PASS",
+  "mysql_defaults": {
+    "transaction_isolation": "SERIALIZABLE",
+    "time_zone": "+00:00"
+  },
+  "read_only_pin_verification_after_restart": "PASS",
+  "combined_input_helper": {
+    "uc_id": "UC-02",
+    "status": "PASS",
+    "api_ids_in_order": [
+      "API-SESSION-JOIN",
+      "API-SESSION-STATE"
+    ],
+    "figma_dataset_version": "100ms-2026-10-02-001",
+    "require_empty": true,
+    "no_run_assignment_or_creation": true
+  }
+}

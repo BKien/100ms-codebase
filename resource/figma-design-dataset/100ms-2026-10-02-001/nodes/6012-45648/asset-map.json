@@ -1,0 +1,48 @@
+{
+  "assets": [
+    {
+      "identifier": "2f84422b74b037f3d78fe03c704a693d4b5d93d049733446c10eb03208fd12c8",
+      "url_sha256": "2f84422b74b037f3d78fe03c704a693d4b5d93d049733446c10eb03208fd12c8",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/2f84422b74b037f3d78fe03c704a693d4b5d93d049733446c10eb03208fd12c8"
+    },
+    {
+      "identifier": "897ceb6fba2bcde88124de8352b8e5f7ea43a7802edfce4b89acd2e226a3092d",
+      "url_sha256": "897ceb6fba2bcde88124de8352b8e5f7ea43a7802edfce4b89acd2e226a3092d",
+      "local_path": "../../assets/3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983.png",
+      "mime_type": "image/png",
+      "byte_size": 9414,
+      "sha256": "sha256:3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983"
+    },
+    {
+      "identifier": "1bf5a142639aacb3ba7adb3b272ccb67703abd96c873ab6db5624c2072fb2fb3",
+      "url_sha256": "1bf5a142639aacb3ba7adb3b272ccb67703abd96c873ab6db5624c2072fb2fb3",
+      "local_path": "../../assets/3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660.png",
+      "mime_type": "image/png",
+      "byte_size": 3567,
+      "sha256": "sha256:3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660"
+    },
+    {
+      "identifier": "6b0deb6dc6b513e716a69a8cabefe4a2f47167a84044508f4e79912a63fb8fa3",
+      "url_sha256": "6b0deb6dc6b513e716a69a8cabefe4a2f47167a84044508f4e79912a63fb8fa3",
+      "local_path": "../../assets/626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 200718,
+      "sha256": "sha256:626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9"
+    },
+    {
+      "identifier": "c72bb2699a39c89d53e4d42b0b844b3d716e0c7c39f5a17547c53b3b6a9bf8c1",
+      "url_sha256": "c72bb2699a39c89d53e4d42b0b844b3d716e0c7c39f5a17547c53b3b6a9bf8c1",
+      "local_path": "../../assets/3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 8502778,
+      "sha256": "sha256:3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

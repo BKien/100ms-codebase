@@ -1,0 +1,31 @@
+{
+  "artifact_type": "docker-operation",
+  "mode": "setup-follow-up-application-runtime",
+  "observed_at": "2026-10-02T01:46:08.981455+00:00",
+  "authorization": "Researcher requested completing unfinished codebase setup on 2026-10-02",
+  "commands": [
+    {
+      "command_id": "compose-config-quiet",
+      "exit_code": 0
+    },
+    {
+      "command_id": "compose-build-backend-frontend",
+      "exit_code": 0,
+      "note": "unchanged build inputs; lint/build layers reused from verified cache"
+    },
+    {
+      "command_id": "compose-up-no-deps-backend-frontend",
+      "exit_code": 0
+    }
+  ],
+  "checks": {
+    "backend": "running, healthy; HTTP 200 and success true",
+    "frontend": "running, healthy; HTTP 200",
+    "database": "not-started",
+    "migration": "not-run",
+    "credentials": "placeholders; values not recorded",
+    "tests": "not-created-or-run"
+  },
+  "source_hash_protocol": "sha256-ordered-src-path-null-bytes-null-v1",
+  "source_hash": "sha256:7daadc69213a3389ba0e33956bdcc29fe341835a2d3c50420f60ece303f4ea01"
+}

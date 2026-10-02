@@ -1,0 +1,80 @@
+{
+  "assets": [
+    {
+      "identifier": "ef0cab01f62363bfa431927dd8cc164ee57db6bc8389452d5a5453c8edf86611",
+      "url_sha256": "ef0cab01f62363bfa431927dd8cc164ee57db6bc8389452d5a5453c8edf86611",
+      "local_path": "../../assets/b057d86729dfa591353e7620f1f02eb2b1d6560e5edcea0359f7826f6804fb0a.png",
+      "mime_type": "image/png",
+      "byte_size": 1952623,
+      "sha256": "sha256:b057d86729dfa591353e7620f1f02eb2b1d6560e5edcea0359f7826f6804fb0a"
+    },
+    {
+      "identifier": "201044a3f3647c3605276d1a59f0eab2299252c7cbae5a4de5d226029e0cafe7",
+      "url_sha256": "201044a3f3647c3605276d1a59f0eab2299252c7cbae5a4de5d226029e0cafe7",
+      "local_path": "../../assets/3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660.png",
+      "mime_type": "image/png",
+      "byte_size": 3567,
+      "sha256": "sha256:3ae84b2f7f046c243ad265b99317aa71fe85251a026ba663a7ab00ad17095660"
+    },
+    {
+      "identifier": "687daeedcee5530a1947948ffcb785323f2980380cd32e08668351c79a52eea7",
+      "url_sha256": "687daeedcee5530a1947948ffcb785323f2980380cd32e08668351c79a52eea7",
+      "local_path": "../../assets/62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368.png",
+      "mime_type": "image/png",
+      "byte_size": 2024051,
+      "sha256": "sha256:62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368"
+    },
+    {
+      "identifier": "451994f52809a9bb8131f2ac2b1932b933ec63ad9fa4174e835dbf76d814e017",
+      "url_sha256": "451994f52809a9bb8131f2ac2b1932b933ec63ad9fa4174e835dbf76d814e017",
+      "local_path": "../../assets/626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 200718,
+      "sha256": "sha256:626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9"
+    },
+    {
+      "identifier": "8c5c3b91240f5234c087a957f2cc3ee168d109a745286c6559f86d9941c3da7b",
+      "url_sha256": "8c5c3b91240f5234c087a957f2cc3ee168d109a745286c6559f86d9941c3da7b",
+      "local_path": "../../assets/91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62.png",
+      "mime_type": "image/png",
+      "byte_size": 171949,
+      "sha256": "sha256:91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62"
+    },
+    {
+      "identifier": "48da5556a1b7fc10ffb40d3df18195eb7106dfd6c74b1270176dbeb3d37eed93",
+      "url_sha256": "48da5556a1b7fc10ffb40d3df18195eb7106dfd6c74b1270176dbeb3d37eed93",
+      "local_path": "../../assets/9ef8492a951f19033580da96a89ca4475b345c151f13bd53bb1c99b4325432f0.png",
+      "mime_type": "image/png",
+      "byte_size": 173091,
+      "sha256": "sha256:9ef8492a951f19033580da96a89ca4475b345c151f13bd53bb1c99b4325432f0"
+    },
+    {
+      "identifier": "b9fb6b256c93c26e2f2a55c1119219a5bd2e0ff4f799b17807016a05f8e7ce09",
+      "url_sha256": "b9fb6b256c93c26e2f2a55c1119219a5bd2e0ff4f799b17807016a05f8e7ce09",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/b9fb6b256c93c26e2f2a55c1119219a5bd2e0ff4f799b17807016a05f8e7ce09"
+    },
+    {
+      "identifier": "9571523aade41e9b3988d2b7973aec0df6521cda67b05496648cc2553144b1c0",
+      "url_sha256": "9571523aade41e9b3988d2b7973aec0df6521cda67b05496648cc2553144b1c0",
+      "local_path": "../../assets/3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983.png",
+      "mime_type": "image/png",
+      "byte_size": 9414,
+      "sha256": "sha256:3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983"
+    },
+    {
+      "identifier": "dd43972f3deea4bda094657b69aa6f8ce67c919c7a19503bbaad8198490235b1",
+      "url_sha256": "dd43972f3deea4bda094657b69aa6f8ce67c919c7a19503bbaad8198490235b1",
+      "local_path": "../../assets/3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 8502778,
+      "sha256": "sha256:3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

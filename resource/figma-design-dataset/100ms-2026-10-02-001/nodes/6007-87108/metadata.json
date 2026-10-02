@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:87108",
+  "frame_name": "Top and Bottom Bar",
+  "node_type": "SECTION",
+  "natural_width": 2466,
+  "natural_height": 984,
+  "page_id": "6007:86770",
+  "captured_at": "2026-10-02T01:41:20.460505+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 1555,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 1,
+  "svg_asset_count": 0
+}

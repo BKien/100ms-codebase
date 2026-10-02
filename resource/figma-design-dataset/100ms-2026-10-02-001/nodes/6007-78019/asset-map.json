@@ -1,0 +1,112 @@
+{
+  "assets": [
+    {
+      "identifier": "7ee69cad272c4b369e45d1ec1bfd912d9b79b435eba1e0f134ee02824df61c24",
+      "url_sha256": "7ee69cad272c4b369e45d1ec1bfd912d9b79b435eba1e0f134ee02824df61c24",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/7ee69cad272c4b369e45d1ec1bfd912d9b79b435eba1e0f134ee02824df61c24"
+    },
+    {
+      "identifier": "ea35d774224715fe99e682ecd51e638a6cbd57c2f7920e12112f19d624e23396",
+      "url_sha256": "ea35d774224715fe99e682ecd51e638a6cbd57c2f7920e12112f19d624e23396",
+      "local_path": "../../assets/1dccfae1bd01415e6983c05dbc21125d7dcfe0782262c4d215a045bf35b62c42.png",
+      "mime_type": "image/png",
+      "byte_size": 3047895,
+      "sha256": "sha256:1dccfae1bd01415e6983c05dbc21125d7dcfe0782262c4d215a045bf35b62c42"
+    },
+    {
+      "identifier": "8abb34a8053216984ff170051f3d9f2cf63c0cc3e0e9ef9b43326c848cb9847a",
+      "url_sha256": "8abb34a8053216984ff170051f3d9f2cf63c0cc3e0e9ef9b43326c848cb9847a",
+      "local_path": "../../assets/3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 8502778,
+      "sha256": "sha256:3830118b7ca27c4fbaeee5fcccc0ac4496f23e70a3b2fcfdc0578134ff00c597"
+    },
+    {
+      "identifier": "19cea3b739128b86287e3a0cca0461ac587d0d49954b21a1a86de2172e3bbf49",
+      "url_sha256": "19cea3b739128b86287e3a0cca0461ac587d0d49954b21a1a86de2172e3bbf49",
+      "local_path": "../../assets/9367a4f165d47739b3a32e1bb1c16972ca8b8ea878466aaeaf596ae1872381f2.png",
+      "mime_type": "image/png",
+      "byte_size": 1602592,
+      "sha256": "sha256:9367a4f165d47739b3a32e1bb1c16972ca8b8ea878466aaeaf596ae1872381f2"
+    },
+    {
+      "identifier": "6405624116285b177305c3d9e95980e2e326f51b4edc7bac46844e0154bfc5fb",
+      "url_sha256": "6405624116285b177305c3d9e95980e2e326f51b4edc7bac46844e0154bfc5fb",
+      "local_path": "../../assets/d5ce061433450df82060538cde3a1c90a10c98b312c154cd00edcf72bb45c14b.png",
+      "mime_type": "image/png",
+      "byte_size": 177898,
+      "sha256": "sha256:d5ce061433450df82060538cde3a1c90a10c98b312c154cd00edcf72bb45c14b"
+    },
+    {
+      "identifier": "ec221f53ad57d767be123a23d9d2791fc797699c8c6fb2562b88377ccbb6b9eb",
+      "url_sha256": "ec221f53ad57d767be123a23d9d2791fc797699c8c6fb2562b88377ccbb6b9eb",
+      "local_path": "../../assets/76bed1b9b7dc197c33ade365aaf062f2653e2917b7fd5d22196cae33084a77f5.png",
+      "mime_type": "image/png",
+      "byte_size": 137553,
+      "sha256": "sha256:76bed1b9b7dc197c33ade365aaf062f2653e2917b7fd5d22196cae33084a77f5"
+    },
+    {
+      "identifier": "f35e1148b945f1a11a1081fdffa3781b7a62e7868266a1373579f2fbecee4a01",
+      "url_sha256": "f35e1148b945f1a11a1081fdffa3781b7a62e7868266a1373579f2fbecee4a01",
+      "local_path": "../../assets/979a1d871bb84250e2a70f6da7d8a6fc94e07674da30bd15030e7085875a6cb2.png",
+      "mime_type": "image/png",
+      "byte_size": 66779,
+      "sha256": "sha256:979a1d871bb84250e2a70f6da7d8a6fc94e07674da30bd15030e7085875a6cb2"
+    },
+    {
+      "identifier": "4f91d28dfd9ac7a7c451918105f06d832da341ef39a44103573a710f71165a46",
+      "url_sha256": "4f91d28dfd9ac7a7c451918105f06d832da341ef39a44103573a710f71165a46",
+      "local_path": "../../assets/62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368.png",
+      "mime_type": "image/png",
+      "byte_size": 2024051,
+      "sha256": "sha256:62565362e5c77cd20444b0726229aa71dce391f7d9a52cd83755052b64e4c368"
+    },
+    {
+      "identifier": "b851b45498d90d023dbec724f78a46a266005151c9056a1e2faf4792227d20bf",
+      "url_sha256": "b851b45498d90d023dbec724f78a46a266005151c9056a1e2faf4792227d20bf",
+      "local_path": "../../assets/626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9.jpg",
+      "mime_type": "image/jpeg",
+      "byte_size": 200718,
+      "sha256": "sha256:626c225f35be60f0cfb3ca44ddcc1799bfa5ac7a498deda6e491c50e766821e9"
+    },
+    {
+      "identifier": "27bbe5539c160350a4c0a6536922a36c574e22f2704dacb06b97ae1e1345d85b",
+      "url_sha256": "27bbe5539c160350a4c0a6536922a36c574e22f2704dacb06b97ae1e1345d85b",
+      "local_path": "../../assets/be6ca96b5a23667c981122b3e2148bee764a09364aaab7d3d36cc6bcf93030e8.png",
+      "mime_type": "image/png",
+      "byte_size": 1952214,
+      "sha256": "sha256:be6ca96b5a23667c981122b3e2148bee764a09364aaab7d3d36cc6bcf93030e8"
+    },
+    {
+      "identifier": "bfa5d43034bdb89e682b32346e68b6d7b5191df22e8a2ed39e47dc20626b604e",
+      "url_sha256": "bfa5d43034bdb89e682b32346e68b6d7b5191df22e8a2ed39e47dc20626b604e",
+      "local_path": "../../assets/6f07044a0471bcd4ae22918b6656b876e1349225c1fc61a1a6ddcdfa6c2f65f7.png",
+      "mime_type": "image/png",
+      "byte_size": 451209,
+      "sha256": "sha256:6f07044a0471bcd4ae22918b6656b876e1349225c1fc61a1a6ddcdfa6c2f65f7"
+    },
+    {
+      "identifier": "8a1e79422344063a3bde13701d39019d4220fc414c0a318934e85c5fdb0269d2",
+      "url_sha256": "8a1e79422344063a3bde13701d39019d4220fc414c0a318934e85c5fdb0269d2",
+      "local_path": "../../assets/91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62.png",
+      "mime_type": "image/png",
+      "byte_size": 171949,
+      "sha256": "sha256:91a63cc40a38473f2e254bcb9626f769559900dfa2b60fc372fa943ca1ee1a62"
+    },
+    {
+      "identifier": "415b5d2d8e9d72bbc1d4067ac0241a09146c6d52cd453da53aa393c0b8c68ac4",
+      "url_sha256": "415b5d2d8e9d72bbc1d4067ac0241a09146c6d52cd453da53aa393c0b8c68ac4",
+      "local_path": "../../assets/dadeb9a8c06141a86203d39ffe0c869153202648f1b1d3dc8fb3d923d265f1b7.png",
+      "mime_type": "image/png",
+      "byte_size": 143121,
+      "sha256": "sha256:dadeb9a8c06141a86203d39ffe0c869153202648f1b1d3dc8fb3d923d265f1b7"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

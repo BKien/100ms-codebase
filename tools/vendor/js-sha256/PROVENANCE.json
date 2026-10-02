@@ -1,0 +1,9 @@
+{
+  "package": "js-sha256",
+  "version": "0.11.1",
+  "source": "https://registry.npmjs.org/js-sha256/0.11.1",
+  "upstream": "https://github.com/emn178/js-sha256",
+  "license": "MIT",
+  "sha256": "sha256:4b53da9acab6a5d4010107be2025002fe1a22da64804dd5200b46895cb899219",
+  "use": "setup-only native image cache integrity; not application dependency"
+}

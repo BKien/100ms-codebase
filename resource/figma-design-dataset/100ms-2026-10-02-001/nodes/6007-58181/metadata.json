@@ -1,0 +1,34 @@
+{
+  "capture_schema_version": 2,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:58181",
+  "frame_name": "Messages & Pinned",
+  "node_type": "FRAME",
+  "natural_width": 1512,
+  "natural_height": 982,
+  "page_id": "6007:55138",
+  "captured_at": "2026-10-02T01:37:10.518652+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "reference-code-and-native-subtree",
+  "context_characters": 41400,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": true
+  },
+  "truncation_handled": true,
+  "status": "complete",
+  "download_failures": 1,
+  "raw_image_count": 6,
+  "svg_asset_count": 20,
+  "native_captured_at": "2026-10-02T03:01:12.713702+00:00",
+  "truncation_resolution": {
+    "method": "complete-native-subtree-and-referenced-assets",
+    "native_asset_count": 28,
+    "excluded_unused_download_assets": 1
+  },
+  "required_download_failures": 0,
+  "native_failures": []
+}

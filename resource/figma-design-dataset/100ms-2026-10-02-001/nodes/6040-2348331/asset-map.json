@@ -1,0 +1,88 @@
+{
+  "assets": [
+    {
+      "identifier": "33c36.svg",
+      "url_sha256": "0f136a3c477ccce7176baad2e8a758fa5e10c34ac667783c9d071d86f1f824fb",
+      "local_path": "../../assets/5617a341b13fade245cdbd3ee05fc8ba63cc1c642a5584f8c403c14c5b6cc83a.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1358,
+      "sha256": "sha256:5617a341b13fade245cdbd3ee05fc8ba63cc1c642a5584f8c403c14c5b6cc83a"
+    },
+    {
+      "identifier": "4ab0e.svg",
+      "url_sha256": "766f3da61493062b49a8a3f911a0fd8ae86e8f30375564a408a8f056cd80e33d",
+      "local_path": "../../assets/be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1310,
+      "sha256": "sha256:be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78"
+    },
+    {
+      "identifier": "84a55.svg",
+      "url_sha256": "fe68442a4d656665ceba34b0086cc92a839f9eb87e1ddcd81d645bc6cc97e4b0",
+      "local_path": "../../assets/be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1310,
+      "sha256": "sha256:be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78"
+    },
+    {
+      "identifier": "00748.svg",
+      "url_sha256": "3b11c3a0e17c5b0a75862008ed073747ebf01a8513dbe667a0507395f10824c0",
+      "local_path": "../../assets/5617a341b13fade245cdbd3ee05fc8ba63cc1c642a5584f8c403c14c5b6cc83a.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1358,
+      "sha256": "sha256:5617a341b13fade245cdbd3ee05fc8ba63cc1c642a5584f8c403c14c5b6cc83a"
+    },
+    {
+      "identifier": "103c6.svg",
+      "url_sha256": "a863c36f55c763346a632f6a0cacfba31cbffe3ed8d4a3cf2d11121872951ca0",
+      "local_path": "../../assets/be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1310,
+      "sha256": "sha256:be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78"
+    },
+    {
+      "identifier": "c0b06.svg",
+      "url_sha256": "c5eec50cd7c9bb0fdf0306ca94cf91fba32759b4289143ba504193ea8e3ef92a",
+      "local_path": "../../assets/be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1310,
+      "sha256": "sha256:be27aa7e15ec11e0aa658ff1b7b1129385772382eef1b4c84542710d189cda78"
+    },
+    {
+      "identifier": "b1cfd663cd07da00adf795288a9cb17312ed49a6eb1a43b69fe4ff593cda6dd8",
+      "url_sha256": "b1cfd663cd07da00adf795288a9cb17312ed49a6eb1a43b69fe4ff593cda6dd8",
+      "local_path": "../../assets/dbeb0843ee5c502177e4ca784a753092bd41b4784ea8cfa8e90e479222bbd9dd.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1361,
+      "sha256": "sha256:dbeb0843ee5c502177e4ca784a753092bd41b4784ea8cfa8e90e479222bbd9dd"
+    },
+    {
+      "identifier": "1e7255f06f6fc2eb11f5ed26e99a3c7237bd9a1fc9bb5dcc9a885af996f4644d",
+      "url_sha256": "1e7255f06f6fc2eb11f5ed26e99a3c7237bd9a1fc9bb5dcc9a885af996f4644d",
+      "local_path": "../../assets/cef534b43f7ca48858884d576661bb493e056ac60f24de75c6a2bedcdcf11f5d.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1313,
+      "sha256": "sha256:cef534b43f7ca48858884d576661bb493e056ac60f24de75c6a2bedcdcf11f5d"
+    },
+    {
+      "identifier": "a51d0bff58a57e6da3a1f759c0e1e2dc849cd43d8d4e9e80c00656b67e9edb1a",
+      "url_sha256": "a51d0bff58a57e6da3a1f759c0e1e2dc849cd43d8d4e9e80c00656b67e9edb1a",
+      "local_path": "../../assets/cef534b43f7ca48858884d576661bb493e056ac60f24de75c6a2bedcdcf11f5d.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1313,
+      "sha256": "sha256:cef534b43f7ca48858884d576661bb493e056ac60f24de75c6a2bedcdcf11f5d"
+    },
+    {
+      "identifier": "c5a4de8dd6ed0777a876062562ca6a70ddf1ee463fb2c45b9eb98673cac6a820",
+      "url_sha256": "c5a4de8dd6ed0777a876062562ca6a70ddf1ee463fb2c45b9eb98673cac6a820",
+      "local_path": "../../assets/b2304af6f7fb949c4e976f46b4db460c8ea8e21f0ee78f6043a8041e392acde8.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1315,
+      "sha256": "sha256:b2304af6f7fb949c4e976f46b4db460c8ea8e21f0ee78f6043a8041e392acde8"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

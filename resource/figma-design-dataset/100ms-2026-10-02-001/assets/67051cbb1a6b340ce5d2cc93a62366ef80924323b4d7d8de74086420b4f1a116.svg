@@ -1,0 +1,40 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="242" height="150.332" viewBox="0 0 242 150.332" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Grid">
+<g id="Rectangle">
+<rect x="1.00064" y="1" width="239.995" height="148.331" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Rectangle_2">
+<rect x="1.00064" y="149.331" width="148.331" height="91.6668" transform="rotate(-90 1.00064 149.331)" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Rectangle_3">
+<rect x="149.329" y="149.331" width="148.331" height="91.6668" transform="rotate(-90 149.329 149.331)" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square">
+<rect x="1.00064" y="1" width="148.328" height="148.331" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_2">
+<rect x="149.329" y="1" width="91.6668" height="91.6687" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_3">
+<rect x="184.334" y="92.6687" width="56.6614" height="56.6626" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_4">
+<rect x="149.329" y="114.325" width="35.0054" height="35.0062" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_5">
+<rect x="149.329" y="92.6687" width="21.6564" height="21.6564" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_6">
+<rect x="170.985" y="92.6687" width="13.3498" height="13.3498" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_7">
+<rect x="176.028" y="106.019" width="8.30655" height="8.30655" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Square_8">
+<rect x="170.985" y="109.282" width="5.04326" height="5.04326" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2" stroke-linecap="round"/>
+</g>
+<path id="Line" d="M1.52731 0.149927C1.05751 -0.14043 0.440865 0.00477462 0.149987 0.474252C-0.14089 0.943729 0.00415398 1.5597 0.473953 1.85005L1.00063 0.999991L1.52731 0.149927ZM240.47 150.179C240.94 150.469 241.557 150.324 241.848 149.855C242.138 149.385 241.993 148.769 241.524 148.479L240.997 149.329L240.47 150.179ZM1.00063 0.999991L0.473953 1.85005L240.47 150.179L240.997 149.329L241.524 148.479L1.52731 0.149927L1.00063 0.999991Z" fill="#3C485D" style="fill:#3C485D;fill:color(display-p3 0.2353 0.2824 0.3647);fill-opacity:1;"/>
+<path id="Line_2" d="M0.150577 148.805C-0.139781 149.274 0.00542387 149.891 0.474901 150.182C0.944378 150.473 1.56035 150.328 1.8507 149.858L1.00064 149.331L0.150577 148.805ZM93.5239 1.53065C93.8143 1.06086 93.6691 0.444201 93.1996 0.153323C92.7301 -0.137554 92.1142 0.00749713 91.8238 0.477289L92.6739 1.00397L93.5239 1.53065ZM1.00064 149.331L1.8507 149.858L93.5239 1.53065L92.6739 1.00397L91.8238 0.477289L0.150577 148.805L1.00064 149.331Z" fill="#3C485D" style="fill:#3C485D;fill:color(display-p3 0.2353 0.2824 0.3647);fill-opacity:1;"/>
+<path id="Line_3" d="M148.479 148.805C148.188 149.274 148.334 149.891 148.803 150.182C149.273 150.473 149.889 150.328 150.179 149.858L149.329 149.331L148.479 148.805ZM241.851 1.5298C242.141 1.06 241.996 0.44334 241.526 0.152458C241.057 -0.138424 240.441 0.0066262 240.151 0.476421L241.001 1.00311L241.851 1.5298ZM149.329 149.331L150.179 149.858L241.851 1.5298L241.001 1.00311L240.151 0.476421L148.479 148.805L149.329 149.331Z" fill="#3C485D" style="fill:#3C485D;fill:color(display-p3 0.2353 0.2824 0.3647);fill-opacity:1;"/>
+</g>
+</svg>

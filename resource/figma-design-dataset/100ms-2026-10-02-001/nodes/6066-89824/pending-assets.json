@@ -1,0 +1,13 @@
+{
+  "status": "not-downloaded",
+  "assets": [
+    {
+      "identifier": "8d4c26de765ab2596b00378863b4dd6a9ed385f5c0c19110065e288ee4d8f174",
+      "url_sha256": "8d4c26de765ab2596b00378863b4dd6a9ed385f5c0c19110065e288ee4d8f174",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/8d4c26de765ab2596b00378863b4dd6a9ed385f5c0c19110065e288ee4d8f174"
+    }
+  ]
+}

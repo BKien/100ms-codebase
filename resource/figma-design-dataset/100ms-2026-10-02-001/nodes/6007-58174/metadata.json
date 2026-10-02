@@ -1,0 +1,26 @@
+{
+  "screenshot_method": "get_screenshot-url-download",
+  "screenshot_scale": 1.0,
+  "screenshot_node_id": "6007:58174",
+  "capture_schema_version": 2,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:58174",
+  "frame_name": "Empty",
+  "node_type": "FRAME",
+  "natural_width": 1512,
+  "natural_height": 982,
+  "page_id": "6007:55138",
+  "native_captured_at": "2026-10-02T03:01:13.555706+00:00",
+  "context_kind": "native-subtree",
+  "code_connect_status": "not-requested; native supplemental evidence",
+  "truncation_handled": true,
+  "truncation_resolution": {
+    "method": "complete-native-subtree-and-referenced-assets",
+    "native_asset_count": 30,
+    "excluded_unused_download_assets": 0
+  },
+  "required_download_failures": 0,
+  "native_failures": [],
+  "status": "complete"
+}

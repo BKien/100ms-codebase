@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="169.815" viewBox="0 0 240 169.815" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="A4 half &#226;&#128;&#148; portrait">
+<g clip-path="url(#clip0_0_1400)">
+<path id="Cell" d="M120 0L120 170H240L240 6.50475e-06L120 0Z" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-dasharray="4 4"/>
+<path id="Cell_2" d="M-2.48778e-06 0L-8.48001e-06 170H120L120 6.50475e-06L-2.48778e-06 0Z" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-dasharray="4 4"/>
+<path id="Line" d="M120 0L240 169.82" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-dasharray="4 4"/>
+<path id="Line_2" d="M120 0L0.000244141 169.82" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-dasharray="4 4"/>
+</g>
+<rect x="0.5" y="0.5" width="239" height="168.815" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1400">
+<rect width="240" height="169.815" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

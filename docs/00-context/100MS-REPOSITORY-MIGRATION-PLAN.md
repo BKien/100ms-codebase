@@ -1,3 +1,7 @@
+> Database setup hoàn tất 2026-10-02 theo ưu tiên repo và Google Docs: 16 bảng, migration đã áp dụng, schema/fingerprint/history PASS, FE/BE/MySQL healthy. Ba pins ở [baseline receipt](sources/100ms-database-baseline.json); [adaptation](engineering/100MS-DATABASE-ADAPTATION.md) thay phần quyết định pending trong khảo sát lịch sử. Bốn research JSON inputs cần chuẩn bị riêng trước generation.
+
+> Trạng thái hiện hành 2026-10-02: desktop dataset 100ms-2026-10-02-001 complete/frozen cho 18 UC; không capture mobile. Bước 5 thay kế hoạch kéo toàn file. Những mô tả khảo sát ban đầu là lịch sử. Xem [setup report](100MS-SETUP-REPORT.md) và [database proposal](engineering/100MS-DATABASE-RESOLUTION-PROPOSAL.md).
+
 # Kế hoạch chuyển repo sang codebase thực nghiệm 100ms
 
 Ngày khảo sát: 2026-10-01 (Asia/Saigon). Trạng thái: kế hoạch chuẩn bị, chưa thực hiện làm sạch hoặc thay đầu vào.
@@ -118,7 +122,7 @@ finalsource/
 - Researcher chuẩn bị ngoài run: provisioning session/designated-host/principal và credential issuance, catalog/media adapter/provider completion cần cho runtime. Tài liệu phải chốt input và ranh giới này trước khi bắt đầu UC cần chúng; không bổ sung unapproved public API.
 - Capture `migration_head`, `dbml_sha256`, `schema_fingerprint_sha256` sau khi schema được review và runtime có thể truy cập. Giữ dữ liệu tích lũy giữa các UC.
 
-Docker daemon hiện BLOCKED. Setup/runtime/migration là bước triển khai riêng khi được researcher yêu cầu; kế hoạch này không khởi động container hoặc sửa schema. Trong run chỉ rebuild `backend frontend` với `--no-deps`; không gọi migration service.
+Cập nhật 2026-10-02: Docker daemon hoạt động; FE/BE build và runtime health/reachability PASS. Database/migration đã chạy trong setup được yêu cầu; snapshot/source frozen giữ nguyên, schema projection và migration được lưu riêng. Trong run chỉ rebuild `backend frontend` với `--no-deps`; không gọi migration service.
 
 ### Bước 4 — source-baseline.zip và SHA-256
 
@@ -139,24 +143,23 @@ source-baseline.zip
 - Tính raw-byte SHA-256 của ZIP; điền `PROJECT_PROFILE.json.clean_source_baseline_sha256` theo dạng `sha256:<64 hex>`. Đây là checksum ZIP, không phải Git commit SHA hoặc checksum thư mục finalsource.
 - Giữ package/lockfiles/Compose/Dockerfiles bằng Git revision tương ứng vì ZIP chỉ phục hồi hai thư mục `src`.
 
-### Bước 5 — FIGMA-LINK-REVIEW và immutable dataset
+### Bước 5 — Dataset desktop đủ cho UC, tối ưu số lượt capture
 
-- Thay review Financial bằng inventory 100ms đã xác minh: UC ID/name, frozen path, file key, node ID, occurrence count, Replacement URL và connector verification.
-- Mỗi UC có một primary replacement rõ ràng hoặc `NOT_APPLICABLE` có căn cứ; bổ sung mappings cho desktop/mobile, states và shared foundations/assets cần capture. Một node dùng chung cho nhiều UC chỉ capture một lần.
-- Profile chỉ lưu root frame URLs; review lưu capture targets đã xác minh. Primary root cần bao quát các trạng thái liên quan hoặc supplement phải nêu đầy đủ để không mất bằng chứng.
-- Chọn version mới rõ ràng, đề xuất `100ms-2026-10-01-001`; đây chỉ là tên dự kiến, chưa được chọn hoặc tạo. Không tự lấy version từ dataset Financial.
-- Chạy `$resolve-figma-design-dataset` sau khi inventory Frozen mới và review không còn thiếu/conflict. Capture chỉ dùng cột `Replacement URL`, không dùng Figma URL từ UC provenance.
-- Với từng capture node: `design-context.md`, `metadata.json`, `screenshot.png`, `export.png`, assets, `asset-map.json`, checksums; ghi truncation và xử lý đầy đủ trước `complete`.
-- Shared assets trùng nội dung được lưu checksum-addressed trong dataset chưa Frozen. Loại URL asset ngắn hạn khỏi context; không lưu token/cookie.
-- Validate tất cả bằng resolver với `--validate-all --dataset-version <version-đã-chốt>`; resolve từng UC bằng chính version này. Không đánh dấu complete nếu pending rate limit hoặc partial content.
-- Cấu hình run sẽ pin version và manifest checksum. Frozen dataset không bị ghi đè; refresh tạo version mới.
+Phạm vi hiện hành theo researcher ngày 2026-10-02: **desktop only, không tải mobile**. Version chọn rõ ràng: 100ms-2026-10-02-001; mapping duy nhất là FIGMA-LINK-REVIEW.md.
 
-Skill áp dụng: [resolve-figma-design-dataset](../../.codex/skills/resolve-figma-design-dataset/SKILL.md). Điều kiện trực tiếp: “Stop if any placeholder, conflict or missing mapping remains.” Review hiện chỉ ánh xạ Financial nên chưa thể capture dataset 100ms theo hợp đồng. Lỗi reauthentication là blocker bổ sung từ connector; khảo sát toàn page vẫn chưa hoàn tất.
+- Chọn 74 node trên 8 page cho 18 UC: primary, trạng thái desktop liên quan và hai component dùng chung. Coverage giữ source UC SHA-256, required nodes, flow inventory và giới hạn bằng chứng thiết kế.
+- Loại 530/604 target khỏi capture bắt buộc: mobile, documentation, changelog, foundations/library không dùng và peer-count variants trùng. Giảm 87,7% số target kế hoạch; không phải tỷ lệ quota thực tế.
+- Giữ reference code của 18 primary. Supplemental dùng Plugin API chỉ đọc, full descendants, layout, paint, text runs, component properties và geometry; batch trong cùng page.
+- Tái dùng cache đã xác minh identifier/code và SHA-256; asset dùng chung chỉ lưu một bản theo checksum. Chỉ tải render/asset thiếu; không gọi lại full context hoặc tạo PNG export trùng screenshot.
+- Kiểm tra ảnh, byte size, SHA-256, local references, native asset inventory, mapping và source UC pins trước complete/frozen. SVG không export được chỉ được thay bằng geometry native thực và ghi phương thức.
+- Resolver trả primary, supplementary directories, platform scope và coverage. Mobile đã tải trước được giữ như lịch sử, không phục vụ desktop resolution.
+- Dataset hiện complete/frozen: 74/74 node, 18/18 UC, 1.929 file trong ledger. Refresh tạo version mới, không sửa version này hoặc tự chọn newest.
+- Database và bốn research JSON inputs được chuẩn bị riêng trước generation; không suy ra BR/flow acceptance từ dataset.
 
 ### Bước 6 — Nghiệm thu và đầu vào thí nghiệm đầu tiên
 
 - Rà Financial references trong tài nguyên hoạt động bằng tìm kiếm có phạm vi, phân biệt archive/provenance lịch sử với nguồn đang dùng.
-- Kiểm tra profile/provenance, 18 Frozen UC, 14 Frozen API cùng common dependency, OCL/model/assumptions, DBML/migration history, ZIP checksum và Figma completeness.
+- Kiểm tra profile/provenance, 18 Frozen UC, 15 Frozen API cùng common dependency, OCL/model/assumptions, DBML/migration history, ZIP checksum và Figma completeness.
 - Chạy source inspection, deterministic validators, typecheck/lint/build phù hợp; sau setup được yêu cầu, kiểm tra Docker health/reachability và quan sát runtime có giới hạn. Không tạo/chạy tests hoặc chạy script DB probe của spec tạo schema/test data.
 - Nghiệm thu khả năng phục hồi source từ ZIP bằng checksum, không reset database. Ghi commit của bộ input + scaffolding + lockfiles đã hoàn tất.
 - Sau đó chuẩn bị riêng cho UC/model/variant đầu tiên: Confirmed configuration, complete ordered BR baseline, complete ordered flow baseline và Draft Canonical Run JSON. UC-01 là client-local theo spec, không tự gán API nghiệp vụ cho nó.
@@ -171,4 +174,4 @@ Repo chỉ READY khi các mục trên đạt yêu cầu. Sau đó researcher b�
 
 ## Kết quả thực hiện kế hoạch
 
-Researcher yêu cầu thực hiện và tạm hoãn database. Xem [100MS-SETUP-REPORT.md](100MS-SETUP-REPORT.md) cho artifact, validation và các blocker thực tế. Nguồn thực tế có 15 API; README nguồn ghi 14. Toàn bộ 69 page đã quét; capture Figma bị giới hạn MCP Education plan.
+Researcher yêu cầu thực hiện và tạm hoãn database. Xem [100MS-SETUP-REPORT.md](100MS-SETUP-REPORT.md) cho artifact, validation và các blocker thực tế. Nguồn thực tế có 15 API; README nguồn ghi 14. Toàn bộ 69 page đã quét; dataset mới complete/frozen theo phạm vi desktop đủ cho UC và cache.

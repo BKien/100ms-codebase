@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {
+      "identifier": "876aecc4075d21c76587f52b4a0aada3b10e37c4c0060a17c23f7a0a35ce0281",
+      "url_sha256": "876aecc4075d21c76587f52b4a0aada3b10e37c4c0060a17c23f7a0a35ce0281",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "PNG lacks pixel data or end marker",
+      "local_path": "assets-pending/876aecc4075d21c76587f52b4a0aada3b10e37c4c0060a17c23f7a0a35ce0281"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

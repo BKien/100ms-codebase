@@ -1,0 +1,17 @@
+# Database 100ms theo ưu tiên của repository
+
+Quyết định setup ngày 2026-10-02 của researcher: ưu tiên yêu cầu database của repo, tự viết migration từ schema 100ms và thực hiện chỉ dẫn trong [Google Docs, tab Database](https://docs.google.com/document/d/1R9Z4LQ_FEbEop_TmGMTyCPnM3HdNau9JvLBV4uB8ZMg/edit?tab=t.7vwf3xf4pxs9). Đây là setup được yêu cầu ngoài run; không phải source generation hoặc repair. Quyết định này thay thế đề xuất trước đó về việc mở rộng fingerprint cho procedure/trigger.
+
+- Giữ NestJS, TypeORM, MySQL 8.4 và protocol `mysql84-tables-v1` nguyên vẹn. Không tạo procedure, trigger, view hoặc event và không bỏ kiểm tra unsupported objects.
+- [DBML hoạt động](schema.dbml) được chiếu từ schema nguồn đã checksum; [migration](../../../finalsource/be/src/database/migrations/1790916544190-Initial100msSchema.ts) tạo 16 bảng ứng dụng. Snapshot và frozen UC/API không sửa.
+- Giữ các cột nguồn, enum domains, defaults, nullability, PK, 28 FK, 13 CHECK và 5 conditional unique indexes. FK dùng RESTRICT/RESTRICT, InnoDB/utf8mb4, datetime UTC. Digest lookup là cột vật lý bổ sung duy nhất.
+- Không chạy procedure và hai trigger của persistence.sql. Capacity, HOST/designated-principal consistency, cấm JOIN khi ENDED và membership identity bất biến phải được ứng dụng thực thi theo frozen BR. Không có service nghiệp vụ nào được cài sẵn bởi setup này.
+- Giữ Idempotency-Key dạng TEXT; không thêm giới hạn 255 byte và không dùng unique prefix hoặc unique hash. Cột generated BINARY(32) chứa SHA-256 và index composite **không unique** chỉ tăng tốc tra cứu. Key đầy đủ phải được so sánh byte-exact; digest collision không đồng nghĩa cùng key. Migration không tự bảo đảm uniqueness/replay nghiệp vụ giữa các receipt.
+- MutationGateway của từng UC và trusted provider completion phải dùng SERIALIZABLE, khóa sessions.id trước resource/receipt reads, lọc digest rồi so sánh key đầy đủ, replay trước mutation và ghi mutation/response/receipt cùng transaction. Retry bounded theo nguồn; không HTTP success trước commit. Đây là trách nhiệm implementation/audit về sau, không phải runtime proof trong setup.
+- Mọi thay đổi schema về sau dùng migration mới giữa các run, giữ dữ liệu tích lũy. Không sửa migration đã áp dụng; ứng dụng giữ synchronize/migrationsRun false. Rebuild trong run dùng --no-deps backend frontend.
+
+Nguồn và chênh lệch lưu tại [adaptation receipt](../sources/100ms-database-adaptation.json); nội dung tab chỉ dẫn được lưu tại [guide receipt](../sources/100ms-database-setup-guide.json). Baseline đã xác minh tại [database baseline](../sources/100ms-database-baseline.json), chỉ có đúng ba pin dành cho configuration.
+
+Theo chỉ dẫn Docs, chạy toàn stack bằng Compose để migration hoàn tất trước backend. Repo yêu cầu giữ dữ liệu; lệnh down -v trong Docs chỉ dùng khi researcher yêu cầu reset rõ ràng. Setup này tạo volume mới, không reset hoặc seed. MySQL lắng nghe tại 127.0.0.1:3307; tên database/user và password lấy trực tiếp trong finalsource/.env, không đưa secret vào báo cáo.
+
+MySQL hỗ trợ [index trên generated columns](https://dev.mysql.com/doc/refman/8.4/en/generated-column-index-optimizations.html); [generated-column rules](https://dev.mysql.com/doc/refman/8.4/en/create-table-generated-columns.html) và [SHA2](https://dev.mysql.com/doc/refman/8.4/en/encryption-functions.html) là căn cứ kỹ thuật cho lookup digest. Equality và transaction protocol vẫn theo frozen UC/API và quyết định tables-only của researcher.

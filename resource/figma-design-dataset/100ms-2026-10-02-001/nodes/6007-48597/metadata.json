@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6007:48597",
+  "frame_name": "Solid Icons",
+  "node_type": "SECTION",
+  "natural_width": 568,
+  "natural_height": 395,
+  "page_id": "4707:66884",
+  "captured_at": "2026-10-02T01:55:17.694527+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 3461,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 3,
+  "svg_asset_count": 0
+}

@@ -1,7 +1,7 @@
 {
   "artifact_type": "docker-environment-current",
-  "observed_at": "2026-10-01T10:00:44Z",
-  "repository_revision": "ad24d09 plus uncommitted authorized 100ms preparation",
+  "observed_at": "2026-10-02T05:02:19.785429+00:00",
+  "repository_revision": "044676f plus authorized Figma/database setup working tree",
   "docker": {
     "cli": "29.2.1",
     "compose": "5.0.2",
@@ -11,30 +11,35 @@
     "env_present": true,
     "env_ignored": true,
     "env_tracked": false,
-    "env_valid": false,
+    "env_valid": true,
     "compose_valid": true,
-    "credential_status": "placeholders; researcher database preparation deferred"
+    "credential_status": "researcher supplied; validated without disclosure; literal quoting"
   },
   "services": {
     "backend": {
       "state": "running",
       "health": "healthy",
+      "exit_code": 0,
       "url": "http://localhost:13000/api/health"
+    },
+    "database": {
+      "state": "running",
+      "health": "healthy",
+      "exit_code": 0,
+      "connection": "127.0.0.1:3307; credentials in ignored finalsource/.env"
     },
     "frontend": {
       "state": "running",
       "health": "healthy",
+      "exit_code": 0,
       "url": "http://localhost:18080"
     },
-    "database": {
-      "state": "not-started",
-      "reason": "deferred-by-researcher"
-    },
     "migration": {
-      "state": "not-run",
-      "reason": "deferred-by-researcher"
+      "state": "exited",
+      "health": "",
+      "exit_code": 0
     }
   },
-  "status": "RUNTIME_PASS; DATABASE_DEFERRED",
-  "next_action": "Resume Figma capture after MCP quota is available; prepare database only on researcher instruction."
+  "status": "PASS",
+  "next_action": "Prepare the four research JSON inputs and pin the selected UC/API/Figma plus exactly three database fields; no run has been created."
 }

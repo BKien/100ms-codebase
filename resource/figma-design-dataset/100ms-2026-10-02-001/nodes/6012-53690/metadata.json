@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6012:53690",
+  "frame_name": "Header & Footer",
+  "node_type": "SECTION",
+  "natural_width": 1516,
+  "natural_height": 495,
+  "page_id": "6012:52233",
+  "captured_at": "2026-10-02T01:54:06.937077+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 990,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 4,
+  "svg_asset_count": 0
+}

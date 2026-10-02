@@ -1,0 +1,32 @@
+{
+  "assets": [
+    {
+      "identifier": "6f812.svg",
+      "url_sha256": "133f5c8789ee12b3f663228b7842d6002bda69fd60851e64515dc96d0ab7f433",
+      "local_path": "../../assets/109ff52606a08021cf8e6e9b341bc5913c34ab0214823c9fe40d58e94d5c2513.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1254,
+      "sha256": "sha256:109ff52606a08021cf8e6e9b341bc5913c34ab0214823c9fe40d58e94d5c2513"
+    },
+    {
+      "identifier": "a243aec0f68add18a186bf242e988fdaa700f5d4a651519e958f384361558052",
+      "url_sha256": "a243aec0f68add18a186bf242e988fdaa700f5d4a651519e958f384361558052",
+      "local_path": "../../assets/3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983.png",
+      "mime_type": "image/png",
+      "byte_size": 9414,
+      "sha256": "sha256:3a55071fcbad3bdcca968966f41765e94be44f701c25b6fcb3049e4c3e974983"
+    },
+    {
+      "identifier": "fea1db79d911bf9d830ffcc7df5d37659011062a06bf5453f226365677477fd2",
+      "url_sha256": "fea1db79d911bf9d830ffcc7df5d37659011062a06bf5453f226365677477fd2",
+      "local_path": "../../assets/2c497ceee9d051741144ea8bcf1170c7234658f16d9b7f976450de031bf9da87.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 1252,
+      "sha256": "sha256:2c497ceee9d051741144ea8bcf1170c7234658f16d9b7f976450de031bf9da87"
+    }
+  ],
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  }
+}

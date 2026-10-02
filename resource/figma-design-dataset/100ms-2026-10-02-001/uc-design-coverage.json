@@ -1,0 +1,1218 @@
+{
+  "schema": "uc-design-coverage-v1",
+  "dataset_version": "100ms-2026-10-02-001",
+  "coverage_type": "design-input-sufficiency; not BR/flow audit",
+  "use_cases": {
+    "UC-001": {
+      "source_uc": "docs/01-inception/use-cases/uc-01-review-join-preview-and-permissions.md",
+      "source_uc_sha256": "sha256:ce64fcaa4b52edc17610030069528f62117dd81d63920691a9a83d8cb0f76004",
+      "primary_node_id": "6007:51246",
+      "required_node_ids": [
+        "6007:51246",
+        "6007:51266",
+        "6007:51296",
+        "6007:51317",
+        "6066:89729",
+        "6066:89749",
+        "6066:89779"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:51246",
+            "6007:51266",
+            "6007:51296",
+            "6007:51317",
+            "6066:89729",
+            "6066:89749",
+            "6066:89779"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:51246",
+            "6007:51266",
+            "6007:51296",
+            "6007:51317",
+            "6066:89729",
+            "6066:89749",
+            "6066:89779"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:51246",
+            "6007:51266",
+            "6007:51296",
+            "6007:51317",
+            "6066:89729",
+            "6066:89749",
+            "6066:89779"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-002": {
+      "source_uc": "docs/01-inception/use-cases/uc-02-join-a-session.md",
+      "source_uc_sha256": "sha256:6997ccc88da2d6c892c75db195f9151214b8acd81bc4d8aa9282f37753b64cad",
+      "primary_node_id": "6066:89824",
+      "required_node_ids": [
+        "6066:89824",
+        "6007:51341",
+        "6007:51391",
+        "6007:51418"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6066:89824",
+            "6007:51341",
+            "6007:51391",
+            "6007:51418"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6066:89824",
+            "6007:51341",
+            "6007:51391",
+            "6007:51418"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6066:89824",
+            "6007:51341",
+            "6007:51391",
+            "6007:51418"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-003": {
+      "source_uc": "docs/01-inception/use-cases/uc-03-start-a-live-stream.md",
+      "source_uc_sha256": "sha256:1c463f53daaefdc2e3862ef15119d081130abe1558eb59f8caecdc70f39ca736",
+      "primary_node_id": "6007:87452",
+      "required_node_ids": [
+        "6007:87452",
+        "6007:51102",
+        "6007:87457",
+        "6007:87462",
+        "6007:87294"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:87452",
+            "6007:51102",
+            "6007:87457",
+            "6007:87462",
+            "6007:87294"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:87452",
+            "6007:51102",
+            "6007:87457",
+            "6007:87462",
+            "6007:87294"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:87452",
+            "6007:51102",
+            "6007:87457",
+            "6007:87462",
+            "6007:87294"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-004": {
+      "source_uc": "docs/01-inception/use-cases/uc-04-stop-a-live-stream.md",
+      "source_uc_sha256": "sha256:c63926b621236357a6787f61f72959a0f6c2b32cf338175e228d9e7233bdaa33",
+      "primary_node_id": "6007:87446",
+      "required_node_ids": [
+        "6007:87446",
+        "6007:87130"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:87446",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:87446",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:87446",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-005": {
+      "source_uc": "docs/01-inception/use-cases/uc-05-watch-a-live-stream.md",
+      "source_uc_sha256": "sha256:f7db2d083f783640c1011231ab10d58408624f6f8eb7ed18beb05fd8d485a605",
+      "primary_node_id": "6007:87420",
+      "required_node_ids": [
+        "6007:87420",
+        "6007:51398",
+        "6007:87410",
+        "6007:87425"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:87420",
+            "6007:51398",
+            "6007:87410",
+            "6007:87425"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:87420",
+            "6007:51398",
+            "6007:87410",
+            "6007:87425"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:87420",
+            "6007:51398",
+            "6007:87410",
+            "6007:87425"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-006": {
+      "source_uc": "docs/01-inception/use-cases/uc-06-request-stage-access.md",
+      "source_uc_sha256": "sha256:112576264bbf9974870b923b6d697e44f3170a5582abe9dac43573bf6de952ae",
+      "primary_node_id": "6007:87266",
+      "required_node_ids": [
+        "6007:87266",
+        "6007:87261",
+        "6007:87286"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:87266",
+            "6007:87261",
+            "6007:87286"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:87266",
+            "6007:87261",
+            "6007:87286"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:87266",
+            "6007:87261",
+            "6007:87286"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-007": {
+      "source_uc": "docs/01-inception/use-cases/uc-07-respond-to-a-stage-request.md",
+      "source_uc_sha256": "sha256:4802285d85848e2a7c3c0ccfd57c5ef355bee340536870dcbe8f7abc71f69c68",
+      "primary_node_id": "6007:87235",
+      "required_node_ids": [
+        "6007:87235",
+        "6007:87241",
+        "6007:87247",
+        "6007:87253"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:87235",
+            "6007:87241",
+            "6007:87247",
+            "6007:87253"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:87235",
+            "6007:87241",
+            "6007:87247",
+            "6007:87253"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:87235",
+            "6007:87241",
+            "6007:87247",
+            "6007:87253"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-008": {
+      "source_uc": "docs/01-inception/use-cases/uc-08-view-session-participants.md",
+      "source_uc_sha256": "sha256:2b2acf269a815903e83ebba5fff7c033c282e97c57173abaf0a35f6ff1954a1a",
+      "primary_node_id": "6007:58204",
+      "required_node_ids": [
+        "6007:58204",
+        "6007:58211",
+        "6007:58218"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58204",
+            "6007:58211",
+            "6007:58218"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58204",
+            "6007:58211",
+            "6007:58218"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58204",
+            "6007:58211",
+            "6007:58218"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-009": {
+      "source_uc": "docs/01-inception/use-cases/uc-09-send-a-chat-message.md",
+      "source_uc_sha256": "sha256:68a376cf91584556c676b8527f963ae1dedb06a29f1330c6406572b59c582cd3",
+      "primary_node_id": "6007:58181",
+      "required_node_ids": [
+        "6007:58181",
+        "6007:58174",
+        "6007:58188"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58181",
+            "6007:58174",
+            "6007:58188"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58181",
+            "6007:58174",
+            "6007:58188"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58181",
+            "6007:58174",
+            "6007:58188"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-010": {
+      "source_uc": "docs/01-inception/use-cases/uc-10-send-an-emoji-reaction.md",
+      "source_uc_sha256": "sha256:0d5c9c02f603db3971444cde26667573aef1a3199a7731a378d8dddb234b3c1f",
+      "primary_node_id": "6007:58047",
+      "required_node_ids": [
+        "6007:58047",
+        "6045:42131"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58047",
+            "6045:42131"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58047",
+            "6045:42131"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58047",
+            "6045:42131"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-011": {
+      "source_uc": "docs/01-inception/use-cases/uc-11-share-presentation-content.md",
+      "source_uc_sha256": "sha256:72c4e55ef45f5e88f5ec9a16851776f5762603019b32757d08e04de4ad43cce5",
+      "primary_node_id": "6007:58057",
+      "required_node_ids": [
+        "6007:58057",
+        "6007:58063",
+        "6007:58070",
+        "6007:87336",
+        "6007:87343",
+        "6007:77993"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "AF-2",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58057",
+            "6007:58063",
+            "6007:58070",
+            "6007:87336",
+            "6007:87343",
+            "6007:77993"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58057",
+            "6007:58063",
+            "6007:58070",
+            "6007:87336",
+            "6007:87343",
+            "6007:77993"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-2",
+          "evidence_node_ids": [
+            "6007:58057",
+            "6007:58063",
+            "6007:58070",
+            "6007:87336",
+            "6007:87343",
+            "6007:77993"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58057",
+            "6007:58063",
+            "6007:58070",
+            "6007:87336",
+            "6007:87343",
+            "6007:77993"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-012": {
+      "source_uc": "docs/01-inception/use-cases/uc-12-configure-audio-and-video-devices.md",
+      "source_uc_sha256": "sha256:91dbc3ef818ebf1537161d6bbd32b3755e24fc8518cc3334b5984c6ec7daabbe",
+      "primary_node_id": "6007:51133",
+      "required_node_ids": [
+        "6007:51133",
+        "6007:51161",
+        "6066:89800"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:51133",
+            "6007:51161",
+            "6066:89800"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:51133",
+            "6007:51161",
+            "6066:89800"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:51133",
+            "6007:51161",
+            "6066:89800"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-013": {
+      "source_uc": "docs/01-inception/use-cases/uc-13-select-a-virtual-background.md",
+      "source_uc_sha256": "sha256:33a50243a2d082e5f9a2e1ae00ed8552670fb1fcd4055aa8c9babbae35a427ce",
+      "primary_node_id": "6026:1184330",
+      "required_node_ids": [
+        "6026:1184330",
+        "6026:1184356"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6026:1184330",
+            "6026:1184356"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6026:1184330",
+            "6026:1184356"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6026:1184330",
+            "6026:1184356"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-014": {
+      "source_uc": "docs/01-inception/use-cases/uc-14-change-session-layout.md",
+      "source_uc_sha256": "sha256:9fa9200ec77f1b8d671c9ed10f244fc4dcc26d5106c641b2fb68597229bc5561",
+      "primary_node_id": "6007:96237",
+      "required_node_ids": [
+        "6007:96237",
+        "6007:96344",
+        "6007:96540",
+        "6007:96324",
+        "6007:87353",
+        "6007:87359",
+        "6007:77668",
+        "6007:77774",
+        "6007:77874",
+        "6007:78001",
+        "6007:58080"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "AF-2",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:96237",
+            "6007:96344",
+            "6007:96540",
+            "6007:96324",
+            "6007:87353",
+            "6007:87359",
+            "6007:77668",
+            "6007:77774",
+            "6007:77874",
+            "6007:78001",
+            "6007:58080"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:96237",
+            "6007:96344",
+            "6007:96540",
+            "6007:96324",
+            "6007:87353",
+            "6007:87359",
+            "6007:77668",
+            "6007:77774",
+            "6007:77874",
+            "6007:78001",
+            "6007:58080"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-2",
+          "evidence_node_ids": [
+            "6007:96237",
+            "6007:96344",
+            "6007:96540",
+            "6007:96324",
+            "6007:87353",
+            "6007:87359",
+            "6007:77668",
+            "6007:77774",
+            "6007:77874",
+            "6007:78001",
+            "6007:58080"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:96237",
+            "6007:96344",
+            "6007:96540",
+            "6007:96324",
+            "6007:87353",
+            "6007:87359",
+            "6007:77668",
+            "6007:77774",
+            "6007:77874",
+            "6007:78001",
+            "6007:58080"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-015": {
+      "source_uc": "docs/01-inception/use-cases/uc-15-pin-or-spotlight-a-participant.md",
+      "source_uc_sha256": "sha256:42a7649d3dc7eca17942ab25621f93ebd3a87fa5fdb539784dd6e68f8a3cabae",
+      "primary_node_id": "6007:57911",
+      "required_node_ids": [
+        "6007:57911",
+        "6007:57904",
+        "6007:58234",
+        "6073:21769"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "AF-2",
+        "AF-3",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:57911",
+            "6007:57904",
+            "6007:58234",
+            "6073:21769"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:57911",
+            "6007:57904",
+            "6007:58234",
+            "6073:21769"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-2",
+          "evidence_node_ids": [
+            "6007:57911",
+            "6007:57904",
+            "6007:58234",
+            "6073:21769"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-3",
+          "evidence_node_ids": [
+            "6007:57911",
+            "6007:57904",
+            "6007:58234",
+            "6073:21769"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:57911",
+            "6007:57904",
+            "6007:58234",
+            "6073:21769"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-016": {
+      "source_uc": "docs/01-inception/use-cases/uc-16-control-session-recording.md",
+      "source_uc_sha256": "sha256:8b24eeb6ee48f4e0c1bfd64acff3aeab26e59641d9f0034176b08edffcfd48c6",
+      "primary_node_id": "6007:57969",
+      "required_node_ids": [
+        "6007:57969",
+        "6007:57964",
+        "6007:57974",
+        "6007:57979"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:57969",
+            "6007:57964",
+            "6007:57974",
+            "6007:57979"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:57969",
+            "6007:57964",
+            "6007:57974",
+            "6007:57979"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:57969",
+            "6007:57964",
+            "6007:57974",
+            "6007:57979"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-017": {
+      "source_uc": "docs/01-inception/use-cases/uc-17-leave-a-session.md",
+      "source_uc_sha256": "sha256:0a44aec9f45c4680c1c4dfaa2f22d04b30815d863977f9b2b9f36bf658fe1e82",
+      "primary_node_id": "6007:58165",
+      "required_node_ids": [
+        "6007:58165",
+        "6007:58149",
+        "6007:58163",
+        "6007:87165",
+        "6007:87163"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58165",
+            "6007:58149",
+            "6007:58163",
+            "6007:87165",
+            "6007:87163"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58165",
+            "6007:58149",
+            "6007:58163",
+            "6007:87165",
+            "6007:87163"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58165",
+            "6007:58149",
+            "6007:58163",
+            "6007:87165",
+            "6007:87163"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    },
+    "UC-018": {
+      "source_uc": "docs/01-inception/use-cases/uc-18-end-a-session-for-everyone.md",
+      "source_uc_sha256": "sha256:99aaf4db99916e3bdc30ef3facfc0c2191c6993132dad085fbd51402ddf9cd65",
+      "primary_node_id": "6007:58149",
+      "required_node_ids": [
+        "6007:58149",
+        "6007:58165",
+        "6007:58147",
+        "6007:87132",
+        "6007:87130"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "excluded_platforms": [
+        "mobile"
+      ],
+      "platform_scope_authorized_by": "Researcher explicitly requested desktop only; no mobile capture",
+      "flow_inventory": [
+        "Basic Flow",
+        "AF-1",
+        "EF-1"
+      ],
+      "flow_coverage": [
+        {
+          "flow_id": "Basic Flow",
+          "evidence_node_ids": [
+            "6007:58149",
+            "6007:58165",
+            "6007:58147",
+            "6007:87132",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "AF-1",
+          "evidence_node_ids": [
+            "6007:58149",
+            "6007:58165",
+            "6007:58147",
+            "6007:87132",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        },
+        {
+          "flow_id": "EF-1",
+          "evidence_node_ids": [
+            "6007:58149",
+            "6007:58165",
+            "6007:58147",
+            "6007:87132",
+            "6007:87130"
+          ],
+          "coverage_kind": "captured-ui-and-spec-behavior",
+          "note": "Frames provide exact UI/control/feedback styles. UC defines actions, cancellation, failure retention and server behavior; frame reuse does not prove runtime flow correctness."
+        }
+      ],
+      "design_limitations": [
+        "No dedicated Figma screen is asserted for every server/device failure, cancellation or receipt state. Implement behavior/message semantics from this frozen UC/API using the captured controls and feedback styles.",
+        "Desktop only by researcher instruction; mobile UI references in the frozen UC are outside this dataset scope. This dataset does not establish mobile design readiness.",
+        "Representative desktop peer-count layouts preserve selected modes; redundant count variants are outside mandatory capture."
+      ]
+    }
+  }
+}

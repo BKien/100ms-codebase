@@ -1,0 +1,11 @@
+{
+  "status": "not-downloaded",
+  "assets": [
+    {
+      "identifier": "node-export",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset"
+    }
+  ]
+}

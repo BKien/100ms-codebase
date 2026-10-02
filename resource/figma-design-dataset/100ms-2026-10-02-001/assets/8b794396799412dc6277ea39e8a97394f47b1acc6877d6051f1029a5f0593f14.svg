@@ -1,0 +1,28 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="180" viewBox="0 0 240 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="4:3">
+<g clip-path="url(#clip0_0_1223)">
+<rect id="Cell" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_2" x="60" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_3" x="120" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_4" x="180" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_5" y="60" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_6" x="60" y="60" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_7" x="120" y="60" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_8" x="180" y="60" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_9" y="120" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_10" x="60" y="120" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_11" x="120" y="120" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<rect id="Cell_12" x="180" y="120" width="60" height="60" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;" stroke-width="2"/>
+<path id="Line" d="M0 180L180 0" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+<path id="Line_2" d="M180.707 -0.707107L240.707 59.2929" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+<path id="Line_3" d="M240 60L120 180" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+<path id="Line_4" d="M120 180L0 60" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="4" stroke-linecap="round"/>
+</g>
+<rect x="0.5" y="0.5" width="239" height="179" stroke="#3C485D" style="stroke:#3C485D;stroke:color(display-p3 0.2353 0.2824 0.3647);stroke-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1223">
+<rect width="240" height="180" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

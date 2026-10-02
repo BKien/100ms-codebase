@@ -1,0 +1,26 @@
+{
+  "capture_schema_version": 1,
+  "dataset_version": "100ms-2026-10-02-001",
+  "file_key": "lCvn1rB7IdRchqAuEatJJp",
+  "node_id": "6012:45756",
+  "frame_name": "Preview - Live Streaming",
+  "node_type": "SECTION",
+  "natural_width": 4453,
+  "natural_height": 1012,
+  "page_id": "6012:44409",
+  "captured_at": "2026-10-02T01:43:07.782256+00:00",
+  "client_frameworks": "react",
+  "client_languages": "typescript,html,css",
+  "code_connect_status": "default-tool-request; no mapping status supplied",
+  "context_kind": "sparse-metadata",
+  "context_characters": 7975,
+  "truncation": {
+    "rawImagesTruncated": false,
+    "svgAssetsTruncated": false
+  },
+  "truncation_handled": true,
+  "status": "partial-content",
+  "download_failures": 1,
+  "raw_image_count": 8,
+  "svg_asset_count": 0
+}

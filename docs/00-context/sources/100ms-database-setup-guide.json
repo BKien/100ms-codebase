@@ -1,0 +1,361 @@
+{
+  "source_url": "https://docs.google.com/document/d/1R9Z4LQ_FEbEop_TmGMTyCPnM3HdNau9JvLBV4uB8ZMg/edit?tab=t.7vwf3xf4pxs9",
+  "document_id": "1R9Z4LQ_FEbEop_TmGMTyCPnM3HdNau9JvLBV4uB8ZMg",
+  "tab_id": "t.7vwf3xf4pxs9",
+  "title": "Database",
+  "revision_id": "ANLCKQkU5_SLKuEvL54bMA5-GqqowVq7nmZ_4x9w1wODCnwt9HLQ5c5QRGyc2yJW6YnWHMPlYiqn0EEdxZ_lpyfugmHlUSjjDs-CStYcUbE",
+  "paragraphs": [
+    {
+      "text": "Trước khi setup database, đảm bảo bạn đã cấu hình xong file .env (Nếu chưa có thì cấu hình theo finalsource/.env.example) và đã bật docker",
+      "startIndex": 1,
+      "endIndex": 139,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Tóm tắt logic chung của database hiện tại: ",
+      "startIndex": 141,
+      "endIndex": 184,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Reseacher cấu hình database đầu vào",
+      "startIndex": 185,
+      "endIndex": 220,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Reseacher được phép sửa database qua từng lần sinh nếu database đầu vào bị thiếu, chưa đủ (database không bị fix cứng). Không cần sinh lại từ đầu",
+      "startIndex": 221,
+      "endIndex": 366,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "AI cấm được phép sửa database, nếu database đầu vào bị lệch với đặc tả thì AI sẽ phản hồi, và reseacher sẽ phải sửa thủ công bên ngoài",
+      "startIndex": 367,
+      "endIndex": 501,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "CÁC BƯỚC ĐỂ SETUP DATABASE",
+      "startIndex": 504,
+      "endIndex": 530,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "HEADING_3",
+      "isListItem": false
+    },
+    {
+      "text": "BƯỚC 1: TẠO DATABASE ĐẦU VÀO",
+      "startIndex": 531,
+      "endIndex": 559,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "HEADING_3",
+      "isListItem": false
+    },
+    {
+      "text": "- Đầu tiên cần viết một file để định nghĩa cấu trúc database cho AI đọc hiểu. Quy ước định nghĩa theo định dạng .DBML. Nơi lưu trữ:  docs/00-context/engineering/schema.dbml ",
+      "startIndex": 560,
+      "endIndex": 733,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "File hiện tại trong .dbml đang là file mẫu, khi làm cần xóa file mẫu này bằng file thật của dự án",
+      "startIndex": 734,
+      "endIndex": 831,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "- Để khởi tạo bảng, bạn phải tạo file TypeORM Migration. ",
+      "startIndex": 833,
+      "endIndex": 890,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Nơi lưu trữ: finalsource/be/src/database/migrations/",
+      "startIndex": 891,
+      "endIndex": 943,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Mở terminal trỏ vào thư mục finalsource, sau đó khởi tạo file Migration rỗng bằng lệnh docker compose run --rm --no-deps -v ./be/src/database/migrations:/app/src/database/migrations migration npm run migration:create -- src/database/migrations/<TÊN FILE TÙY BẠN CHỌN> ",
+      "startIndex": 944,
+      "endIndex": 1212,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Mở file vừa được tạo ra và viết các câu lệnh SQL (CREATE TABLE...) vào hàm up().",
+      "startIndex": 1213,
+      "endIndex": 1293,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Hiện tại đang có file migrations 179000000-InitialSchema.ts là file mẫu, khi làm cần xóa file mẫu này bằng file thật của dự án",
+      "startIndex": 1294,
+      "endIndex": 1420,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "BƯỚC 2: CHÚ Ý CẤU HÌNH PORT DATABASE",
+      "startIndex": 1422,
+      "endIndex": 1458,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "HEADING_3",
+      "isListItem": false
+    },
+    {
+      "text": "Hiện tại file finalsource/compose.yaml đang cấu hình port mặc định cho MySQL là 3307. Nếu cần thay đổi port thì hãy mở file compose.yaml lên và thay đổi lại con số này .Còn không thì bước này đến đây là xong. ",
+      "startIndex": 1459,
+      "endIndex": 1668,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "BƯỚC 3: KHỞI ĐỘNG HỆ THỐNG VÀ CHỐT BASELINE (BẮT BUỘC)",
+      "startIndex": 1670,
+      "endIndex": 1724,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "HEADING_3",
+      "isListItem": false
+    },
+    {
+      "text": "Mở Terminal, trỏ vào thư mục finalsource/ và thao tác:",
+      "startIndex": 1725,
+      "endIndex": 1779,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "3.1. Thao tác với Docker:",
+      "startIndex": 1780,
+      "endIndex": 1805,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Khi cần xóa sạch database cũ (Dùng khi bắt đầu 1 lần thực nghiệm mới hoặc muốn xóa database cũ):",
+      "startIndex": 1806,
+      "endIndex": 1902,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "docker compose down -v",
+      "startIndex": 1903,
+      "endIndex": 1925,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Bật dự án & Tự động chạy Migration để tạo bảng ( BẮT BUỘC PHẢI CHẠY LỆNH NÀY ĐÊ DOCKER CHẠY MIGRATION ĐỂ TẠO BẢNG)",
+      "startIndex": 1926,
+      "endIndex": 2040,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "docker compose up -d --build",
+      "startIndex": 2041,
+      "endIndex": 2069,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "BƯỚC 4: KẾT NỐI DATABASE VÀO PHẦN MỀM",
+      "startIndex": 2072,
+      "endIndex": 2109,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Sau khi Docker khởi động, mở MySQL của bạn lên và tạo một New Connection:",
+      "startIndex": 2110,
+      "endIndex": 2183,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Connection Name: Đặt tên tùy thích.",
+      "startIndex": 2184,
+      "endIndex": 2219,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Host: localhost hoặc 127.0.0.1",
+      "startIndex": 2220,
+      "endIndex": 2250,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Port: Nhập đúng con số Port máy chủ đang mở ở file compose (Mặc định ở bước 2 là 3307).",
+      "startIndex": 2251,
+      "endIndex": 2338,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Username & Password: Nhập thông tin mà chính bạn đã tự đặt trong file .env.",
+      "startIndex": 2339,
+      "endIndex": 2414,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "BƯỚC 5: XEM GIAO DIỆN ỨNG DỤNG (FRONTEND)",
+      "startIndex": 2415,
+      "endIndex": 2456,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "HEADING_3",
+      "isListItem": false
+    },
+    {
+      "text": "Sau khi hệ thống Docker đã bật thành công, bạn làm theo cách sau để truy cập vào App và test tính năng:",
+      "startIndex": 2457,
+      "endIndex": 2560,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Mở trình duyệt Web và truy cập vào đường link: http://localhost:[APP_PORT] với [APP_PORT] là số bạn để trong file .env.",
+      "startIndex": 2561,
+      "endIndex": 2680,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "\t",
+      "startIndex": 2682,
+      "endIndex": 2683,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "CÁC BƯỚC ĐỂ CẬP NHẬT DATABASE",
+      "startIndex": 2684,
+      "endIndex": 2713,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "BƯỚC 1: TẠO MỘT FILE MIGRATION MỚI ",
+      "startIndex": 2715,
+      "endIndex": 2750,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "- Để chỉnh sửa bảng, bạn phải tạo file TypeORM Migration mới. ",
+      "startIndex": 2752,
+      "endIndex": 2814,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Nơi lưu trữ: finalsource/be/src/database/migrations/",
+      "startIndex": 2815,
+      "endIndex": 2867,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Mở terminal trỏ vào thư mục finalsource, sau đó khởi tạo file Migration rỗng bằng lệnh: docker compose run --rm --no-deps -v ./be/src/database/migrations:/app/src/database/migrations migration npm run migration:create -- src/database/migrations/<TÊN FILE TÙY BẠN CHỌN> ",
+      "startIndex": 2868,
+      "endIndex": 3137,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Mở file vừa được tạo ra và viết các câu lệnh SQL chỉnh sửa bảng, ví dụ thêm cột là ALTER TABLE",
+      "startIndex": 3138,
+      "endIndex": 3232,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "- Sau đó, vào lại schema.dbml để cập nhật lại mô tả cấu trúc mới nhất của database sau thay đổi ",
+      "startIndex": 3233,
+      "endIndex": 3329,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "BƯỚC 2: CHẠY FILE  MIGRATION MỚI ",
+      "startIndex": 3330,
+      "endIndex": 3363,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Vẫn ở finalsource/, bảo đảm MySQL đang chạy và không có run thực nghiệm đang diễn ra, chạy: ",
+      "startIndex": 3364,
+      "endIndex": 3456,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "docker compose build migration",
+      "startIndex": 3457,
+      "endIndex": 3487,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "docker compose up --no-deps --force-recreate --exit-code-from migration migration",
+      "startIndex": 3488,
+      "endIndex": 3569,
+      "tabId": "t.7vwf3xf4pxs9",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    }
+  ]
+}

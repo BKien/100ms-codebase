@@ -1,0 +1,35 @@
+{
+  "status": "not-downloaded",
+  "assets": [
+    {
+      "identifier": "43720.png",
+      "url_sha256": "72e4822601922ba6aebd22ddebab4920b4380458596d0481dd3db24b959587fd",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/72e4822601922ba6aebd22ddebab4920b4380458596d0481dd3db24b959587fd"
+    },
+    {
+      "identifier": "ad9b448c1fc154c01740ff1889decafef7ae57d48078dec38eb5c2164fafedc1",
+      "url_sha256": "ad9b448c1fc154c01740ff1889decafef7ae57d48078dec38eb5c2164fafedc1",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/ad9b448c1fc154c01740ff1889decafef7ae57d48078dec38eb5c2164fafedc1"
+    },
+    {
+      "identifier": "3161e8f260a7238f44adfe1e89bb43bb2464ae7e5c03522b678a150ee6287e73",
+      "url_sha256": "3161e8f260a7238f44adfe1e89bb43bb2464ae7e5c03522b678a150ee6287e73",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset",
+      "local_path": "assets-pending/3161e8f260a7238f44adfe1e89bb43bb2464ae7e5c03522b678a150ee6287e73"
+    },
+    {
+      "identifier": "node-export",
+      "status": "not-downloaded",
+      "error_type": "ValueError",
+      "reason": "Empty asset"
+    }
+  ]
+}
