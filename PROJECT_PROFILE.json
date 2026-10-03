@@ -1,7 +1,6 @@
 {
   "project_id": "100ms-video-conferencing",
   "project_name": "100ms Video Conferencing and Live Streaming",
-  "setup_status": "repository-setup-complete; experiment-inputs-required",
   "clean_source_baseline_sha256": "sha256:f9ea38ec331cb0b09ddc737a0cb01232f76a4b513968a5bb6a4767ef847f8259",
   "authoritative_sources": {
     "use_case_specification": {
@@ -39,32 +38,5 @@
         "https://www.figma.com/design/lCvn1rB7IdRchqAuEatJJp/100ms-UI-Kit?node-id=6007-58149"
       ]
     }
-  },
-  "database_preparation": {
-    "status": "prepared",
-    "source_snapshot_path": "resource/specification-sources/100ms-2026-10-01-001/schema.dbml",
-    "schema_path": "docs/00-context/engineering/schema.dbml",
-    "adaptation_receipt": "docs/00-context/sources/100ms-database-adaptation.json",
-    "baseline_receipt": "docs/00-context/sources/100ms-database-baseline.json",
-    "database_baseline": {
-      "migration_head": "Initial100msSchema1790916544190",
-      "dbml_sha256": "sha256:7281415d0e1cfda9788fae848d4df7d6ebe1bf902a944260a6abdf1e97afabad",
-      "schema_fingerprint_sha256": "sha256:e0b8e2833611589303c491f5691d04474e836b3543289a3f547e3063b92672bd"
-    },
-    "note": "MySQL 8.4, mysql84-tables-v1; empty 16-table application baseline applied by TypeORM. Trigger/routine responsibilities are application-enforced under repository-priority setup decision."
-  },
-  "design_dataset_preparation": {
-    "dataset_version": "100ms-2026-10-02-001",
-    "status": "complete",
-    "platforms": [
-      "desktop"
-    ],
-    "excluded_platforms": [
-      "mobile"
-    ],
-    "manifest_path": "resource/figma-design-dataset/100ms-2026-10-02-001/manifest.json",
-    "manifest_sha256": "sha256:ead5b6aa248f3c132950dc533b5b3392052cfdcfec6efc029c3fb01e6845c298",
-    "coverage_path": "resource/figma-design-dataset/100ms-2026-10-02-001/uc-design-coverage.json",
-    "note": "Desktop only by researcher instruction; 74 required nodes and 18 UC mappings validated. Frozen mobile references are outside this design scope."
   }
 }
